@@ -8,6 +8,7 @@ export interface Course {
   professorLastName: string
   day: string
   time: string
+  timing: string
   capacity: string
   building: string
   location: string

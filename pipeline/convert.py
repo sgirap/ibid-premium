@@ -1,9 +1,19 @@
 #!/usr/bin/env python3
-"""Convert a raw iBid course export into the site's classes.json schema.
+"""Convert a raw iBid course export and merge it into the master class list.
 
 Usage:
     python convert.py --input "Course List.xlsx"
     python convert.py --input "Course List.xlsx" --mapping mappings/concentration_requirements.csv
+
+Each run's converted records are merged into data/master_classes.json — the
+accumulated set of every class ever exported, across terms — rather than
+replacing it. A record's (course, quarter, day, time, professorFirstName,
+professorLastName) identifies a specific offering: re-running convert.py
+with a fresher export of a term already in the master list updates those
+records in place (e.g. capacity or room changes); offerings from terms not
+present in the new export are left untouched. frontend/public/data/classes.json
+is then (re)written from the full merged master list. Pass --no-merge to
+skip this and treat --input as the complete dataset instead.
 
 The raw export has one row per course section, with columns:
 Quarter, Title, Course, Program, Faculty, Schedule, Capacity, Building, Location, Units
@@ -22,6 +32,10 @@ class records (all other fields identical):
 A row with 2 faculty and 2 schedule segments therefore expands into 4 records
 (the cross product) — one per faculty/schedule combination.
 
+Each record's end time also determines its "timing" bucket: "Morning" (ends
+by noon), "Afternoon" (ends by 8pm), or "Evening" (ends after 8pm). Empty for
+TBD/unparsed schedules.
+
 Each class is also tagged with its specific Foundations or FLMBE area (e.g.
 "Statistics", "Marketing") via courseNumber lookup in
 mappings/requirement_types.csv (built by build_requirement_mapping.py from
@@ -36,6 +50,7 @@ import itertools
 import json
 import re
 import sys
+from datetime import datetime
 from pathlib import Path
 
 import pandas as pd
@@ -43,6 +58,22 @@ import pandas as pd
 SCHEDULE_SEGMENT_RE = re.compile(
     r"(?P<day>[A-Za-z]+),\s*(?P<time>\d{1,2}:\d{2}\s*[AP]M\s*-\s*\d{1,2}:\d{2}\s*[AP]M)"
 )
+END_TIME_RE = re.compile(r"-\s*(\d{1,2}:\d{2}\s*[AP]M)\s*$")
+
+
+def compute_timing(time_range: str) -> str:
+    """Bucket a class by when it ends: Morning (by noon), Afternoon (by 8pm),
+    or Evening (after 8pm). Empty for unparsed/TBD times.
+    """
+    match = END_TIME_RE.search(time_range.strip()) if time_range else None
+    if not match:
+        return ""
+    end_time = datetime.strptime(match.group(1).replace(" ", ""), "%I:%M%p").time()
+    if end_time <= datetime.strptime("12:00PM", "%I:%M%p").time():
+        return "Morning"
+    if end_time <= datetime.strptime("8:00PM", "%I:%M%p").time():
+        return "Afternoon"
+    return "Evening"
 
 
 def split_faculty(raw: str) -> list[str]:
@@ -75,6 +106,11 @@ def normalize_course_number(course: str) -> str:
     return str(course).split("-")[0].strip()
 
 
+def normalize_building(raw) -> str:
+    value = str(raw).strip() if pd.notna(raw) else ""
+    return value or "TBA/Remote"
+
+
 def load_concentration_mapping(path: Path | None) -> dict[str, list[str]]:
     """Load a manual courseNumber -> concentrations mapping.
 
@@ -100,6 +136,35 @@ def load_requirement_mapping(path: Path | None) -> dict[str, tuple[str, str]]:
         return {}
     df = pd.read_csv(path, dtype=str).fillna("")
     return {row["courseNumber"].strip(): (row["requirementType"].strip(), row["area"].strip()) for _, row in df.iterrows()}
+
+
+def record_key(record: dict) -> tuple:
+    """Identifies a specific class offering, for merging into the master list."""
+    return (
+        record["course"],
+        record["quarter"],
+        record["day"],
+        record["time"],
+        record["professorFirstName"],
+        record["professorLastName"],
+    )
+
+
+def load_master(path: Path) -> list[dict]:
+    if not path.exists():
+        return []
+    return json.loads(path.read_text())
+
+
+def merge_records(master_records: list[dict], new_records: list[dict]) -> list[dict]:
+    """New records overwrite any existing record with the same key (e.g. a
+    re-exported term whose capacity/room changed); everything else in the
+    master list is left untouched, and unmatched new records are appended.
+    """
+    merged = {record_key(r): r for r in master_records}
+    for record in new_records:
+        merged[record_key(record)] = record
+    return sorted(merged.values(), key=lambda r: (r["quarter"], r["courseNumber"], r["course"], r["day"], r["time"]))
 
 
 def convert(input_path: Path, concentration_mapping_path: Path | None, requirement_mapping_path: Path | None) -> list[dict]:
@@ -137,8 +202,9 @@ def convert(input_path: Path, concentration_mapping_path: Path | None, requireme
                     "professorLastName": last_name,
                     "day": day,
                     "time": time,
+                    "timing": compute_timing(time),
                     "capacity": str(row.get("Capacity", "")).strip(),
-                    "building": str(row.get("Building", "")).strip() if pd.notna(row.get("Building")) else "",
+                    "building": normalize_building(row.get("Building")),
                     "location": str(row.get("Location", "")).strip() if pd.notna(row.get("Location")) else "",
                     "units": float(row.get("Units", 0)) if str(row.get("Units", "")).strip() else 0,
                     "concentrations": concentrations,
@@ -166,6 +232,17 @@ def main():
         help="Path to courseNumber -> requirementType CSV (built by build_requirement_mapping.py)",
     )
     parser.add_argument(
+        "--master",
+        type=Path,
+        default=Path(__file__).parent / "data" / "master_classes.json",
+        help="Path to the accumulated master class list",
+    )
+    parser.add_argument(
+        "--no-merge",
+        action="store_true",
+        help="Treat --input as the complete dataset instead of merging into --master",
+    )
+    parser.add_argument(
         "--output",
         type=Path,
         default=Path(__file__).parent.parent / "frontend" / "public" / "data" / "classes.json",
@@ -173,11 +250,20 @@ def main():
     )
     args = parser.parse_args()
 
-    records = convert(args.input, args.mapping, args.requirement_mapping)
+    new_records = convert(args.input, args.mapping, args.requirement_mapping)
+
+    if args.no_merge:
+        merged_records = sorted(new_records, key=lambda r: (r["quarter"], r["courseNumber"], r["course"], r["day"], r["time"]))
+    else:
+        master_records = load_master(args.master)
+        merged_records = merge_records(master_records, new_records)
+        args.master.parent.mkdir(parents=True, exist_ok=True)
+        args.master.write_text(json.dumps(merged_records, indent=2))
+        print(f"Merged {len(new_records)} records from {args.input.name} into master ({len(merged_records)} total) -> {args.master}")
 
     args.output.parent.mkdir(parents=True, exist_ok=True)
-    args.output.write_text(json.dumps(records, indent=2))
-    print(f"Wrote {len(records)} classes to {args.output}")
+    args.output.write_text(json.dumps(merged_records, indent=2))
+    print(f"Wrote {len(merged_records)} classes to {args.output}")
 
 
 if __name__ == "__main__":

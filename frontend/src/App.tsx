@@ -14,11 +14,12 @@ const FACET_FIELDS: FacetField[] = [
   'program',
   'instructor',
   'day',
+  'timing',
   'units',
   'concentrations',
   'foundationsArea',
   'flmbeArea',
-  'location',
+  'building',
 ]
 
 function App() {

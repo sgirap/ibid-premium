@@ -12,11 +12,12 @@ const FIELDS: FacetField[] = [
   'quarter',
   'foundationsArea',
   'flmbeArea',
+  'day',
+  'timing',
+  'building',
   'program',
   'concentrations',
-  'location',
   'units',
-  'day',
   'instructor',
 ]
 

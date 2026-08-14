@@ -1,6 +1,8 @@
 # Data Pipeline
 
-Converts a raw iBid course export (`Course List.xlsx`) into `frontend/public/data/classes.json`.
+Converts a raw iBid course export (`Course List.xlsx`) and merges it into the
+accumulated master class list, from which `frontend/public/data/classes.json` is
+(re)generated.
 
 ## Setup
 
@@ -19,6 +21,25 @@ python convert.py --input "Course List.xlsx"
 
 Writes `frontend/public/data/classes.json` by default. Override with `--output`.
 
+## Master list (accumulates across terms)
+
+Each run merges its converted records into `data/master_classes.json` rather than
+replacing it — `classes.json` always reflects the full accumulated history. A record's
+`(course, quarter, day, time, professorFirstName, professorLastName)` identifies a
+specific offering:
+
+- If the new export contains an offering already in the master list (e.g. you
+  re-exported the same term because capacity or room changed), the master record is
+  **updated in place** — no duplicate.
+- Overlap *within* a single new export is deduped the same way — only the last row for
+  a given key survives.
+- Offerings from terms not present in the new export are **left untouched**.
+- Anything genuinely new is appended.
+
+So uploading next term's export just adds to what's already known — it never wipes out
+past terms. Pass `--no-merge` to instead treat `--input` as the complete dataset
+(bypasses and does not update `data/master_classes.json`).
+
 ## Expected export columns
 
 `Quarter, Title, Course, Program, Faculty, Schedule, Capacity, Building, Location, Units`
@@ -33,9 +54,15 @@ each get parsed and can fan a single row out into multiple class records:
   classes (e.g. `"Monday, 10:10 AM - 11:30 AM Wednesday, 10:10 AM - 11:30 AM"`). Each
   day/time pair becomes its own record. `"TBD"` produces a record with an empty
   day/time.
+- **Building** — blank/missing values become `"TBA/Remote"` rather than an empty
+  string, so those sections are still filterable.
 
 A row with 2 faculty and 2 schedule segments expands into 4 records (the cross
 product) — one per faculty/schedule combination, with all other fields identical.
+
+Each record's end time also determines its `timing` bucket: `"Morning"` (ends by
+noon), `"Afternoon"` (ends by 8pm), or `"Evening"` (ends after 8pm) — empty for
+TBD/unparsed schedules.
 
 ## Concentration mapping
 
@@ -99,6 +126,7 @@ page (new curriculum year, course number changes, etc.) and commit the regenerat
 2. If Booth's concentration or Degree Requirements pages changed, update
    `mappings/concentrations_source.txt` / re-run `build_requirement_mapping.py` and
    re-run `build_concentration_mapping.py`
-3. Run `python convert.py --input "Course List.xlsx"`
-4. Commit the updated `frontend/public/data/classes.json`
+3. Run `python convert.py --input "Course List.xlsx"` — merges into `data/master_classes.json`
+   and regenerates `frontend/public/data/classes.json`
+4. Commit both updated files
 5. Push — the site auto-redeploys via GitHub Actions

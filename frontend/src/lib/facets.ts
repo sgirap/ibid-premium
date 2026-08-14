@@ -5,22 +5,24 @@ export type FacetField =
   | 'program'
   | 'instructor'
   | 'day'
+  | 'timing'
   | 'units'
   | 'concentrations'
   | 'foundationsArea'
   | 'flmbeArea'
-  | 'location'
+  | 'building'
 
 export const FACET_LABELS: Record<FacetField, string> = {
   quarter: 'Quarter',
   program: 'Program',
   instructor: 'Instructor',
   day: 'Day',
+  timing: 'Timing',
   units: 'Units',
   concentrations: 'Concentration',
   foundationsArea: 'Foundations',
   flmbeArea: 'FLMBE',
-  location: 'Location',
+  building: 'Building',
 }
 
 export function instructorName(course: Course): string {

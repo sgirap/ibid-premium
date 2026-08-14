@@ -4,9 +4,11 @@ import { instructorName } from '../lib/facets'
 interface CourseDetailProps {
   course: Course
   onClose: () => void
+  isSaved: boolean
+  onToggleSave: (course: Course) => void
 }
 
-export function CourseDetail({ course, onClose }: CourseDetailProps) {
+export function CourseDetail({ course, onClose, isSaved, onToggleSave }: CourseDetailProps) {
   return (
     <div
       className="fixed inset-0 z-50 flex items-center justify-center bg-black/40 p-4"
@@ -21,14 +23,25 @@ export function CourseDetail({ course, onClose }: CourseDetailProps) {
             <p className="text-xs font-mono text-gray-500 dark:text-gray-400">{course.course}</p>
             <h2 className="text-lg font-semibold text-gray-900 dark:text-gray-100">{course.title}</h2>
           </div>
-          <button
-            type="button"
-            onClick={onClose}
-            className="shrink-0 rounded-full p-1 text-gray-500 hover:bg-gray-100 dark:hover:bg-gray-800"
-            aria-label="Close"
-          >
-            ✕
-          </button>
+          <div className="flex shrink-0 items-center gap-1">
+            <button
+              type="button"
+              onClick={() => onToggleSave(course)}
+              aria-label={isSaved ? 'Remove from saved schedule' : 'Save to schedule'}
+              aria-pressed={isSaved}
+              className={`rounded-full p-1 text-xl leading-none transition-colors ${isSaved ? 'text-amber-500' : 'text-gray-300 hover:text-gray-400 dark:text-gray-600 dark:hover:text-gray-500'}`}
+            >
+              {isSaved ? '★' : '☆'}
+            </button>
+            <button
+              type="button"
+              onClick={onClose}
+              className="rounded-full p-1 text-gray-500 hover:bg-gray-100 dark:hover:bg-gray-800"
+              aria-label="Close"
+            >
+              ✕
+            </button>
+          </div>
         </div>
 
         <dl className="mt-4 grid grid-cols-2 gap-3 text-sm">

@@ -23,15 +23,18 @@ export function CourseDetail({ course, onClose, isSaved, onToggleSave }: CourseD
             <p className="text-xs font-mono text-gray-500 dark:text-gray-400">{course.course}</p>
             <h2 className="text-lg font-semibold text-gray-900 dark:text-gray-100">{course.title}</h2>
           </div>
-          <div className="flex shrink-0 items-center gap-1">
+          <div className="flex shrink-0 items-center gap-2">
             <button
               type="button"
               onClick={() => onToggleSave(course)}
-              aria-label={isSaved ? 'Remove from saved schedule' : 'Save to schedule'}
               aria-pressed={isSaved}
-              className={`rounded-full p-1 text-xl leading-none transition-colors ${isSaved ? 'text-amber-500' : 'text-gray-300 hover:text-gray-400 dark:text-gray-600 dark:hover:text-gray-500'}`}
+              className={`rounded-full border px-2.5 py-1 text-xs font-medium transition-colors ${
+                isSaved
+                  ? 'border-amber-500 bg-amber-500 text-white hover:bg-amber-600'
+                  : 'border-gray-300 text-gray-600 hover:border-gray-900 hover:text-gray-900 dark:border-gray-700 dark:text-gray-300 dark:hover:border-gray-100 dark:hover:text-gray-100'
+              }`}
             >
-              {isSaved ? '★' : '☆'}
+              {isSaved ? '✓ Added' : '+ Add'}
             </button>
             <button
               type="button"

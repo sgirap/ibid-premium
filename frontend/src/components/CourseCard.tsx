@@ -10,6 +10,7 @@ interface CourseCardProps {
 
 export function CourseCard({ course, onSelect, isSaved, onToggleSave }: CourseCardProps) {
   const schedule = course.day && course.time ? `${course.day} · ${course.time}` : 'Schedule TBD'
+  const hasBadges = course.concentrations.length > 0 || !!course.foundationsArea || !!course.flmbeArea
 
   return (
     <div
@@ -26,23 +27,9 @@ export function CourseCard({ course, onSelect, isSaved, onToggleSave }: CourseCa
           <p className="text-xs font-mono text-gray-500 dark:text-gray-400">{course.course}</p>
           <h3 className="font-semibold text-gray-900 dark:text-gray-100">{course.title}</h3>
         </div>
-        <div className="flex shrink-0 items-center gap-2">
-          <span className="rounded bg-gray-100 px-2 py-0.5 text-xs text-gray-600 dark:bg-gray-800 dark:text-gray-300">
-            {course.quarter}
-          </span>
-          <button
-            type="button"
-            onClick={(e) => {
-              e.stopPropagation()
-              onToggleSave(course)
-            }}
-            aria-label={isSaved ? 'Remove from saved schedule' : 'Save to schedule'}
-            aria-pressed={isSaved}
-            className={`text-lg leading-none transition-colors ${isSaved ? 'text-amber-500' : 'text-gray-300 hover:text-gray-400 dark:text-gray-600 dark:hover:text-gray-500'}`}
-          >
-            {isSaved ? '★' : '☆'}
-          </button>
-        </div>
+        <span className="shrink-0 rounded bg-gray-100 px-2 py-0.5 text-xs text-gray-600 dark:bg-gray-800 dark:text-gray-300">
+          {course.quarter}
+        </span>
       </div>
       <p className="mt-1 text-sm text-gray-600 dark:text-gray-400">
         {instructorName(course) || 'Staff'} · {schedule} · {course.units} units
@@ -51,8 +38,9 @@ export function CourseCard({ course, onSelect, isSaved, onToggleSave }: CourseCa
         {course.program}
         {course.building ? ` · ${course.building}${course.location ? ` ${course.location}` : ''}` : ''}
       </p>
-      {(course.concentrations.length > 0 || course.foundationsArea || course.flmbeArea) && (
-        <div className="mt-2 flex flex-wrap gap-1">
+
+      <div className="mt-2 flex items-end justify-between gap-2">
+        <div className="flex flex-wrap gap-1">
           {course.foundationsArea && (
             <span className="rounded-full bg-violet-50 px-2 py-0.5 text-xs text-violet-700 dark:bg-violet-950 dark:text-violet-300">
               Foundations: {course.foundationsArea}
@@ -69,7 +57,25 @@ export function CourseCard({ course, onSelect, isSaved, onToggleSave }: CourseCa
             </span>
           ))}
         </div>
-      )}
+
+        <button
+          type="button"
+          onClick={(e) => {
+            e.stopPropagation()
+            onToggleSave(course)
+          }}
+          aria-pressed={isSaved}
+          className={`shrink-0 rounded-full border px-2.5 py-1 text-xs font-medium transition-colors ${
+            !hasBadges ? 'ml-auto' : ''
+          } ${
+            isSaved
+              ? 'border-amber-500 bg-amber-500 text-white hover:bg-amber-600'
+              : 'border-gray-300 text-gray-600 hover:border-gray-900 hover:text-gray-900 dark:border-gray-700 dark:text-gray-300 dark:hover:border-gray-100 dark:hover:text-gray-100'
+          }`}
+        >
+          {isSaved ? '✓ Added' : '+ Add'}
+        </button>
+      </div>
     </div>
   )
 }

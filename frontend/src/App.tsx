@@ -18,6 +18,7 @@ const FACET_FIELDS: FacetField[] = [
   'concentrations',
   'foundationsArea',
   'flmbeArea',
+  'location',
 ]
 
 function App() {

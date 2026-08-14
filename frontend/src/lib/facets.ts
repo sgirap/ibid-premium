@@ -9,6 +9,7 @@ export type FacetField =
   | 'concentrations'
   | 'foundationsArea'
   | 'flmbeArea'
+  | 'location'
 
 export const FACET_LABELS: Record<FacetField, string> = {
   quarter: 'Quarter',
@@ -19,6 +20,7 @@ export const FACET_LABELS: Record<FacetField, string> = {
   concentrations: 'Concentration',
   foundationsArea: 'Foundations',
   flmbeArea: 'FLMBE',
+  location: 'Location',
 }
 
 export function instructorName(course: Course): string {

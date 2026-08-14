@@ -13,5 +13,6 @@ export interface Course {
   location: string
   units: number
   concentrations: string[]
-  requirementTypes: string[]
+  foundationsArea: string
+  flmbeArea: string
 }

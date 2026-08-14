@@ -22,11 +22,13 @@ class records (all other fields identical):
 A row with 2 faculty and 2 schedule segments therefore expands into 4 records
 (the cross product) — one per faculty/schedule combination.
 
-Each class is also tagged with a single requirementType — "Foundations",
-"FLMBE", or "Electives" — looked up by courseNumber in
+Each class is also tagged with its specific Foundations or FLMBE area (e.g.
+"Statistics", "Marketing") via courseNumber lookup in
 mappings/requirement_types.csv (built by build_requirement_mapping.py from
-Booth's Degree Requirements page). Courses not found there default to
-"Electives", since that requirement has no explicit course list on the page.
+Booth's Degree Requirements page) — stored as foundationsArea/flmbeArea, with
+at most one of the two set. Courses not found there are Electives: both
+fields stay empty, since that requirement has no explicit course list on the
+page.
 """
 
 import argparse
@@ -89,15 +91,15 @@ def load_concentration_mapping(path: Path | None) -> dict[str, list[str]]:
     return mapping
 
 
-def load_requirement_mapping(path: Path | None) -> dict[str, str]:
-    """Load the courseNumber -> requirementType mapping built by
+def load_requirement_mapping(path: Path | None) -> dict[str, tuple[str, str]]:
+    """Load the courseNumber -> (requirementType, area) mapping built by
     build_requirement_mapping.py. Expected CSV columns: courseNumber,
     requirementType, area.
     """
     if path is None or not path.exists():
         return {}
     df = pd.read_csv(path, dtype=str).fillna("")
-    return {row["courseNumber"].strip(): row["requirementType"].strip() for _, row in df.iterrows()}
+    return {row["courseNumber"].strip(): (row["requirementType"].strip(), row["area"].strip()) for _, row in df.iterrows()}
 
 
 def convert(input_path: Path, concentration_mapping_path: Path | None, requirement_mapping_path: Path | None) -> list[dict]:
@@ -118,7 +120,9 @@ def convert(input_path: Path, concentration_mapping_path: Path | None, requireme
         schedule_slots = split_schedule(row.get("Schedule", ""))
 
         concentrations = concentration_mapping.get(course_number, [])
-        requirement_type = requirement_mapping.get(course_number, "Electives")
+        requirement_type, requirement_area = requirement_mapping.get(course_number, ("", ""))
+        foundations_area = requirement_area if requirement_type == "Foundations" else ""
+        flmbe_area = requirement_area if requirement_type == "FLMBE" else ""
 
         for faculty_name, (day, time) in itertools.product(faculty_names, schedule_slots):
             first_name, last_name = split_name(faculty_name)
@@ -138,7 +142,8 @@ def convert(input_path: Path, concentration_mapping_path: Path | None, requireme
                     "location": str(row.get("Location", "")).strip() if pd.notna(row.get("Location")) else "",
                     "units": float(row.get("Units", 0)) if str(row.get("Units", "")).strip() else 0,
                     "concentrations": concentrations,
-                    "requirementTypes": [requirement_type],
+                    "foundationsArea": foundations_area,
+                    "flmbeArea": flmbe_area,
                 }
             )
 

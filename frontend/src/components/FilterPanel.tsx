@@ -7,7 +7,23 @@ interface FilterPanelProps {
   onClear: () => void
 }
 
-const FIELDS: FacetField[] = ['quarter', 'concentrations', 'requirementTypes', 'program', 'units', 'day', 'instructor']
+const FIELDS: FacetField[] = [
+  'quarter',
+  'concentrations',
+  'foundationsArea',
+  'flmbeArea',
+  'program',
+  'units',
+  'day',
+  'instructor',
+]
+
+const ACTIVE_CLASSES: Partial<Record<FacetField, string>> = {
+  foundationsArea: 'border-violet-600 bg-violet-600 text-white dark:border-violet-400 dark:bg-violet-400 dark:text-violet-950',
+  flmbeArea: 'border-amber-600 bg-amber-600 text-white dark:border-amber-400 dark:bg-amber-400 dark:text-amber-950',
+}
+
+const DEFAULT_ACTIVE_CLASSES = 'border-gray-900 bg-gray-900 text-white dark:border-gray-100 dark:bg-gray-100 dark:text-gray-900'
 
 export function FilterPanel({ facetOptions, selection, onToggle, onClear }: FilterPanelProps) {
   const activeCount = Object.values(selection).reduce((sum, s) => sum + (s?.size ?? 0), 0)
@@ -31,6 +47,7 @@ export function FilterPanel({ facetOptions, selection, onToggle, onClear }: Filt
         const options = facetOptions[field] ?? []
         if (options.length === 0) return null
         const selected = selection[field] ?? new Set<string>()
+        const activeClasses = ACTIVE_CLASSES[field] ?? DEFAULT_ACTIVE_CLASSES
 
         return (
           <div key={field}>
@@ -46,9 +63,7 @@ export function FilterPanel({ facetOptions, selection, onToggle, onClear }: Filt
                     type="button"
                     onClick={() => onToggle(field, option)}
                     className={`rounded-full border px-2.5 py-1 text-xs transition-colors ${
-                      isActive
-                        ? 'border-gray-900 bg-gray-900 text-white dark:border-gray-100 dark:bg-gray-100 dark:text-gray-900'
-                        : 'border-gray-300 text-gray-700 hover:border-gray-400 dark:border-gray-700 dark:text-gray-300'
+                      isActive ? activeClasses : 'border-gray-300 text-gray-700 hover:border-gray-400 dark:border-gray-700 dark:text-gray-300'
                     }`}
                   >
                     {option}

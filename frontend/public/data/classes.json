@@ -14,9 +14,8 @@
     "location": "C02",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Foundations"
-    ]
+    "foundationsArea": "Financial Accounting",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -33,9 +32,8 @@
     "location": "C02",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Foundations"
-    ]
+    "foundationsArea": "Financial Accounting",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -52,9 +50,8 @@
     "location": "C02",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Foundations"
-    ]
+    "foundationsArea": "Financial Accounting",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -71,9 +68,8 @@
     "location": "C05",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Foundations"
-    ]
+    "foundationsArea": "Financial Accounting",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -90,9 +86,8 @@
     "location": "C05",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Foundations"
-    ]
+    "foundationsArea": "Financial Accounting",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -109,9 +104,8 @@
     "location": "C05",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Foundations"
-    ]
+    "foundationsArea": "Financial Accounting",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -128,9 +122,8 @@
     "location": "C06",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Foundations"
-    ]
+    "foundationsArea": "Financial Accounting",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -147,9 +140,8 @@
     "location": "C01",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Foundations"
-    ]
+    "foundationsArea": "Financial Accounting",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -166,9 +158,8 @@
     "location": "404",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Foundations"
-    ]
+    "foundationsArea": "Financial Accounting",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -185,9 +176,8 @@
     "location": "C03",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Decisions"
   },
   {
     "quarter": "Autumn 2026",
@@ -204,9 +194,8 @@
     "location": "C03",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Decisions"
   },
   {
     "quarter": "Autumn 2026",
@@ -223,9 +212,8 @@
     "location": "206",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Decisions"
   },
   {
     "quarter": "Autumn 2026",
@@ -244,9 +232,8 @@
     "concentrations": [
       "Analytic Finance"
     ],
-    "requirementTypes": [
-      "Foundations"
-    ]
+    "foundationsArea": "Financial Accounting",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -265,9 +252,8 @@
     "concentrations": [
       "Analytic Finance"
     ],
-    "requirementTypes": [
-      "Foundations"
-    ]
+    "foundationsArea": "Financial Accounting",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -284,9 +270,8 @@
     "location": "C04",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -303,9 +288,8 @@
     "location": "C04",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -322,9 +306,8 @@
     "location": "406",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -343,9 +326,8 @@
     "concentrations": [
       "Analytic Finance"
     ],
-    "requirementTypes": [
-      "Foundations"
-    ]
+    "foundationsArea": "Financial Accounting",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -364,9 +346,8 @@
     "concentrations": [
       "Analytic Finance"
     ],
-    "requirementTypes": [
-      "Foundations"
-    ]
+    "foundationsArea": "Financial Accounting",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -383,9 +364,8 @@
     "location": "C06",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -402,9 +382,8 @@
     "location": "C06",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -421,9 +400,8 @@
     "location": "C50A",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -440,9 +418,8 @@
     "location": "C50A",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -459,9 +436,8 @@
     "location": "C50A",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -478,9 +454,8 @@
     "location": "3B",
     "units": 50.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -497,9 +472,8 @@
     "location": "3B",
     "units": 50.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -516,9 +490,8 @@
     "location": "3B",
     "units": 50.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -535,9 +508,8 @@
     "location": "225",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -554,9 +526,8 @@
     "location": "225",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -573,9 +544,8 @@
     "location": "225",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -592,9 +562,8 @@
     "location": "225",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -611,9 +580,8 @@
     "location": "225",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -630,9 +598,8 @@
     "location": "140",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -649,9 +616,8 @@
     "location": "422",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -668,9 +634,8 @@
     "location": "",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -687,9 +652,8 @@
     "location": "219",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "People"
   },
   {
     "quarter": "Autumn 2026",
@@ -706,9 +670,8 @@
     "location": "219",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "People"
   },
   {
     "quarter": "Autumn 2026",
@@ -725,9 +688,8 @@
     "location": "3B",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -744,9 +706,8 @@
     "location": "206",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -763,9 +724,8 @@
     "location": "C06",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -782,9 +742,8 @@
     "location": "C07",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Foundations"
-    ]
+    "foundationsArea": "Microeconomics",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -801,9 +760,8 @@
     "location": "C07",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Foundations"
-    ]
+    "foundationsArea": "Microeconomics",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -820,9 +778,8 @@
     "location": "C07",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Foundations"
-    ]
+    "foundationsArea": "Microeconomics",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -839,9 +796,8 @@
     "location": "C07",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Foundations"
-    ]
+    "foundationsArea": "Microeconomics",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -858,9 +814,8 @@
     "location": "C08",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Foundations"
-    ]
+    "foundationsArea": "Microeconomics",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -877,9 +832,8 @@
     "location": "C08",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Foundations"
-    ]
+    "foundationsArea": "Microeconomics",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -896,9 +850,8 @@
     "location": "C08",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Foundations"
-    ]
+    "foundationsArea": "Microeconomics",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -915,9 +868,8 @@
     "location": "308",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Foundations"
-    ]
+    "foundationsArea": "Microeconomics",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -934,9 +886,8 @@
     "location": "208",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Foundations"
-    ]
+    "foundationsArea": "Microeconomics",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -953,9 +904,8 @@
     "location": "C05",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Foundations"
-    ]
+    "foundationsArea": "Microeconomics",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -972,9 +922,8 @@
     "location": "C05",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Foundations"
-    ]
+    "foundationsArea": "Microeconomics",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -991,9 +940,8 @@
     "location": "406",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Foundations"
-    ]
+    "foundationsArea": "Microeconomics",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -1010,9 +958,8 @@
     "location": "C10",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Economy"
   },
   {
     "quarter": "Autumn 2026",
@@ -1029,9 +976,8 @@
     "location": "C10",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Economy"
   },
   {
     "quarter": "Autumn 2026",
@@ -1048,9 +994,8 @@
     "location": "C01",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Foundations"
-    ]
+    "foundationsArea": "Microeconomics",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -1067,9 +1012,8 @@
     "location": "408",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Foundations"
-    ]
+    "foundationsArea": "Microeconomics",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -1086,9 +1030,8 @@
     "location": "206",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -1105,9 +1048,8 @@
     "location": "C10",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Economy"
   },
   {
     "quarter": "Autumn 2026",
@@ -1124,9 +1066,8 @@
     "location": "C10",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Economy"
   },
   {
     "quarter": "Autumn 2026",
@@ -1143,9 +1084,8 @@
     "location": "C09",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Economy"
   },
   {
     "quarter": "Autumn 2026",
@@ -1162,9 +1102,8 @@
     "location": "",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Economy"
   },
   {
     "quarter": "Autumn 2026",
@@ -1181,9 +1120,8 @@
     "location": "3B",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -1200,9 +1138,8 @@
     "location": "3B",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -1219,9 +1156,8 @@
     "location": "",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -1238,9 +1174,8 @@
     "location": "C10",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -1257,9 +1192,8 @@
     "location": "3B",
     "units": 50.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -1276,9 +1210,8 @@
     "location": "3B",
     "units": 50.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -1295,9 +1228,8 @@
     "location": "3B",
     "units": 50.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -1314,9 +1246,8 @@
     "location": "3A",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -1333,9 +1264,8 @@
     "location": "C01",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -1352,9 +1282,8 @@
     "location": "3SW",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -1371,9 +1300,8 @@
     "location": "C07",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Finance"
   },
   {
     "quarter": "Autumn 2026",
@@ -1390,9 +1318,8 @@
     "location": "C07",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Finance"
   },
   {
     "quarter": "Autumn 2026",
@@ -1409,9 +1336,8 @@
     "location": "C07",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Finance"
   },
   {
     "quarter": "Autumn 2026",
@@ -1428,9 +1354,8 @@
     "location": "C07",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Finance"
   },
   {
     "quarter": "Autumn 2026",
@@ -1447,9 +1372,8 @@
     "location": "C09",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -1466,9 +1390,8 @@
     "location": "408",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -1485,9 +1408,8 @@
     "location": "C02",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -1504,9 +1426,8 @@
     "location": "408",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -1523,9 +1444,8 @@
     "location": "C08",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -1542,9 +1462,8 @@
     "location": "406",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -1561,9 +1480,8 @@
     "location": "C01",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -1580,9 +1498,8 @@
     "location": "206",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -1599,9 +1516,8 @@
     "location": "C04",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Society"
   },
   {
     "quarter": "Autumn 2026",
@@ -1618,9 +1534,8 @@
     "location": "C09",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -1637,9 +1552,8 @@
     "location": "C06",
     "units": 50.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -1656,9 +1570,8 @@
     "location": "",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -1675,9 +1588,8 @@
     "location": "C25",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -1694,9 +1606,8 @@
     "location": "C25",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -1713,9 +1624,8 @@
     "location": "208",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -1732,9 +1642,8 @@
     "location": "C06",
     "units": 50.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -1751,9 +1660,8 @@
     "location": "308",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -1770,9 +1678,8 @@
     "location": "C25",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -1789,9 +1696,8 @@
     "location": "C25",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -1808,9 +1714,8 @@
     "location": "3B",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Finance"
   },
   {
     "quarter": "Autumn 2026",
@@ -1827,9 +1732,8 @@
     "location": "3B",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Finance"
   },
   {
     "quarter": "Autumn 2026",
@@ -1846,9 +1750,8 @@
     "location": "3B",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Finance"
   },
   {
     "quarter": "Autumn 2026",
@@ -1865,9 +1768,8 @@
     "location": "3B",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Finance"
   },
   {
     "quarter": "Autumn 2026",
@@ -1884,9 +1786,8 @@
     "location": "3B",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Finance"
   },
   {
     "quarter": "Autumn 2026",
@@ -1903,9 +1804,8 @@
     "location": "C09",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Finance"
   },
   {
     "quarter": "Autumn 2026",
@@ -1922,9 +1822,8 @@
     "location": "C09",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Finance"
   },
   {
     "quarter": "Autumn 2026",
@@ -1941,9 +1840,8 @@
     "location": "C02",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Finance"
   },
   {
     "quarter": "Autumn 2026",
@@ -1960,9 +1858,8 @@
     "location": "204",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Finance"
   },
   {
     "quarter": "Autumn 2026",
@@ -1979,9 +1876,8 @@
     "location": "C05",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -1998,9 +1894,8 @@
     "location": "206",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -2017,9 +1912,8 @@
     "location": "206",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -2036,9 +1930,8 @@
     "location": "206",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -2055,9 +1948,8 @@
     "location": "208",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -2074,9 +1966,8 @@
     "location": "204",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -2093,9 +1984,8 @@
     "location": "206",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -2112,9 +2002,8 @@
     "location": "206",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -2131,9 +2020,8 @@
     "location": "C05",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Finance"
   },
   {
     "quarter": "Autumn 2026",
@@ -2150,9 +2038,8 @@
     "location": "C05",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Finance"
   },
   {
     "quarter": "Autumn 2026",
@@ -2169,9 +2056,8 @@
     "location": "C04",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Finance"
   },
   {
     "quarter": "Autumn 2026",
@@ -2188,9 +2074,8 @@
     "location": "C01",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -2207,9 +2092,8 @@
     "location": "",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -2226,9 +2110,8 @@
     "location": "208",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -2245,9 +2128,8 @@
     "location": "C25",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -2264,9 +2146,8 @@
     "location": "C25",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -2283,9 +2164,8 @@
     "location": "C25",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -2302,9 +2182,8 @@
     "location": "206",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -2321,9 +2200,8 @@
     "location": "C08",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -2340,9 +2218,8 @@
     "location": "208",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -2359,9 +2236,8 @@
     "location": "C03",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -2378,9 +2254,8 @@
     "location": "C03",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -2397,9 +2272,8 @@
     "location": "",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -2416,9 +2290,8 @@
     "location": "",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -2435,9 +2308,8 @@
     "location": "",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -2454,9 +2326,8 @@
     "location": "3B",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -2473,9 +2344,8 @@
     "location": "3B",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -2492,9 +2362,8 @@
     "location": "3B",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -2511,9 +2380,8 @@
     "location": "C07",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Decisions"
   },
   {
     "quarter": "Autumn 2026",
@@ -2530,9 +2398,8 @@
     "location": "C04",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -2549,9 +2416,8 @@
     "location": "404",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -2568,9 +2434,8 @@
     "location": "C10",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -2587,9 +2452,8 @@
     "location": "C10",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -2606,9 +2470,8 @@
     "location": "3A",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -2625,9 +2488,8 @@
     "location": "3SW",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -2644,9 +2506,8 @@
     "location": "C03",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Marketing"
   },
   {
     "quarter": "Autumn 2026",
@@ -2663,9 +2524,8 @@
     "location": "C03",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Marketing"
   },
   {
     "quarter": "Autumn 2026",
@@ -2682,9 +2542,8 @@
     "location": "C03",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Marketing"
   },
   {
     "quarter": "Autumn 2026",
@@ -2701,9 +2560,8 @@
     "location": "C06",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Marketing"
   },
   {
     "quarter": "Autumn 2026",
@@ -2720,9 +2578,8 @@
     "location": "C10",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Marketing"
   },
   {
     "quarter": "Autumn 2026",
@@ -2739,9 +2596,8 @@
     "location": "306",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Marketing"
   },
   {
     "quarter": "Autumn 2026",
@@ -2758,9 +2614,8 @@
     "location": "C03",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Marketing"
   },
   {
     "quarter": "Autumn 2026",
@@ -2777,9 +2632,8 @@
     "location": "304",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Marketing"
   },
   {
     "quarter": "Autumn 2026",
@@ -2796,9 +2650,8 @@
     "location": "406",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Marketing"
   },
   {
     "quarter": "Autumn 2026",
@@ -2815,9 +2668,8 @@
     "location": "C03",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -2834,9 +2686,8 @@
     "location": "C03",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -2853,9 +2704,8 @@
     "location": "406",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Marketing"
   },
   {
     "quarter": "Autumn 2026",
@@ -2872,9 +2722,8 @@
     "location": "C50A",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -2891,9 +2740,8 @@
     "location": "3SW",
     "units": 50.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -2910,9 +2758,8 @@
     "location": "3SW",
     "units": 50.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -2929,9 +2776,8 @@
     "location": "C08",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "People"
   },
   {
     "quarter": "Autumn 2026",
@@ -2948,9 +2794,8 @@
     "location": "C08",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "People"
   },
   {
     "quarter": "Autumn 2026",
@@ -2967,9 +2812,8 @@
     "location": "208",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "People"
   },
   {
     "quarter": "Autumn 2026",
@@ -2986,9 +2830,8 @@
     "location": "C04",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Decisions"
   },
   {
     "quarter": "Autumn 2026",
@@ -3005,9 +2848,8 @@
     "location": "404",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Decisions"
   },
   {
     "quarter": "Autumn 2026",
@@ -3024,9 +2866,8 @@
     "location": "C05",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "People"
   },
   {
     "quarter": "Autumn 2026",
@@ -3043,9 +2884,8 @@
     "location": "404",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "People"
   },
   {
     "quarter": "Autumn 2026",
@@ -3062,9 +2902,8 @@
     "location": "C25",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -3081,9 +2920,8 @@
     "location": "C07",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -3100,9 +2938,8 @@
     "location": "130",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -3119,9 +2956,8 @@
     "location": "304",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Society"
   },
   {
     "quarter": "Autumn 2026",
@@ -3138,9 +2974,8 @@
     "location": "C04",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Decisions"
   },
   {
     "quarter": "Autumn 2026",
@@ -3157,9 +2992,8 @@
     "location": "C04",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Decisions"
   },
   {
     "quarter": "Autumn 2026",
@@ -3176,9 +3010,8 @@
     "location": "406",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Decisions"
   },
   {
     "quarter": "Autumn 2026",
@@ -3195,9 +3028,8 @@
     "location": "C06",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -3214,9 +3046,8 @@
     "location": "C06",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -3233,9 +3064,8 @@
     "location": "3A",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -3252,9 +3082,8 @@
     "location": "3A",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -3271,9 +3100,8 @@
     "location": "3B",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -3290,9 +3118,8 @@
     "location": "3B",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -3309,9 +3136,8 @@
     "location": "C01",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Strategy"
   },
   {
     "quarter": "Autumn 2026",
@@ -3328,9 +3154,8 @@
     "location": "304",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Strategy"
   },
   {
     "quarter": "Autumn 2026",
@@ -3347,9 +3172,8 @@
     "location": "C02",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Operations"
   },
   {
     "quarter": "Autumn 2026",
@@ -3366,9 +3190,8 @@
     "location": "C09",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Operations"
   },
   {
     "quarter": "Autumn 2026",
@@ -3385,9 +3208,8 @@
     "location": "308",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Operations"
   },
   {
     "quarter": "Autumn 2026",
@@ -3404,9 +3226,8 @@
     "location": "3A",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -3423,9 +3244,8 @@
     "location": "C09",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Foundations"
-    ]
+    "foundationsArea": "Statistics",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -3442,9 +3262,8 @@
     "location": "C09",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Foundations"
-    ]
+    "foundationsArea": "Statistics",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -3461,9 +3280,8 @@
     "location": "C06",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Foundations"
-    ]
+    "foundationsArea": "Statistics",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -3480,9 +3298,8 @@
     "location": "C06",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Foundations"
-    ]
+    "foundationsArea": "Statistics",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -3499,9 +3316,8 @@
     "location": "C06",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Foundations"
-    ]
+    "foundationsArea": "Statistics",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -3518,9 +3334,8 @@
     "location": "304",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Foundations"
-    ]
+    "foundationsArea": "Statistics",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -3537,9 +3352,8 @@
     "location": "304",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Foundations"
-    ]
+    "foundationsArea": "Statistics",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -3556,9 +3370,8 @@
     "location": "C08",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Foundations"
-    ]
+    "foundationsArea": "Statistics",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -3575,9 +3388,8 @@
     "location": "C08",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Foundations"
-    ]
+    "foundationsArea": "Statistics",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -3594,9 +3406,8 @@
     "location": "3B",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -3613,9 +3424,8 @@
     "location": "3B",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -3632,9 +3442,8 @@
     "location": "C09",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Foundations"
-    ]
+    "foundationsArea": "Statistics",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -3651,9 +3460,8 @@
     "location": "3A",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Foundations"
-    ]
+    "foundationsArea": "Statistics",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -3670,9 +3478,8 @@
     "location": "C06",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Strategy"
   },
   {
     "quarter": "Autumn 2026",
@@ -3689,9 +3496,8 @@
     "location": "C10",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Strategy"
   },
   {
     "quarter": "Autumn 2026",
@@ -3708,9 +3514,8 @@
     "location": "C10",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Strategy"
   },
   {
     "quarter": "Autumn 2026",
@@ -3727,9 +3532,8 @@
     "location": "",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Strategy"
   },
   {
     "quarter": "Autumn 2026",
@@ -3746,9 +3550,8 @@
     "location": "308",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Strategy"
   },
   {
     "quarter": "Autumn 2026",
@@ -3765,9 +3568,8 @@
     "location": "C01",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Strategy"
   },
   {
     "quarter": "Autumn 2026",
@@ -3784,9 +3586,8 @@
     "location": "306",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Strategy"
   },
   {
     "quarter": "Autumn 2026",
@@ -3803,9 +3604,8 @@
     "location": "200",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -3822,9 +3622,8 @@
     "location": "C10",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -3841,9 +3640,8 @@
     "location": "306",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -3860,9 +3658,8 @@
     "location": "306",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -3879,9 +3676,8 @@
     "location": "C02",
     "units": 50.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -3898,9 +3694,8 @@
     "location": "C25",
     "units": 50.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -3917,9 +3712,8 @@
     "location": "C09",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -3936,9 +3730,8 @@
     "location": "C25",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -3955,9 +3748,8 @@
     "location": "308",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -3974,9 +3766,8 @@
     "location": "C02",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -3993,9 +3784,8 @@
     "location": "306",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Autumn 2026",
@@ -4012,9 +3802,8 @@
     "location": "C25",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -4031,9 +3820,8 @@
     "location": "206",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Foundations"
-    ]
+    "foundationsArea": "Financial Accounting",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -4050,9 +3838,8 @@
     "location": "206",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Foundations"
-    ]
+    "foundationsArea": "Financial Accounting",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -4069,9 +3856,8 @@
     "location": "C07",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Decisions"
   },
   {
     "quarter": "Spring 2027",
@@ -4088,9 +3874,8 @@
     "location": "C08",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -4107,9 +3892,8 @@
     "location": "C08",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -4126,9 +3910,8 @@
     "location": "404",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -4145,9 +3928,8 @@
     "location": "C10",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -4164,9 +3946,8 @@
     "location": "C10",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -4183,9 +3964,8 @@
     "location": "308",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -4202,9 +3982,8 @@
     "location": "C08",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Foundations"
-    ]
+    "foundationsArea": "Financial Accounting",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -4223,9 +4002,8 @@
     "concentrations": [
       "Analytic Finance"
     ],
-    "requirementTypes": [
-      "Foundations"
-    ]
+    "foundationsArea": "Financial Accounting",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -4244,9 +4022,8 @@
     "concentrations": [
       "Analytic Finance"
     ],
-    "requirementTypes": [
-      "Foundations"
-    ]
+    "foundationsArea": "Financial Accounting",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -4265,9 +4042,8 @@
     "concentrations": [
       "Analytic Finance"
     ],
-    "requirementTypes": [
-      "Foundations"
-    ]
+    "foundationsArea": "Financial Accounting",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -4284,9 +4060,8 @@
     "location": "C10",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Foundations"
-    ]
+    "foundationsArea": "Financial Accounting",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -4303,9 +4078,8 @@
     "location": "C10",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Foundations"
-    ]
+    "foundationsArea": "Financial Accounting",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -4322,9 +4096,8 @@
     "location": "208",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Foundations"
-    ]
+    "foundationsArea": "Financial Accounting",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -4341,9 +4114,8 @@
     "location": "C06",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -4360,9 +4132,8 @@
     "location": "C06",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -4379,9 +4150,8 @@
     "location": "3A",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -4398,9 +4168,8 @@
     "location": "3SW",
     "units": 50.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -4417,9 +4186,8 @@
     "location": "3SW",
     "units": 50.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -4436,9 +4204,8 @@
     "location": "3SW",
     "units": 50.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -4455,9 +4222,8 @@
     "location": "225",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -4474,9 +4240,8 @@
     "location": "225",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -4493,9 +4258,8 @@
     "location": "225",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -4512,9 +4276,8 @@
     "location": "225",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -4531,9 +4294,8 @@
     "location": "225",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -4550,9 +4312,8 @@
     "location": "140",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -4569,9 +4330,8 @@
     "location": "140",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -4588,9 +4348,8 @@
     "location": "422",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -4607,9 +4366,8 @@
     "location": "140",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -4626,9 +4384,8 @@
     "location": "140",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -4645,9 +4402,8 @@
     "location": "219",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "People"
   },
   {
     "quarter": "Spring 2027",
@@ -4664,9 +4420,8 @@
     "location": "219",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "People"
   },
   {
     "quarter": "Spring 2027",
@@ -4683,9 +4438,8 @@
     "location": "140",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "People"
   },
   {
     "quarter": "Spring 2027",
@@ -4702,9 +4456,8 @@
     "location": "140",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "People"
   },
   {
     "quarter": "Spring 2027",
@@ -4721,9 +4474,8 @@
     "location": "225",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -4740,9 +4492,8 @@
     "location": "C04",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -4759,9 +4510,8 @@
     "location": "C10",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -4778,9 +4528,8 @@
     "location": "C07",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -4797,9 +4546,8 @@
     "location": "C07",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -4816,9 +4564,8 @@
     "location": "C25",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -4835,9 +4582,8 @@
     "location": "308",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -4854,9 +4600,8 @@
     "location": "C09",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Foundations"
-    ]
+    "foundationsArea": "Microeconomics",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -4873,9 +4618,8 @@
     "location": "206",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Foundations"
-    ]
+    "foundationsArea": "Microeconomics",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -4892,9 +4636,8 @@
     "location": "C05",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "People"
   },
   {
     "quarter": "Spring 2027",
@@ -4911,9 +4654,8 @@
     "location": "C05",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "People"
   },
   {
     "quarter": "Spring 2027",
@@ -4930,9 +4672,8 @@
     "location": "306",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "People"
   },
   {
     "quarter": "Spring 2027",
@@ -4949,9 +4690,8 @@
     "location": "C09",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Economy"
   },
   {
     "quarter": "Spring 2027",
@@ -4968,9 +4708,8 @@
     "location": "C25",
     "units": 0.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Society"
   },
   {
     "quarter": "Spring 2027",
@@ -4987,9 +4726,8 @@
     "location": "",
     "units": 0.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Society"
   },
   {
     "quarter": "Spring 2027",
@@ -5006,9 +4744,8 @@
     "location": "3A",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Society"
   },
   {
     "quarter": "Spring 2027",
@@ -5025,9 +4762,8 @@
     "location": "3SW",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Society"
   },
   {
     "quarter": "Spring 2027",
@@ -5044,9 +4780,8 @@
     "location": "223",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Society"
   },
   {
     "quarter": "Spring 2027",
@@ -5063,9 +4798,8 @@
     "location": "223",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Society"
   },
   {
     "quarter": "Spring 2027",
@@ -5082,9 +4816,8 @@
     "location": "223",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Society"
   },
   {
     "quarter": "Spring 2027",
@@ -5101,9 +4834,8 @@
     "location": "207DN",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Society"
   },
   {
     "quarter": "Spring 2027",
@@ -5120,9 +4852,8 @@
     "location": "3SW",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Society"
   },
   {
     "quarter": "Spring 2027",
@@ -5139,9 +4870,8 @@
     "location": "223",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Society"
   },
   {
     "quarter": "Spring 2027",
@@ -5158,9 +4888,8 @@
     "location": "223",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Society"
   },
   {
     "quarter": "Spring 2027",
@@ -5177,9 +4906,8 @@
     "location": "223",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Society"
   },
   {
     "quarter": "Spring 2027",
@@ -5196,9 +4924,8 @@
     "location": "",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Society"
   },
   {
     "quarter": "Spring 2027",
@@ -5215,9 +4942,8 @@
     "location": "",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Society"
   },
   {
     "quarter": "Spring 2027",
@@ -5234,9 +4960,8 @@
     "location": "",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Society"
   },
   {
     "quarter": "Spring 2027",
@@ -5253,9 +4978,8 @@
     "location": "C05",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Society"
   },
   {
     "quarter": "Spring 2027",
@@ -5272,9 +4996,8 @@
     "location": "C05",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Society"
   },
   {
     "quarter": "Spring 2027",
@@ -5291,9 +5014,8 @@
     "location": "308",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Society"
   },
   {
     "quarter": "Spring 2027",
@@ -5310,9 +5032,8 @@
     "location": "208",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -5329,9 +5050,8 @@
     "location": "208",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -5348,9 +5068,8 @@
     "location": "C03",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -5367,9 +5086,8 @@
     "location": "",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -5386,9 +5104,8 @@
     "location": "306",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -5405,9 +5122,8 @@
     "location": "C02",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Economy"
   },
   {
     "quarter": "Spring 2027",
@@ -5424,9 +5140,8 @@
     "location": "C02",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Economy"
   },
   {
     "quarter": "Spring 2027",
@@ -5443,9 +5158,8 @@
     "location": "306",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Economy"
   },
   {
     "quarter": "Spring 2027",
@@ -5462,9 +5176,8 @@
     "location": "308",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -5481,9 +5194,8 @@
     "location": "C08",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Society"
   },
   {
     "quarter": "Spring 2027",
@@ -5500,9 +5212,8 @@
     "location": "C02",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Economy"
   },
   {
     "quarter": "Spring 2027",
@@ -5519,9 +5230,8 @@
     "location": "408",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Economy"
   },
   {
     "quarter": "Spring 2027",
@@ -5538,9 +5248,8 @@
     "location": "3B",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -5557,9 +5266,8 @@
     "location": "3B",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -5576,9 +5284,8 @@
     "location": "",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -5595,9 +5302,8 @@
     "location": "C10",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -5614,9 +5320,8 @@
     "location": "3B",
     "units": 50.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -5633,9 +5338,8 @@
     "location": "3B",
     "units": 50.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -5652,9 +5356,8 @@
     "location": "3B",
     "units": 50.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -5671,9 +5374,8 @@
     "location": "",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -5690,9 +5392,8 @@
     "location": "",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -5709,9 +5410,8 @@
     "location": "",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -5728,9 +5428,8 @@
     "location": "3SW",
     "units": 50.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -5747,9 +5446,8 @@
     "location": "3SW",
     "units": 50.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -5766,9 +5464,8 @@
     "location": "",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -5785,9 +5482,8 @@
     "location": "3A",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -5804,9 +5500,8 @@
     "location": "3A",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -5823,9 +5518,8 @@
     "location": "",
     "units": 50.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -5842,9 +5536,8 @@
     "location": "3A",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -5861,9 +5554,8 @@
     "location": "C08",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Finance"
   },
   {
     "quarter": "Spring 2027",
@@ -5880,9 +5572,8 @@
     "location": "204",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Finance"
   },
   {
     "quarter": "Spring 2027",
@@ -5899,9 +5590,8 @@
     "location": "C05",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -5918,9 +5608,8 @@
     "location": "C25",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -5937,9 +5626,8 @@
     "location": "C25",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -5956,9 +5644,8 @@
     "location": "208",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -5975,9 +5662,8 @@
     "location": "C08",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -5994,9 +5680,8 @@
     "location": "408",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -6013,9 +5698,8 @@
     "location": "C08",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -6032,9 +5716,8 @@
     "location": "408",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -6051,9 +5734,8 @@
     "location": "C25",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -6070,9 +5752,8 @@
     "location": "204",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -6089,9 +5770,8 @@
     "location": "C07",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Society"
   },
   {
     "quarter": "Spring 2027",
@@ -6108,9 +5788,8 @@
     "location": "306",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Society"
   },
   {
     "quarter": "Spring 2027",
@@ -6127,9 +5806,8 @@
     "location": "200",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -6146,9 +5824,8 @@
     "location": "200",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -6165,9 +5842,8 @@
     "location": "3B",
     "units": 50.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -6184,9 +5860,8 @@
     "location": "C08",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -6203,9 +5878,8 @@
     "location": "",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -6222,9 +5896,8 @@
     "location": "C07",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -6241,9 +5914,8 @@
     "location": "C07",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -6260,9 +5932,8 @@
     "location": "400",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -6279,9 +5950,8 @@
     "location": "404",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -6298,9 +5968,8 @@
     "location": "C09",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -6317,9 +5986,8 @@
     "location": "",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -6336,9 +6004,8 @@
     "location": "3B",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -6355,9 +6022,8 @@
     "location": "C09",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Finance"
   },
   {
     "quarter": "Spring 2027",
@@ -6374,9 +6040,8 @@
     "location": "C09",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Finance"
   },
   {
     "quarter": "Spring 2027",
@@ -6393,9 +6058,8 @@
     "location": "C09",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Finance"
   },
   {
     "quarter": "Spring 2027",
@@ -6412,9 +6076,8 @@
     "location": "",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Finance"
   },
   {
     "quarter": "Spring 2027",
@@ -6431,9 +6094,8 @@
     "location": "C01",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Finance"
   },
   {
     "quarter": "Spring 2027",
@@ -6450,9 +6112,8 @@
     "location": "C01",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Finance"
   },
   {
     "quarter": "Spring 2027",
@@ -6469,9 +6130,8 @@
     "location": "308",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Finance"
   },
   {
     "quarter": "Spring 2027",
@@ -6488,9 +6148,8 @@
     "location": "206",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Finance"
   },
   {
     "quarter": "Spring 2027",
@@ -6507,9 +6166,8 @@
     "location": "200",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -6526,9 +6184,8 @@
     "location": "200",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -6545,9 +6202,8 @@
     "location": "C04",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Finance"
   },
   {
     "quarter": "Spring 2027",
@@ -6564,9 +6220,8 @@
     "location": "208",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Finance"
   },
   {
     "quarter": "Spring 2027",
@@ -6583,9 +6238,8 @@
     "location": "C04",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -6602,9 +6256,8 @@
     "location": "C04",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -6621,9 +6274,8 @@
     "location": "C03",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Finance"
   },
   {
     "quarter": "Spring 2027",
@@ -6640,9 +6292,8 @@
     "location": "C03",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Finance"
   },
   {
     "quarter": "Spring 2027",
@@ -6659,9 +6310,8 @@
     "location": "C07",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Finance"
   },
   {
     "quarter": "Spring 2027",
@@ -6678,9 +6328,8 @@
     "location": "404",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Finance"
   },
   {
     "quarter": "Spring 2027",
@@ -6697,9 +6346,8 @@
     "location": "C04",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Finance"
   },
   {
     "quarter": "Spring 2027",
@@ -6716,9 +6364,8 @@
     "location": "C04",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Finance"
   },
   {
     "quarter": "Spring 2027",
@@ -6735,9 +6382,8 @@
     "location": "204",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Finance"
   },
   {
     "quarter": "Spring 2027",
@@ -6754,9 +6400,8 @@
     "location": "",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Finance"
   },
   {
     "quarter": "Spring 2027",
@@ -6773,9 +6418,8 @@
     "location": "C10",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -6792,9 +6436,8 @@
     "location": "C03",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Finance"
   },
   {
     "quarter": "Spring 2027",
@@ -6811,9 +6454,8 @@
     "location": "408",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Finance"
   },
   {
     "quarter": "Spring 2027",
@@ -6830,9 +6472,8 @@
     "location": "206",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -6849,9 +6490,8 @@
     "location": "C03",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -6868,9 +6508,8 @@
     "location": "C03",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -6887,9 +6526,8 @@
     "location": "",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -6906,9 +6544,8 @@
     "location": "",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -6925,9 +6562,8 @@
     "location": "",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -6944,9 +6580,8 @@
     "location": "3A",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -6963,9 +6598,8 @@
     "location": "3A",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -6982,9 +6616,8 @@
     "location": "3A",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -7001,9 +6634,8 @@
     "location": "C01",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Decisions"
   },
   {
     "quarter": "Spring 2027",
@@ -7020,9 +6652,8 @@
     "location": "C01",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Decisions"
   },
   {
     "quarter": "Spring 2027",
@@ -7039,9 +6670,8 @@
     "location": "C01",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -7058,9 +6688,8 @@
     "location": "406",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -7077,9 +6706,8 @@
     "location": "C10",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -7096,9 +6724,8 @@
     "location": "C10",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -7115,9 +6742,8 @@
     "location": "",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -7134,9 +6760,8 @@
     "location": "",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -7153,9 +6778,8 @@
     "location": "C03",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Marketing"
   },
   {
     "quarter": "Spring 2027",
@@ -7172,9 +6796,8 @@
     "location": "C03",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Marketing"
   },
   {
     "quarter": "Spring 2027",
@@ -7191,9 +6814,8 @@
     "location": "406",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Marketing"
   },
   {
     "quarter": "Spring 2027",
@@ -7210,9 +6832,8 @@
     "location": "C05",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Marketing"
   },
   {
     "quarter": "Spring 2027",
@@ -7229,9 +6850,8 @@
     "location": "C05",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Marketing"
   },
   {
     "quarter": "Spring 2027",
@@ -7248,9 +6868,8 @@
     "location": "208",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Marketing"
   },
   {
     "quarter": "Spring 2027",
@@ -7267,9 +6886,8 @@
     "location": "208",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Marketing"
   },
   {
     "quarter": "Spring 2027",
@@ -7286,9 +6904,8 @@
     "location": "30",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Marketing"
   },
   {
     "quarter": "Spring 2027",
@@ -7305,9 +6922,8 @@
     "location": "204",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Marketing"
   },
   {
     "quarter": "Spring 2027",
@@ -7324,9 +6940,8 @@
     "location": "",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Marketing"
   },
   {
     "quarter": "Spring 2027",
@@ -7343,9 +6958,8 @@
     "location": "408",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Marketing"
   },
   {
     "quarter": "Spring 2027",
@@ -7362,9 +6976,8 @@
     "location": "C02",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -7381,9 +6994,8 @@
     "location": "C02",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -7400,9 +7012,8 @@
     "location": "208",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -7419,9 +7030,8 @@
     "location": "208",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -7438,9 +7048,8 @@
     "location": "C03",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -7457,9 +7066,8 @@
     "location": "3A",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -7476,9 +7084,8 @@
     "location": "",
     "units": 50.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -7495,9 +7102,8 @@
     "location": "",
     "units": 50.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -7514,9 +7120,8 @@
     "location": "206",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -7533,9 +7138,8 @@
     "location": "C02",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "People"
   },
   {
     "quarter": "Spring 2027",
@@ -7552,9 +7156,8 @@
     "location": "206",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "People"
   },
   {
     "quarter": "Spring 2027",
@@ -7571,9 +7174,8 @@
     "location": "C06",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Decisions"
   },
   {
     "quarter": "Spring 2027",
@@ -7590,9 +7192,8 @@
     "location": "C06",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Decisions"
   },
   {
     "quarter": "Spring 2027",
@@ -7609,9 +7210,8 @@
     "location": "404",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Decisions"
   },
   {
     "quarter": "Spring 2027",
@@ -7628,9 +7228,8 @@
     "location": "C10",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -7647,9 +7246,8 @@
     "location": "C10",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -7666,9 +7264,8 @@
     "location": "C10",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -7685,9 +7282,8 @@
     "location": "206",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -7704,9 +7300,8 @@
     "location": "206",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -7723,9 +7318,8 @@
     "location": "C01",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -7742,9 +7336,8 @@
     "location": "C01",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -7761,9 +7354,8 @@
     "location": "C06",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -7780,9 +7372,8 @@
     "location": "C06",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -7799,9 +7390,8 @@
     "location": "3SW",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -7818,9 +7408,8 @@
     "location": "3SW",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -7837,9 +7426,8 @@
     "location": "",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -7856,9 +7444,8 @@
     "location": "C01",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Strategy"
   },
   {
     "quarter": "Spring 2027",
@@ -7875,9 +7462,8 @@
     "location": "308",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Strategy"
   },
   {
     "quarter": "Spring 2027",
@@ -7894,9 +7480,8 @@
     "location": "C06",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Operations"
   },
   {
     "quarter": "Spring 2027",
@@ -7913,9 +7498,8 @@
     "location": "C06",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Operations"
   },
   {
     "quarter": "Spring 2027",
@@ -7932,9 +7516,8 @@
     "location": "C06",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Operations"
   },
   {
     "quarter": "Spring 2027",
@@ -7951,9 +7534,8 @@
     "location": "208",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Operations"
   },
   {
     "quarter": "Spring 2027",
@@ -7970,9 +7552,8 @@
     "location": "C05",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Operations"
   },
   {
     "quarter": "Spring 2027",
@@ -7989,9 +7570,8 @@
     "location": "404",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Operations"
   },
   {
     "quarter": "Spring 2027",
@@ -8008,9 +7588,8 @@
     "location": "204",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Foundations"
-    ]
+    "foundationsArea": "Statistics",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -8027,9 +7606,8 @@
     "location": "204",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Foundations"
-    ]
+    "foundationsArea": "Statistics",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -8046,9 +7624,8 @@
     "location": "C06",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Foundations"
-    ]
+    "foundationsArea": "Statistics",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -8065,9 +7642,8 @@
     "location": "C25",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Foundations"
-    ]
+    "foundationsArea": "Statistics",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -8084,9 +7660,8 @@
     "location": "406",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Foundations"
-    ]
+    "foundationsArea": "Statistics",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -8103,9 +7678,8 @@
     "location": "3B",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -8122,9 +7696,8 @@
     "location": "3B",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -8141,9 +7714,8 @@
     "location": "3B",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Foundations"
-    ]
+    "foundationsArea": "Statistics",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -8160,9 +7732,8 @@
     "location": "3B",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Foundations"
-    ]
+    "foundationsArea": "Statistics",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -8179,9 +7750,8 @@
     "location": "3B",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -8198,9 +7768,8 @@
     "location": "C04",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Strategy"
   },
   {
     "quarter": "Spring 2027",
@@ -8217,9 +7786,8 @@
     "location": "C04",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Strategy"
   },
   {
     "quarter": "Spring 2027",
@@ -8236,9 +7804,8 @@
     "location": "406",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Strategy"
   },
   {
     "quarter": "Spring 2027",
@@ -8255,9 +7822,8 @@
     "location": "204",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -8274,9 +7840,8 @@
     "location": "C04",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -8293,9 +7858,8 @@
     "location": "204",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -8312,9 +7876,8 @@
     "location": "204",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -8331,9 +7894,8 @@
     "location": "C02",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Strategy"
   },
   {
     "quarter": "Spring 2027",
@@ -8350,9 +7912,8 @@
     "location": "208",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Strategy"
   },
   {
     "quarter": "Spring 2027",
@@ -8369,9 +7930,8 @@
     "location": "C09",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Society"
   },
   {
     "quarter": "Spring 2027",
@@ -8388,9 +7948,8 @@
     "location": "204",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -8407,9 +7966,8 @@
     "location": "C07",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -8426,9 +7984,8 @@
     "location": "219",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -8445,9 +8002,8 @@
     "location": "C10",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -8464,9 +8020,8 @@
     "location": "208",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Spring 2027",
@@ -8483,9 +8038,8 @@
     "location": "C06",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -8502,9 +8056,8 @@
     "location": "C05",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Foundations"
-    ]
+    "foundationsArea": "Financial Accounting",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -8521,9 +8074,8 @@
     "location": "C09",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Foundations"
-    ]
+    "foundationsArea": "Financial Accounting",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -8540,9 +8092,8 @@
     "location": "408",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Foundations"
-    ]
+    "foundationsArea": "Financial Accounting",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -8559,9 +8110,8 @@
     "location": "206",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Foundations"
-    ]
+    "foundationsArea": "Financial Accounting",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -8578,9 +8128,8 @@
     "location": "C07",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Decisions"
   },
   {
     "quarter": "Winter 2027",
@@ -8597,9 +8146,8 @@
     "location": "C07",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Decisions"
   },
   {
     "quarter": "Winter 2027",
@@ -8616,9 +8164,8 @@
     "location": "304",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Decisions"
   },
   {
     "quarter": "Winter 2027",
@@ -8635,9 +8182,8 @@
     "location": "C09",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -8656,9 +8202,8 @@
     "concentrations": [
       "Analytic Finance"
     ],
-    "requirementTypes": [
-      "Foundations"
-    ]
+    "foundationsArea": "Financial Accounting",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -8677,9 +8222,8 @@
     "concentrations": [
       "Analytic Finance"
     ],
-    "requirementTypes": [
-      "Foundations"
-    ]
+    "foundationsArea": "Financial Accounting",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -8698,9 +8242,8 @@
     "concentrations": [
       "Analytic Finance"
     ],
-    "requirementTypes": [
-      "Foundations"
-    ]
+    "foundationsArea": "Financial Accounting",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -8717,9 +8260,8 @@
     "location": "C04",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Society"
   },
   {
     "quarter": "Winter 2027",
@@ -8736,9 +8278,8 @@
     "location": "204",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Society"
   },
   {
     "quarter": "Winter 2027",
@@ -8755,9 +8296,8 @@
     "location": "204",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Society"
   },
   {
     "quarter": "Winter 2027",
@@ -8774,9 +8314,8 @@
     "location": "C08",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -8793,9 +8332,8 @@
     "location": "C08",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -8812,9 +8350,8 @@
     "location": "304",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -8831,9 +8368,8 @@
     "location": "C06",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -8850,9 +8386,8 @@
     "location": "C06",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -8869,9 +8404,8 @@
     "location": "",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -8888,9 +8422,8 @@
     "location": "3SW",
     "units": 50.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -8907,9 +8440,8 @@
     "location": "3SW",
     "units": 50.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -8926,9 +8458,8 @@
     "location": "3SW",
     "units": 50.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -8945,9 +8476,8 @@
     "location": "225",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -8964,9 +8494,8 @@
     "location": "225",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -8983,9 +8512,8 @@
     "location": "225",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -9002,9 +8530,8 @@
     "location": "225",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -9021,9 +8548,8 @@
     "location": "225",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -9040,9 +8566,8 @@
     "location": "140",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -9059,9 +8584,8 @@
     "location": "422",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -9078,9 +8602,8 @@
     "location": "",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -9097,9 +8620,8 @@
     "location": "422",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -9116,9 +8638,8 @@
     "location": "C04",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -9135,9 +8656,8 @@
     "location": "208",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -9154,9 +8674,8 @@
     "location": "208",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -9173,9 +8692,8 @@
     "location": "C03",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -9192,9 +8710,8 @@
     "location": "206",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -9211,9 +8728,8 @@
     "location": "C04",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Foundations"
-    ]
+    "foundationsArea": "Microeconomics",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -9230,9 +8746,8 @@
     "location": "306",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Foundations"
-    ]
+    "foundationsArea": "Microeconomics",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -9249,9 +8764,8 @@
     "location": "C01",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Economy"
   },
   {
     "quarter": "Winter 2027",
@@ -9268,9 +8782,8 @@
     "location": "C01",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Economy"
   },
   {
     "quarter": "Winter 2027",
@@ -9287,9 +8800,8 @@
     "location": "306",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Economy"
   },
   {
     "quarter": "Winter 2027",
@@ -9306,9 +8818,8 @@
     "location": "C09",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Economy"
   },
   {
     "quarter": "Winter 2027",
@@ -9325,9 +8836,8 @@
     "location": "C09",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Economy"
   },
   {
     "quarter": "Winter 2027",
@@ -9344,9 +8854,8 @@
     "location": "C08",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Society"
   },
   {
     "quarter": "Winter 2027",
@@ -9363,9 +8872,8 @@
     "location": "C08",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Society"
   },
   {
     "quarter": "Winter 2027",
@@ -9382,9 +8890,8 @@
     "location": "308",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Society"
   },
   {
     "quarter": "Winter 2027",
@@ -9401,9 +8908,8 @@
     "location": "C01",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -9420,9 +8926,8 @@
     "location": "308",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -9439,9 +8944,8 @@
     "location": "308",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -9458,9 +8962,8 @@
     "location": "C06",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Society"
   },
   {
     "quarter": "Winter 2027",
@@ -9477,9 +8980,8 @@
     "location": "C06",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Society"
   },
   {
     "quarter": "Winter 2027",
@@ -9496,9 +8998,8 @@
     "location": "C06",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Society"
   },
   {
     "quarter": "Winter 2027",
@@ -9515,9 +9016,8 @@
     "location": "",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Society"
   },
   {
     "quarter": "Winter 2027",
@@ -9534,9 +9034,8 @@
     "location": "C10",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Economy"
   },
   {
     "quarter": "Winter 2027",
@@ -9553,9 +9052,8 @@
     "location": "206",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Economy"
   },
   {
     "quarter": "Winter 2027",
@@ -9572,9 +9070,8 @@
     "location": "206",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Economy"
   },
   {
     "quarter": "Winter 2027",
@@ -9591,9 +9088,8 @@
     "location": "3B",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -9610,9 +9106,8 @@
     "location": "3B",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -9629,9 +9124,8 @@
     "location": "",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -9648,9 +9142,8 @@
     "location": "C10",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -9667,9 +9160,8 @@
     "location": "C10",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -9686,9 +9178,8 @@
     "location": "3B",
     "units": 50.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -9705,9 +9196,8 @@
     "location": "3B",
     "units": 50.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -9724,9 +9214,8 @@
     "location": "3B",
     "units": 50.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -9743,9 +9232,8 @@
     "location": "3A",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -9762,9 +9250,8 @@
     "location": "3SW",
     "units": 50.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -9781,9 +9268,8 @@
     "location": "3SW",
     "units": 50.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -9800,9 +9286,8 @@
     "location": "",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -9819,9 +9304,8 @@
     "location": "",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -9838,9 +9322,8 @@
     "location": "C08",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Finance"
   },
   {
     "quarter": "Winter 2027",
@@ -9857,9 +9340,8 @@
     "location": "408",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Finance"
   },
   {
     "quarter": "Winter 2027",
@@ -9876,9 +9358,8 @@
     "location": "C06",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -9895,9 +9376,8 @@
     "location": "",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -9914,9 +9394,8 @@
     "location": "",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -9933,9 +9412,8 @@
     "location": "208",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -9952,9 +9430,8 @@
     "location": "206",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -9971,9 +9448,8 @@
     "location": "206",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -9990,9 +9466,8 @@
     "location": "C05",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -10009,9 +9484,8 @@
     "location": "C25",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -10028,9 +9502,8 @@
     "location": "C25",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -10047,9 +9520,8 @@
     "location": "C25",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -10066,9 +9538,8 @@
     "location": "306",
     "units": 50.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -10085,9 +9556,8 @@
     "location": "400",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -10104,9 +9574,8 @@
     "location": "404",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -10123,9 +9592,8 @@
     "location": "C03",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -10142,9 +9610,8 @@
     "location": "C03",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -10161,9 +9628,8 @@
     "location": "C05",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -10180,9 +9646,8 @@
     "location": "C05",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -10199,9 +9664,8 @@
     "location": "3A",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Finance"
   },
   {
     "quarter": "Winter 2027",
@@ -10218,9 +9682,8 @@
     "location": "3A",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Finance"
   },
   {
     "quarter": "Winter 2027",
@@ -10237,9 +9700,8 @@
     "location": "3B",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Finance"
   },
   {
     "quarter": "Winter 2027",
@@ -10256,9 +9718,8 @@
     "location": "3B",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Finance"
   },
   {
     "quarter": "Winter 2027",
@@ -10275,9 +9736,8 @@
     "location": "C03",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Finance"
   },
   {
     "quarter": "Winter 2027",
@@ -10294,9 +9754,8 @@
     "location": "C03",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Finance"
   },
   {
     "quarter": "Winter 2027",
@@ -10313,9 +9772,8 @@
     "location": "C07",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Finance"
   },
   {
     "quarter": "Winter 2027",
@@ -10332,9 +9790,8 @@
     "location": "C07",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Finance"
   },
   {
     "quarter": "Winter 2027",
@@ -10351,9 +9808,8 @@
     "location": "206",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Finance"
   },
   {
     "quarter": "Winter 2027",
@@ -10370,9 +9826,8 @@
     "location": "C06",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Finance"
   },
   {
     "quarter": "Winter 2027",
@@ -10389,9 +9844,8 @@
     "location": "208",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Finance"
   },
   {
     "quarter": "Winter 2027",
@@ -10408,9 +9862,8 @@
     "location": "204",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Finance"
   },
   {
     "quarter": "Winter 2027",
@@ -10427,9 +9880,8 @@
     "location": "C25",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -10446,9 +9898,8 @@
     "location": "208",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -10465,9 +9916,8 @@
     "location": "208",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -10484,9 +9934,8 @@
     "location": "406",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -10503,9 +9952,8 @@
     "location": "C09",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Finance"
   },
   {
     "quarter": "Winter 2027",
@@ -10522,9 +9970,8 @@
     "location": "C06",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Finance"
   },
   {
     "quarter": "Winter 2027",
@@ -10541,9 +9988,8 @@
     "location": "204",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Finance"
   },
   {
     "quarter": "Winter 2027",
@@ -10560,9 +10006,8 @@
     "location": "C02",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -10579,9 +10024,8 @@
     "location": "C02",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -10598,9 +10042,8 @@
     "location": "306",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -10617,9 +10060,8 @@
     "location": "C03",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -10636,9 +10078,8 @@
     "location": "C03",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -10655,9 +10096,8 @@
     "location": "3A",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -10674,9 +10114,8 @@
     "location": "3SW",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -10693,9 +10132,8 @@
     "location": "3SW",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -10712,9 +10150,8 @@
     "location": "",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -10731,9 +10168,8 @@
     "location": "3SW",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -10750,9 +10186,8 @@
     "location": "3SW",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -10769,9 +10204,8 @@
     "location": "3SW",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -10788,9 +10222,8 @@
     "location": "C08",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Decisions"
   },
   {
     "quarter": "Winter 2027",
@@ -10807,9 +10240,8 @@
     "location": "304",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Decisions"
   },
   {
     "quarter": "Winter 2027",
@@ -10826,9 +10258,8 @@
     "location": "C10",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -10845,9 +10276,8 @@
     "location": "206",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -10864,9 +10294,8 @@
     "location": "C10",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -10883,9 +10312,8 @@
     "location": "C09",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Marketing"
   },
   {
     "quarter": "Winter 2027",
@@ -10902,9 +10330,8 @@
     "location": "C03",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Marketing"
   },
   {
     "quarter": "Winter 2027",
@@ -10921,9 +10348,8 @@
     "location": "C03",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Marketing"
   },
   {
     "quarter": "Winter 2027",
@@ -10940,9 +10366,8 @@
     "location": "208",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Marketing"
   },
   {
     "quarter": "Winter 2027",
@@ -10959,9 +10384,8 @@
     "location": "306",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Marketing"
   },
   {
     "quarter": "Winter 2027",
@@ -10978,9 +10402,8 @@
     "location": "C04",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Marketing"
   },
   {
     "quarter": "Winter 2027",
@@ -10997,9 +10420,8 @@
     "location": "C04",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Marketing"
   },
   {
     "quarter": "Winter 2027",
@@ -11016,9 +10438,8 @@
     "location": "",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Marketing"
   },
   {
     "quarter": "Winter 2027",
@@ -11035,9 +10456,8 @@
     "location": "C05",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Marketing"
   },
   {
     "quarter": "Winter 2027",
@@ -11054,9 +10474,8 @@
     "location": "404",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Marketing"
   },
   {
     "quarter": "Winter 2027",
@@ -11073,9 +10492,8 @@
     "location": "C05",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Marketing"
   },
   {
     "quarter": "Winter 2027",
@@ -11092,9 +10510,8 @@
     "location": "C05",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Marketing"
   },
   {
     "quarter": "Winter 2027",
@@ -11111,9 +10528,8 @@
     "location": "308",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Marketing"
   },
   {
     "quarter": "Winter 2027",
@@ -11130,9 +10546,8 @@
     "location": "C01",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Marketing"
   },
   {
     "quarter": "Winter 2027",
@@ -11149,9 +10564,8 @@
     "location": "C01",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Marketing"
   },
   {
     "quarter": "Winter 2027",
@@ -11168,9 +10582,8 @@
     "location": "C08",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Marketing"
   },
   {
     "quarter": "Winter 2027",
@@ -11187,9 +10600,8 @@
     "location": "C08",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Society"
   },
   {
     "quarter": "Winter 2027",
@@ -11206,9 +10618,8 @@
     "location": "408",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Society"
   },
   {
     "quarter": "Winter 2027",
@@ -11225,9 +10636,8 @@
     "location": "C03",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -11244,9 +10654,8 @@
     "location": "",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -11263,9 +10672,8 @@
     "location": "3B",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -11282,9 +10690,8 @@
     "location": "3B",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -11301,9 +10708,8 @@
     "location": "",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -11320,9 +10726,8 @@
     "location": "",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -11339,9 +10744,8 @@
     "location": "",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -11358,9 +10762,8 @@
     "location": "",
     "units": 50.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -11377,9 +10780,8 @@
     "location": "",
     "units": 50.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -11396,9 +10798,8 @@
     "location": "C07",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "People"
   },
   {
     "quarter": "Winter 2027",
@@ -11415,9 +10816,8 @@
     "location": "C07",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "People"
   },
   {
     "quarter": "Winter 2027",
@@ -11434,9 +10834,8 @@
     "location": "C05",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "People"
   },
   {
     "quarter": "Winter 2027",
@@ -11453,9 +10852,8 @@
     "location": "C05",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "People"
   },
   {
     "quarter": "Winter 2027",
@@ -11472,9 +10870,8 @@
     "location": "C02",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -11491,9 +10888,8 @@
     "location": "C10",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -11510,9 +10906,8 @@
     "location": "C10",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -11529,9 +10924,8 @@
     "location": "C05",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -11548,9 +10942,8 @@
     "location": "C05",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -11567,9 +10960,8 @@
     "location": "204",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -11586,9 +10978,8 @@
     "location": "204",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -11605,9 +10996,8 @@
     "location": "C10",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -11624,9 +11014,8 @@
     "location": "C03",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Decisions"
   },
   {
     "quarter": "Winter 2027",
@@ -11643,9 +11032,8 @@
     "location": "C03",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Decisions"
   },
   {
     "quarter": "Winter 2027",
@@ -11662,9 +11050,8 @@
     "location": "308",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Decisions"
   },
   {
     "quarter": "Winter 2027",
@@ -11681,9 +11068,8 @@
     "location": "404",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "People"
   },
   {
     "quarter": "Winter 2027",
@@ -11700,9 +11086,8 @@
     "location": "C06",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -11719,9 +11104,8 @@
     "location": "",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -11738,9 +11122,8 @@
     "location": "",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -11757,9 +11140,8 @@
     "location": "",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -11776,9 +11158,8 @@
     "location": "404",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Strategy"
   },
   {
     "quarter": "Winter 2027",
@@ -11795,9 +11176,8 @@
     "location": "C04",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Operations"
   },
   {
     "quarter": "Winter 2027",
@@ -11814,9 +11194,8 @@
     "location": "C04",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Operations"
   },
   {
     "quarter": "Winter 2027",
@@ -11833,9 +11212,8 @@
     "location": "406",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Operations"
   },
   {
     "quarter": "Winter 2027",
@@ -11852,9 +11230,8 @@
     "location": "C08",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Operations"
   },
   {
     "quarter": "Winter 2027",
@@ -11871,9 +11248,8 @@
     "location": "C08",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Operations"
   },
   {
     "quarter": "Winter 2027",
@@ -11890,9 +11266,8 @@
     "location": "132",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -11909,9 +11284,8 @@
     "location": "132",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -11928,9 +11302,8 @@
     "location": "3A",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -11947,9 +11320,8 @@
     "location": "3A",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -11966,9 +11338,8 @@
     "location": "C01",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Foundations"
-    ]
+    "foundationsArea": "Statistics",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -11985,9 +11356,8 @@
     "location": "C01",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Foundations"
-    ]
+    "foundationsArea": "Statistics",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -12004,9 +11374,8 @@
     "location": "406",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Foundations"
-    ]
+    "foundationsArea": "Statistics",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -12023,9 +11392,8 @@
     "location": "306",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Foundations"
-    ]
+    "foundationsArea": "Statistics",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -12042,9 +11410,8 @@
     "location": "C02",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Foundations"
-    ]
+    "foundationsArea": "Statistics",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -12061,9 +11428,8 @@
     "location": "3B",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -12080,9 +11446,8 @@
     "location": "3B",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Foundations"
-    ]
+    "foundationsArea": "Statistics",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -12099,9 +11464,8 @@
     "location": "C09",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Foundations"
-    ]
+    "foundationsArea": "Statistics",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -12118,9 +11482,8 @@
     "location": "C01",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Strategy"
   },
   {
     "quarter": "Winter 2027",
@@ -12137,9 +11500,8 @@
     "location": "C01",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Strategy"
   },
   {
     "quarter": "Winter 2027",
@@ -12156,9 +11518,8 @@
     "location": "C07",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Strategy"
   },
   {
     "quarter": "Winter 2027",
@@ -12175,9 +11536,8 @@
     "location": "C07",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Strategy"
   },
   {
     "quarter": "Winter 2027",
@@ -12194,9 +11554,8 @@
     "location": "208",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Strategy"
   },
   {
     "quarter": "Winter 2027",
@@ -12213,9 +11572,8 @@
     "location": "208",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Strategy"
   },
   {
     "quarter": "Winter 2027",
@@ -12232,9 +11590,8 @@
     "location": "C08",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -12251,9 +11608,8 @@
     "location": "200",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -12270,9 +11626,8 @@
     "location": "200",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -12289,9 +11644,8 @@
     "location": "408",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -12308,9 +11662,8 @@
     "location": "3B",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -12327,9 +11680,8 @@
     "location": "3B",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -12346,9 +11698,8 @@
     "location": "C08",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -12365,9 +11716,8 @@
     "location": "C04",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -12384,9 +11734,8 @@
     "location": "C04",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -12403,9 +11752,8 @@
     "location": "C02",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Strategy"
   },
   {
     "quarter": "Winter 2027",
@@ -12422,9 +11770,8 @@
     "location": "308",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "FLMBE"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": "Strategy"
   },
   {
     "quarter": "Winter 2027",
@@ -12441,9 +11788,8 @@
     "location": "C10",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   },
   {
     "quarter": "Winter 2027",
@@ -12460,8 +11806,7 @@
     "location": "406",
     "units": 100.0,
     "concentrations": [],
-    "requirementTypes": [
-      "Electives"
-    ]
+    "foundationsArea": "",
+    "flmbeArea": ""
   }
 ]

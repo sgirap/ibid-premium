@@ -65,10 +65,11 @@ python build_requirement_mapping.py --input "Degree Requirements ....html"
 The page lists specific course numbers under two sections — **Foundations** (Financial
 Accounting / Microeconomics / Statistics) and **Functions, Leadership and Management,
 and the Business Environment** ("**FLMBE**": Finance, Marketing, Operations, Strategy,
-Decisions, People, Economy, Society). `convert.py` tags each class with exactly one
-`requirementTypes` value: `"Foundations"` or `"FLMBE"` if its course number appears in
-the corresponding section, otherwise `"Electives"` — the page has no explicit course
-list for Electives since it's just "any remaining units."
+Decisions, People, Economy, Society). `convert.py` sets each class's `foundationsArea`
+or `flmbeArea` field to the specific area (e.g. `"Statistics"`, `"Marketing"`) if its
+course number appears in the corresponding section; a class matches at most one of the
+two. Courses in neither section are Electives — both fields stay empty, since that
+requirement has no explicit course list on the page ("any remaining units").
 
 Re-run `build_requirement_mapping.py` whenever Booth updates the Degree Requirements
 page (new curriculum year, course number changes, etc.) and commit the regenerated

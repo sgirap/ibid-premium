@@ -9,7 +9,16 @@ import { DonateButton } from './components/DonateButton'
 import { courseMatchesFacets, getFacetOptions, type FacetField, type FacetSelection } from './lib/facets'
 import type { Course } from './types/course'
 
-const FACET_FIELDS: FacetField[] = ['quarter', 'program', 'instructor', 'day', 'units', 'concentrations', 'requirementTypes']
+const FACET_FIELDS: FacetField[] = [
+  'quarter',
+  'program',
+  'instructor',
+  'day',
+  'units',
+  'concentrations',
+  'foundationsArea',
+  'flmbeArea',
+]
 
 function App() {
   const { courses, loading, error } = useCourses()

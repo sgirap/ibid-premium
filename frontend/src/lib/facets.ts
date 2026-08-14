@@ -1,6 +1,14 @@
 import type { Course } from '../types/course'
 
-export type FacetField = 'quarter' | 'program' | 'instructor' | 'day' | 'units' | 'concentrations' | 'requirementTypes'
+export type FacetField =
+  | 'quarter'
+  | 'program'
+  | 'instructor'
+  | 'day'
+  | 'units'
+  | 'concentrations'
+  | 'foundationsArea'
+  | 'flmbeArea'
 
 export const FACET_LABELS: Record<FacetField, string> = {
   quarter: 'Quarter',
@@ -9,7 +17,8 @@ export const FACET_LABELS: Record<FacetField, string> = {
   day: 'Day',
   units: 'Units',
   concentrations: 'Concentration',
-  requirementTypes: 'Requirement Type',
+  foundationsArea: 'Foundations',
+  flmbeArea: 'FLMBE',
 }
 
 export function instructorName(course: Course): string {

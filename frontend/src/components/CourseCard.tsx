@@ -31,16 +31,21 @@ export function CourseCard({ course, onSelect }: CourseCardProps) {
         {course.program}
         {course.building ? ` · ${course.building}${course.location ? ` ${course.location}` : ''}` : ''}
       </p>
-      {(course.concentrations.length > 0 || course.requirementTypes.length > 0) && (
+      {(course.concentrations.length > 0 || course.foundationsArea || course.flmbeArea) && (
         <div className="mt-2 flex flex-wrap gap-1">
+          {course.foundationsArea && (
+            <span className="rounded-full bg-violet-50 px-2 py-0.5 text-xs text-violet-700 dark:bg-violet-950 dark:text-violet-300">
+              Foundations: {course.foundationsArea}
+            </span>
+          )}
+          {course.flmbeArea && (
+            <span className="rounded-full bg-amber-50 px-2 py-0.5 text-xs text-amber-700 dark:bg-amber-950 dark:text-amber-300">
+              FLMBE: {course.flmbeArea}
+            </span>
+          )}
           {course.concentrations.map((c) => (
             <span key={c} className="rounded-full bg-blue-50 px-2 py-0.5 text-xs text-blue-700 dark:bg-blue-950 dark:text-blue-300">
               {c}
-            </span>
-          ))}
-          {course.requirementTypes.map((r) => (
-            <span key={r} className="rounded-full bg-green-50 px-2 py-0.5 text-xs text-green-700 dark:bg-green-950 dark:text-green-300">
-              {r}
             </span>
           ))}
         </div>

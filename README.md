@@ -10,7 +10,7 @@ Data is updated manually each term from an iBid export — there's no live backe
 
 - `frontend/` — React + Vite + Tailwind app. Loads `public/data/classes.json` and
   does all searching/filtering client-side (free text via Fuse.js, facets for
-  quarter/program/concentration/requirement type/units/day/instructor).
+  quarter/program/concentration/Foundations area/FLMBE area/units/day/instructor).
 - `pipeline/` — Python script that converts a raw iBid export + a manually
   maintained concentration/requirement mapping into `classes.json`. See
   [pipeline/README.md](pipeline/README.md).

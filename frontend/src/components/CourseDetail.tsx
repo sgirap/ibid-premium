@@ -79,15 +79,24 @@ export function CourseDetail({ course, onClose }: CourseDetailProps) {
           </div>
         )}
 
-        {course.requirementTypes.length > 0 && (
+        {course.foundationsArea && (
           <div className="mt-3">
-            <h3 className="text-xs font-semibold uppercase tracking-wide text-gray-500 dark:text-gray-400">Requirement Types</h3>
+            <h3 className="text-xs font-semibold uppercase tracking-wide text-gray-500 dark:text-gray-400">Foundations</h3>
             <div className="mt-1 flex flex-wrap gap-1">
-              {course.requirementTypes.map((r) => (
-                <span key={r} className="rounded-full bg-green-50 px-2 py-0.5 text-xs text-green-700 dark:bg-green-950 dark:text-green-300">
-                  {r}
-                </span>
-              ))}
+              <span className="rounded-full bg-violet-50 px-2 py-0.5 text-xs text-violet-700 dark:bg-violet-950 dark:text-violet-300">
+                {course.foundationsArea}
+              </span>
+            </div>
+          </div>
+        )}
+
+        {course.flmbeArea && (
+          <div className="mt-3">
+            <h3 className="text-xs font-semibold uppercase tracking-wide text-gray-500 dark:text-gray-400">FLMBE</h3>
+            <div className="mt-1 flex flex-wrap gap-1">
+              <span className="rounded-full bg-amber-50 px-2 py-0.5 text-xs text-amber-700 dark:bg-amber-950 dark:text-amber-300">
+                {course.flmbeArea}
+              </span>
             </div>
           </div>
         )}

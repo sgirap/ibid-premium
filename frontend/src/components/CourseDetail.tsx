@@ -116,6 +116,46 @@ export function CourseDetail({ course, onClose, isSaved, onToggleSave }: CourseD
             </div>
           </div>
         )}
+
+        {course.evaluation && (
+          <div className="mt-4 rounded-lg bg-emerald-50 p-3 dark:bg-emerald-950">
+            <div className="flex items-center justify-between">
+              <h3 className="text-xs font-semibold uppercase tracking-wide text-emerald-700 dark:text-emerald-300">
+                Course Evaluations
+              </h3>
+              <span className="text-xs text-emerald-700/70 dark:text-emerald-300/70">
+                {course.evaluation.respondentCount} responses · {course.evaluation.sectionsEvaluated} sections · through{' '}
+                {course.evaluation.mostRecentTerm}
+              </span>
+            </div>
+            <dl className="mt-2 grid grid-cols-2 gap-x-4 gap-y-1.5 text-sm">
+              <div className="flex justify-between">
+                <dt className="text-emerald-800 dark:text-emerald-200">Would recommend</dt>
+                <dd className="font-semibold text-emerald-900 dark:text-emerald-100">{course.evaluation.recommend.toFixed(2)}/5</dd>
+              </div>
+              <div className="flex justify-between">
+                <dt className="text-emerald-800 dark:text-emerald-200">Overall value</dt>
+                <dd className="font-semibold text-emerald-900 dark:text-emerald-100">{course.evaluation.overallValue.toFixed(2)}/5</dd>
+              </div>
+              <div className="flex justify-between">
+                <dt className="text-emerald-800 dark:text-emerald-200">Clarity</dt>
+                <dd className="font-semibold text-emerald-900 dark:text-emerald-100">{course.evaluation.clarity.toFixed(2)}/5</dd>
+              </div>
+              <div className="flex justify-between">
+                <dt className="text-emerald-800 dark:text-emerald-200">Engagement</dt>
+                <dd className="font-semibold text-emerald-900 dark:text-emerald-100">{course.evaluation.engagement.toFixed(2)}/5</dd>
+              </div>
+              <div className="flex justify-between">
+                <dt className="text-emerald-800 dark:text-emerald-200">Usefulness</dt>
+                <dd className="font-semibold text-emerald-900 dark:text-emerald-100">{course.evaluation.usefulness.toFixed(2)}/5</dd>
+              </div>
+              <div className="flex justify-between">
+                <dt className="text-emerald-800 dark:text-emerald-200">Hours/week</dt>
+                <dd className="font-semibold text-emerald-900 dark:text-emerald-100">{course.evaluation.avgHoursPerWeek.toFixed(1)}</dd>
+              </div>
+            </dl>
+          </div>
+        )}
       </div>
     </div>
   )

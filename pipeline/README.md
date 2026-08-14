@@ -120,13 +120,49 @@ Re-run `build_requirement_mapping.py` whenever Booth updates the Degree Requirem
 page (new curriculum year, course number changes, etc.) and commit the regenerated
 `mappings/requirement_types.csv`.
 
+## Course evaluations
+
+`data/evaluations.json` maps `"{courseNumber}|{normalizedFirstName}|{normalizedLastName}"`
+to aggregated rating scores (recommend, clarity, engagement, usefulness, overall value,
+hours/week, response counts). `convert.py` attaches the matching entry to every class as
+`evaluation` (or `null` if none matches) — looked up by courseNumber + instructor name,
+same as the module docstring says.
+
+Built by `build_evaluations.py` from a raw course evaluation export (one row per
+section+term+instructor):
+
+```bash
+python build_evaluations.py --input "Booth_MBA_Course_Evaluation_Data.xlsx"
+```
+
+Like the class list, this **accumulates rather than replaces**: each run merges its rows
+into `data/master_evaluation_rows.json` (keyed by Course Name + Term + instructor, since
+co-taught sections get one row per instructor), then fully **recalculates**
+`data/evaluations.json` from that complete row history. So re-uploading a fresher
+evaluation export — even one that only covers the latest term — always produces a
+correct, up-to-date aggregate; nothing from prior uploads is lost, and nothing goes
+stale. Pass `--no-merge` to instead treat `--input` as the complete row history.
+
+Instructor names are matched heuristically: the evaluation export uses full legal names
+(e.g. "Joao Pedro" / "Bacelar Fernandes Granja") while the course export uses short
+display names (e.g. "Joao" / "Granja"). Both are normalized to (first name's first word,
+last name's last word) before matching — captures ~78% of instructors with zero observed
+false-positive collisions, but can't recover a nickname-vs-formal-name mismatch (e.g.
+"Bob" vs "Robert"); those classes just get `evaluation: null`.
+
+`convert.py` re-attaches evaluations to **every** class in the master list on every run
+(not just newly converted ones) reading `data/evaluations.json` fresh each time, so a
+`build_evaluations.py` run followed by `convert.py` refreshes historical offerings too.
+
 ## Each term
 
 1. Export data from iBid as `Course List.xlsx`
 2. If Booth's concentration or Degree Requirements pages changed, update
    `mappings/concentrations_source.txt` / re-run `build_requirement_mapping.py` and
    re-run `build_concentration_mapping.py`
-3. Run `python convert.py --input "Course List.xlsx"` — merges into `data/master_classes.json`
-   and regenerates `frontend/public/data/classes.json`
-4. Commit both updated files
-5. Push — the site auto-redeploys via GitHub Actions
+3. If a new course evaluation export is available, run
+   `python build_evaluations.py --input "<evaluation export>.xlsx"`
+4. Run `python convert.py --input "Course List.xlsx"` — merges into `data/master_classes.json`,
+   attaches evaluations, and regenerates `frontend/public/data/classes.json`
+5. Commit the updated data files
+6. Push — the site auto-redeploys via GitHub Actions

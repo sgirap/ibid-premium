@@ -43,6 +43,13 @@ Booth's Degree Requirements page) — stored as foundationsArea/flmbeArea, with
 at most one of the two set. Courses not found there are Electives: both
 fields stay empty, since that requirement has no explicit course list on the
 page.
+
+If data/evaluations.json exists (built by build_evaluations.py from a raw
+course evaluation export), each class also gets an "evaluation" object with
+aggregated rating scores, looked up by courseNumber + instructor name. This
+is applied to the *entire* merged master list on every run, not just newly
+converted records, so refreshing evaluations.json updates historical
+offerings too. Classes with no evaluation match get "evaluation": null.
 """
 
 import argparse
@@ -136,6 +143,30 @@ def load_requirement_mapping(path: Path | None) -> dict[str, tuple[str, str]]:
         return {}
     df = pd.read_csv(path, dtype=str).fillna("")
     return {row["courseNumber"].strip(): (row["requirementType"].strip(), row["area"].strip()) for _, row in df.iterrows()}
+
+
+def normalize_eval_name(first_name: str, last_name: str) -> tuple[str, str]:
+    first = str(first_name).strip().split()
+    last = str(last_name).strip().split()
+    return (first[0].lower() if first else "", last[-1].lower() if last else "")
+
+
+def eval_key(course_number: str, first_name: str, last_name: str) -> str:
+    norm_first, norm_last = normalize_eval_name(first_name, last_name)
+    return f"{course_number}|{norm_first}|{norm_last}"
+
+
+def load_evaluations(path: Path) -> dict[str, dict]:
+    if not path.exists():
+        return {}
+    return json.loads(path.read_text())
+
+
+def attach_evaluations(records: list[dict], evaluations: dict[str, dict]) -> None:
+    """Mutates records in place, setting record["evaluation"]."""
+    for record in records:
+        key = eval_key(record["courseNumber"], record["professorFirstName"], record["professorLastName"])
+        record["evaluation"] = evaluations.get(key)
 
 
 def record_key(record: dict) -> tuple:
@@ -232,6 +263,12 @@ def main():
         help="Path to courseNumber -> requirementType CSV (built by build_requirement_mapping.py)",
     )
     parser.add_argument(
+        "--evaluations",
+        type=Path,
+        default=Path(__file__).parent / "data" / "evaluations.json",
+        help="Path to the evaluation index CSV/JSON (built by build_evaluations.py)",
+    )
+    parser.add_argument(
         "--master",
         type=Path,
         default=Path(__file__).parent / "data" / "master_classes.json",
@@ -260,6 +297,11 @@ def main():
         args.master.parent.mkdir(parents=True, exist_ok=True)
         args.master.write_text(json.dumps(merged_records, indent=2))
         print(f"Merged {len(new_records)} records from {args.input.name} into master ({len(merged_records)} total) -> {args.master}")
+
+    evaluations = load_evaluations(args.evaluations)
+    attach_evaluations(merged_records, evaluations)
+    matched = sum(1 for r in merged_records if r["evaluation"] is not None)
+    print(f"Matched evaluations for {matched} of {len(merged_records)} classes")
 
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(merged_records, indent=2))

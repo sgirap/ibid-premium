@@ -31,8 +31,18 @@ export function CourseCard({ course, onSelect, isSaved, onToggleSave }: CourseCa
           {course.quarter}
         </span>
       </div>
-      <p className="mt-1 text-sm text-gray-600 dark:text-gray-400">
-        {instructorName(course) || 'Staff'} · {schedule} · {course.units} units
+      <p className="mt-1 flex flex-wrap items-center gap-x-1.5 text-sm text-gray-600 dark:text-gray-400">
+        <span>
+          {instructorName(course) || 'Staff'} · {schedule} · {course.units} units
+        </span>
+        {course.evaluation && (
+          <span
+            className="inline-flex items-center gap-0.5 rounded bg-emerald-50 px-1.5 py-0.5 text-xs font-medium text-emerald-700 dark:bg-emerald-950 dark:text-emerald-300"
+            title={`${course.evaluation.respondentCount} responses across ${course.evaluation.sectionsEvaluated} sections, most recently ${course.evaluation.mostRecentTerm}`}
+          >
+            ★ {course.evaluation.recommend.toFixed(1)}
+          </span>
+        )}
       </p>
       <p className="text-xs text-gray-500 dark:text-gray-500">
         {course.program}

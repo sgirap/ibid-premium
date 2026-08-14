@@ -1,3 +1,16 @@
+export interface CourseEvaluation {
+  avgHoursPerWeek: number
+  clarity: number
+  engagement: number
+  usefulness: number
+  overallValue: number
+  recommend: number
+  invitedCount: number
+  respondentCount: number
+  sectionsEvaluated: number
+  mostRecentTerm: string
+}
+
 export interface Course {
   quarter: string
   title: string
@@ -16,4 +29,5 @@ export interface Course {
   concentrations: string[]
   foundationsArea: string
   flmbeArea: string
+  evaluation: CourseEvaluation | null
 }

@@ -21,6 +21,12 @@ class records (all other fields identical):
 
 A row with 2 faculty and 2 schedule segments therefore expands into 4 records
 (the cross product) — one per faculty/schedule combination.
+
+Each class is also tagged with a single requirementType — "Foundations",
+"FLMBE", or "Electives" — looked up by courseNumber in
+mappings/requirement_types.csv (built by build_requirement_mapping.py from
+Booth's Degree Requirements page). Courses not found there default to
+"Electives", since that requirement has no explicit course list on the page.
 """
 
 import argparse
@@ -67,28 +73,37 @@ def normalize_course_number(course: str) -> str:
     return str(course).split("-")[0].strip()
 
 
-def load_mapping(path: Path | None) -> dict[str, dict[str, list[str]]]:
-    """Load a manual courseNumber -> concentrations/requirementTypes mapping.
+def load_concentration_mapping(path: Path | None) -> dict[str, list[str]]:
+    """Load a manual courseNumber -> concentrations mapping.
 
-    Expected CSV columns: courseNumber, concentrations, requirementTypes
-    where concentrations/requirementTypes are semicolon-separated lists.
+    Expected CSV columns: courseNumber, concentrations
+    where concentrations is a semicolon-separated list.
     """
     if path is None or not path.exists():
         return {}
     df = pd.read_csv(path, dtype=str).fillna("")
-    mapping: dict[str, dict[str, list[str]]] = {}
+    mapping: dict[str, list[str]] = {}
     for _, row in df.iterrows():
         course_number = row["courseNumber"].strip()
-        mapping[course_number] = {
-            "concentrations": [v.strip() for v in row.get("concentrations", "").split(";") if v.strip()],
-            "requirementTypes": [v.strip() for v in row.get("requirementTypes", "").split(";") if v.strip()],
-        }
+        mapping[course_number] = [v.strip() for v in row.get("concentrations", "").split(";") if v.strip()]
     return mapping
 
 
-def convert(input_path: Path, mapping_path: Path | None) -> list[dict]:
+def load_requirement_mapping(path: Path | None) -> dict[str, str]:
+    """Load the courseNumber -> requirementType mapping built by
+    build_requirement_mapping.py. Expected CSV columns: courseNumber,
+    requirementType, area.
+    """
+    if path is None or not path.exists():
+        return {}
+    df = pd.read_csv(path, dtype=str).fillna("")
+    return {row["courseNumber"].strip(): row["requirementType"].strip() for _, row in df.iterrows()}
+
+
+def convert(input_path: Path, concentration_mapping_path: Path | None, requirement_mapping_path: Path | None) -> list[dict]:
     raw_df = pd.read_excel(input_path) if input_path.suffix.lower() in (".xlsx", ".xls") else pd.read_csv(input_path)
-    mapping = load_mapping(mapping_path)
+    concentration_mapping = load_concentration_mapping(concentration_mapping_path)
+    requirement_mapping = load_requirement_mapping(requirement_mapping_path)
 
     required_cols = ["Quarter", "Title", "Course", "Program", "Faculty", "Schedule", "Capacity", "Building", "Location", "Units"]
     missing = [c for c in required_cols if c not in raw_df.columns]
@@ -102,7 +117,8 @@ def convert(input_path: Path, mapping_path: Path | None) -> list[dict]:
         faculty_names = split_faculty(row.get("Faculty", ""))
         schedule_slots = split_schedule(row.get("Schedule", ""))
 
-        extra = mapping.get(course_number, {"concentrations": [], "requirementTypes": []})
+        concentrations = concentration_mapping.get(course_number, [])
+        requirement_type = requirement_mapping.get(course_number, "Electives")
 
         for faculty_name, (day, time) in itertools.product(faculty_names, schedule_slots):
             first_name, last_name = split_name(faculty_name)
@@ -121,8 +137,8 @@ def convert(input_path: Path, mapping_path: Path | None) -> list[dict]:
                     "building": str(row.get("Building", "")).strip() if pd.notna(row.get("Building")) else "",
                     "location": str(row.get("Location", "")).strip() if pd.notna(row.get("Location")) else "",
                     "units": float(row.get("Units", 0)) if str(row.get("Units", "")).strip() else 0,
-                    "concentrations": extra["concentrations"],
-                    "requirementTypes": extra["requirementTypes"],
+                    "concentrations": concentrations,
+                    "requirementTypes": [requirement_type],
                 }
             )
 
@@ -136,7 +152,13 @@ def main():
         "--mapping",
         type=Path,
         default=Path(__file__).parent / "mappings" / "concentration_requirements.csv",
-        help="Path to courseNumber -> concentrations/requirementTypes mapping CSV",
+        help="Path to courseNumber -> concentrations mapping CSV",
+    )
+    parser.add_argument(
+        "--requirement-mapping",
+        type=Path,
+        default=Path(__file__).parent / "mappings" / "requirement_types.csv",
+        help="Path to courseNumber -> requirementType CSV (built by build_requirement_mapping.py)",
     )
     parser.add_argument(
         "--output",
@@ -146,7 +168,7 @@ def main():
     )
     args = parser.parse_args()
 
-    records = convert(args.input, args.mapping)
+    records = convert(args.input, args.mapping, args.requirement_mapping)
 
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(records, indent=2))

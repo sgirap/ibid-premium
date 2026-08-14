@@ -8,18 +8,13 @@ interface FilterPanelProps {
   onClear: () => void
 }
 
-const FIELDS: FacetField[] = [
-  'quarter',
-  'foundationsArea',
-  'flmbeArea',
-  'day',
-  'timing',
-  'building',
-  'program',
-  'concentrations',
-  'units',
-  'instructor',
-]
+const BEFORE_DEGREE_REQUIREMENTS: FacetField[] = ['quarter']
+const AFTER_DEGREE_REQUIREMENTS: FacetField[] = ['day', 'timing', 'building', 'program', 'concentrations', 'units', 'instructor']
+
+// Foundations and FLMBE render together under one "Degree Requirements"
+// heading, and are OR'd rather than AND'd when both have a selection (see
+// OR_GROUPS in lib/facets.ts) — a class only ever has one of the two.
+const DEGREE_REQUIREMENT_FIELDS: FacetField[] = ['foundationsArea', 'flmbeArea']
 
 // Fields with more options than this get a search box instead of a full chip cloud.
 const SEARCH_THRESHOLD = 15
@@ -106,7 +101,30 @@ export function FilterPanel({ facetOptions, selection, onToggle, onClear }: Filt
         )}
       </div>
 
-      {FIELDS.map((field) => {
+      {BEFORE_DEGREE_REQUIREMENTS.map((field) => {
+        const options = facetOptions[field] ?? []
+        if (options.length === 0) return null
+        const selected = selection[field] ?? new Set<string>()
+
+        return <FacetGroup key={field} field={field} options={options} selected={selected} onToggle={(value) => onToggle(field, value)} />
+      })}
+
+      {DEGREE_REQUIREMENT_FIELDS.some((field) => (facetOptions[field] ?? []).length > 0) && (
+        <div>
+          <h2 className="mb-3 text-sm font-semibold text-gray-900 dark:text-gray-100">Degree Requirements</h2>
+          <div className="space-y-4">
+            {DEGREE_REQUIREMENT_FIELDS.map((field) => {
+              const options = facetOptions[field] ?? []
+              if (options.length === 0) return null
+              const selected = selection[field] ?? new Set<string>()
+
+              return <FacetGroup key={field} field={field} options={options} selected={selected} onToggle={(value) => onToggle(field, value)} />
+            })}
+          </div>
+        </div>
+      )}
+
+      {AFTER_DEGREE_REQUIREMENTS.map((field) => {
         const options = facetOptions[field] ?? []
         if (options.length === 0) return null
         const selected = selection[field] ?? new Set<string>()

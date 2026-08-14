@@ -1,0 +1,50 @@
+[
+  {
+    "courseId": "BUS41100",
+    "title": "Applied Regression Analysis",
+    "instructor": "Jane Doe",
+    "quarter": "Winter",
+    "units": 100,
+    "days": ["Mon", "Wed"],
+    "time": "1:30pm-3:00pm",
+    "description": "Introduction to regression modeling for business applications, including OLS, diagnostics, and prediction.",
+    "concentrations": ["Analytic Finance", "Econometrics"],
+    "requirementTypes": ["Statistics Foundation"]
+  },
+  {
+    "courseId": "BUS35120",
+    "title": "Corporate Finance II",
+    "instructor": "John Smith",
+    "quarter": "Spring",
+    "units": 100,
+    "days": ["Tue", "Thu"],
+    "time": "9:30am-11:00am",
+    "description": "Advanced topics in corporate finance including capital structure, payout policy, and valuation.",
+    "concentrations": ["Corporate Finance", "Analytic Finance"],
+    "requirementTypes": []
+  },
+  {
+    "courseId": "BUS36106",
+    "title": "Data Science for Managers",
+    "instructor": "Priya Rao",
+    "quarter": "Autumn",
+    "units": 100,
+    "days": ["Mon", "Wed"],
+    "time": "3:30pm-5:00pm",
+    "description": "Practical machine learning and data science techniques for business decision-making.",
+    "concentrations": ["Data Analytics"],
+    "requirementTypes": ["Analytics Foundation"]
+  },
+  {
+    "courseId": "BUS33001",
+    "title": "Microeconomics",
+    "instructor": "Alan Weiss",
+    "quarter": "Autumn",
+    "units": 100,
+    "days": ["Tue", "Thu"],
+    "time": "11:00am-12:30pm",
+    "description": "Core microeconomic theory: consumer and producer behavior, market structure, and equilibrium.",
+    "concentrations": [],
+    "requirementTypes": ["Microeconomics Foundation"]
+  }
+]

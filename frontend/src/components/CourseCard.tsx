@@ -1,4 +1,5 @@
 import type { Course } from '../types/course'
+import { instructorName } from '../lib/facets'
 
 interface CourseCardProps {
   course: Course
@@ -6,6 +7,8 @@ interface CourseCardProps {
 }
 
 export function CourseCard({ course, onSelect }: CourseCardProps) {
+  const schedule = course.day && course.time ? `${course.day} · ${course.time}` : 'Schedule TBD'
+
   return (
     <button
       type="button"
@@ -14,7 +17,7 @@ export function CourseCard({ course, onSelect }: CourseCardProps) {
     >
       <div className="flex items-start justify-between gap-2">
         <div>
-          <p className="text-xs font-mono text-gray-500 dark:text-gray-400">{course.courseId}</p>
+          <p className="text-xs font-mono text-gray-500 dark:text-gray-400">{course.course}</p>
           <h3 className="font-semibold text-gray-900 dark:text-gray-100">{course.title}</h3>
         </div>
         <span className="shrink-0 rounded bg-gray-100 px-2 py-0.5 text-xs text-gray-600 dark:bg-gray-800 dark:text-gray-300">
@@ -22,7 +25,11 @@ export function CourseCard({ course, onSelect }: CourseCardProps) {
         </span>
       </div>
       <p className="mt-1 text-sm text-gray-600 dark:text-gray-400">
-        {course.instructor} · {course.days.join('/')} · {course.time} · {course.units} units
+        {instructorName(course) || 'Staff'} · {schedule} · {course.units} units
+      </p>
+      <p className="text-xs text-gray-500 dark:text-gray-500">
+        {course.program}
+        {course.building ? ` · ${course.building}${course.location ? ` ${course.location}` : ''}` : ''}
       </p>
       {(course.concentrations.length > 0 || course.requirementTypes.length > 0) && (
         <div className="mt-2 flex flex-wrap gap-1">

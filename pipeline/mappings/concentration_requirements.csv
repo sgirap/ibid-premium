@@ -1,5 +1,4 @@
-courseId,concentrations,requirementTypes
-BUS41100,Analytic Finance;Econometrics,Statistics Foundation
-BUS35120,Corporate Finance;Analytic Finance,
-BUS36106,Data Analytics,Analytics Foundation
-BUS33001,,Microeconomics Foundation
+courseNumber,concentrations,requirementTypes
+30000,,Financial Accounting Foundation
+30116,Analytic Finance,
+30130,Analytic Finance,Financial Accounting Foundation

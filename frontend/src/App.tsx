@@ -9,7 +9,7 @@ import { DonateButton } from './components/DonateButton'
 import { courseMatchesFacets, getFacetOptions, type FacetField, type FacetSelection } from './lib/facets'
 import type { Course } from './types/course'
 
-const FACET_FIELDS: FacetField[] = ['quarter', 'instructor', 'units', 'days', 'concentrations', 'requirementTypes']
+const FACET_FIELDS: FacetField[] = ['quarter', 'program', 'instructor', 'day', 'units', 'concentrations', 'requirementTypes']
 
 function App() {
   const { courses, loading, error } = useCourses()
@@ -20,7 +20,7 @@ function App() {
   const fuse = useMemo(
     () =>
       new Fuse(courses, {
-        keys: ['courseId', 'title', 'instructor', 'description'],
+        keys: ['course', 'courseNumber', 'title', 'professorFirstName', 'professorLastName', 'program'],
         threshold: 0.3,
       }),
     [courses],
@@ -86,8 +86,12 @@ function App() {
               <p className="text-sm text-gray-500 dark:text-gray-400">
                 {filteredCourses.length} class{filteredCourses.length === 1 ? '' : 'es'}
               </p>
-              {filteredCourses.map((course) => (
-                <CourseCard key={course.courseId} course={course} onSelect={setSelectedCourse} />
+              {filteredCourses.map((course, i) => (
+                <CourseCard
+                  key={`${course.course}-${course.day}-${course.time}-${course.professorFirstName}-${course.professorLastName}-${i}`}
+                  course={course}
+                  onSelect={setSelectedCourse}
+                />
               ))}
               {filteredCourses.length === 0 && (
                 <p className="text-sm text-gray-500 dark:text-gray-400">No classes match your search/filters.</p>

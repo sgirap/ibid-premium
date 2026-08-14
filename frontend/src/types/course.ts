@@ -1,12 +1,17 @@
 export interface Course {
-  courseId: string
-  title: string
-  instructor: string
   quarter: string
-  units: number
-  days: string[]
+  title: string
+  course: string
+  courseNumber: string
+  program: string
+  professorFirstName: string
+  professorLastName: string
+  day: string
   time: string
-  description: string
+  capacity: string
+  building: string
+  location: string
+  units: number
   concentrations: string[]
   requirementTypes: string[]
 }

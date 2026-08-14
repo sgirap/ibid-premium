@@ -2,15 +2,29 @@
 """Convert a raw iBid course export into the site's classes.json schema.
 
 Usage:
-    python convert.py --input raw_export.xlsx --output ../frontend/public/data/classes.json
-    python convert.py --input raw_export.xlsx --mapping mappings/concentration_requirements.csv
+    python convert.py --input "Course List.xlsx"
+    python convert.py --input "Course List.xlsx" --mapping mappings/concentration_requirements.csv
 
-The column names in COLUMN_MAP are placeholders — no sample iBid export has
-been seen yet. Update COLUMN_MAP to match the real export's headers once one
-is available.
+The raw export has one row per course section, with columns:
+Quarter, Title, Course, Program, Faculty, Schedule, Capacity, Building, Location, Units
+
+Two columns need to be split, and can each fan a single row out into multiple
+class records (all other fields identical):
+
+- Faculty: one or more instructors joined by " and " (e.g. "Anna Costello and
+  Michael Minnis"). Each becomes its own record, with the name further split
+  into professorFirstName / professorLastName.
+- Schedule: a "Day, Time" pair, or two such pairs back-to-back for
+  twice-a-week classes (e.g. "Monday, 10:10 AM - 11:30 AM Wednesday, 10:10 AM
+  - 11:30 AM"). Each day/time pair becomes its own record. A schedule of
+  "TBD" produces a record with empty day/time.
+
+A row with 2 faculty and 2 schedule segments therefore expands into 4 records
+(the cross product) — one per faculty/schedule combination.
 """
 
 import argparse
+import itertools
 import json
 import re
 import sys
@@ -18,72 +32,45 @@ from pathlib import Path
 
 import pandas as pd
 
-# Map iBid export column names -> schema field names. Adjust once a real
-# export is available.
-COLUMN_MAP = {
-    "Course": "courseId",
-    "Course Title": "title",
-    "Instructor": "instructor",
-    "Quarter": "quarter",
-    "Units": "units",
-    "Days": "days",
-    "Time": "time",
-    "Description": "description",
-}
-
-# iBid commonly encodes meeting days as concatenated two-letter codes
-# (e.g. "MW", "TuTh"). Longest codes are matched first to avoid ambiguity
-# between "T" (Tue) and "Th" (Thu).
-DAY_CODES = [
-    ("Mon", "Mon"),
-    ("Tue", "Tue"),
-    ("Wed", "Wed"),
-    ("Thu", "Thu"),
-    ("Fri", "Fri"),
-    ("Sat", "Sat"),
-    ("Sun", "Sun"),
-    ("Th", "Thu"),
-    ("Tu", "Tue"),
-    ("M", "Mon"),
-    ("W", "Wed"),
-    ("F", "Fri"),
-]
+SCHEDULE_SEGMENT_RE = re.compile(
+    r"(?P<day>[A-Za-z]+),\s*(?P<time>\d{1,2}:\d{2}\s*[AP]M\s*-\s*\d{1,2}:\d{2}\s*[AP]M)"
+)
 
 
-def parse_days(raw: str) -> list[str]:
+def split_faculty(raw: str) -> list[str]:
     if not isinstance(raw, str) or not raw.strip():
-        return []
-    remaining = raw.strip()
-    days: list[str] = []
-    while remaining:
-        for code, name in DAY_CODES:
-            if remaining.startswith(code):
-                days.append(name)
-                remaining = remaining[len(code):]
-                break
-        else:
-            # Unrecognized character — skip it rather than looping forever.
-            remaining = remaining[1:]
-    # De-dupe while preserving order.
-    seen = set()
-    ordered = []
-    for d in days:
-        if d not in seen:
-            seen.add(d)
-            ordered.append(d)
-    return ordered
+        return [""]
+    return [name.strip() for name in raw.split(" and ") if name.strip()]
 
 
-def load_raw(path: Path) -> pd.DataFrame:
-    if path.suffix.lower() in (".xlsx", ".xls"):
-        return pd.read_excel(path)
-    return pd.read_csv(path)
+def split_name(full_name: str) -> tuple[str, str]:
+    parts = full_name.split(None, 1)
+    if len(parts) == 2:
+        return parts[0], parts[1]
+    if len(parts) == 1:
+        return parts[0], ""
+    return "", ""
+
+
+def split_schedule(raw: str) -> list[tuple[str, str]]:
+    """Return a list of (day, time) tuples. Empty tuple pair for TBD/unparsed."""
+    if not isinstance(raw, str) or not raw.strip():
+        return [("", "")]
+    matches = SCHEDULE_SEGMENT_RE.findall(raw)
+    if not matches:
+        return [("", "")]
+    return [(day, re.sub(r"\s+", " ", time).strip()) for day, time in matches]
+
+
+def normalize_course_number(course: str) -> str:
+    """'30000-01' -> '30000' — the base course number, without section suffix."""
+    return str(course).split("-")[0].strip()
 
 
 def load_mapping(path: Path | None) -> dict[str, dict[str, list[str]]]:
-    """Load a manual courseId -> concentrations/requirementTypes mapping.
+    """Load a manual courseNumber -> concentrations/requirementTypes mapping.
 
-    Expected CSV columns: courseId, concentrations, requirementTypes
+    Expected CSV columns: courseNumber, concentrations, requirementTypes
     where concentrations/requirementTypes are semicolon-separated lists.
     """
     if path is None or not path.exists():
@@ -91,59 +78,65 @@ def load_mapping(path: Path | None) -> dict[str, dict[str, list[str]]]:
     df = pd.read_csv(path, dtype=str).fillna("")
     mapping: dict[str, dict[str, list[str]]] = {}
     for _, row in df.iterrows():
-        course_id = row["courseId"].strip()
-        mapping[course_id] = {
+        course_number = row["courseNumber"].strip()
+        mapping[course_number] = {
             "concentrations": [v.strip() for v in row.get("concentrations", "").split(";") if v.strip()],
             "requirementTypes": [v.strip() for v in row.get("requirementTypes", "").split(";") if v.strip()],
         }
     return mapping
 
 
-def normalize_course_id(raw: str) -> str:
-    return re.sub(r"\s+", "", str(raw)).upper()
-
-
 def convert(input_path: Path, mapping_path: Path | None) -> list[dict]:
-    raw_df = load_raw(input_path)
+    raw_df = pd.read_excel(input_path) if input_path.suffix.lower() in (".xlsx", ".xls") else pd.read_csv(input_path)
     mapping = load_mapping(mapping_path)
 
-    missing = [col for col in COLUMN_MAP if col not in raw_df.columns]
+    required_cols = ["Quarter", "Title", "Course", "Program", "Faculty", "Schedule", "Capacity", "Building", "Location", "Units"]
+    missing = [c for c in required_cols if c not in raw_df.columns]
     if missing:
-        print(
-            f"Warning: expected columns not found in export: {missing}. "
-            "Update COLUMN_MAP in convert.py to match the real export headers.",
-            file=sys.stderr,
-        )
+        print(f"Warning: expected columns not found in export: {missing}", file=sys.stderr)
 
     records = []
     for _, row in raw_df.iterrows():
-        record = {}
-        for raw_col, field in COLUMN_MAP.items():
-            record[field] = row.get(raw_col, "")
+        course = str(row.get("Course", "")).strip()
+        course_number = normalize_course_number(course)
+        faculty_names = split_faculty(row.get("Faculty", ""))
+        schedule_slots = split_schedule(row.get("Schedule", ""))
 
-        course_id = normalize_course_id(record.get("courseId", ""))
-        record["courseId"] = course_id
-        record["units"] = float(record["units"]) if str(record.get("units", "")).strip() else 0
-        record["days"] = parse_days(record.get("days", ""))
-        record["description"] = str(record.get("description", "")).strip()
+        extra = mapping.get(course_number, {"concentrations": [], "requirementTypes": []})
 
-        extra = mapping.get(course_id, {"concentrations": [], "requirementTypes": []})
-        record["concentrations"] = extra["concentrations"]
-        record["requirementTypes"] = extra["requirementTypes"]
-
-        records.append(record)
+        for faculty_name, (day, time) in itertools.product(faculty_names, schedule_slots):
+            first_name, last_name = split_name(faculty_name)
+            records.append(
+                {
+                    "quarter": str(row.get("Quarter", "")).strip(),
+                    "title": str(row.get("Title", "")).strip(),
+                    "course": course,
+                    "courseNumber": course_number,
+                    "program": str(row.get("Program", "")).strip(),
+                    "professorFirstName": first_name,
+                    "professorLastName": last_name,
+                    "day": day,
+                    "time": time,
+                    "capacity": str(row.get("Capacity", "")).strip(),
+                    "building": str(row.get("Building", "")).strip() if pd.notna(row.get("Building")) else "",
+                    "location": str(row.get("Location", "")).strip() if pd.notna(row.get("Location")) else "",
+                    "units": float(row.get("Units", 0)) if str(row.get("Units", "")).strip() else 0,
+                    "concentrations": extra["concentrations"],
+                    "requirementTypes": extra["requirementTypes"],
+                }
+            )
 
     return records
 
 
 def main():
-    parser = argparse.ArgumentParser(description=__doc__)
+    parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--input", required=True, type=Path, help="Path to raw iBid export (.csv or .xlsx)")
     parser.add_argument(
         "--mapping",
         type=Path,
         default=Path(__file__).parent / "mappings" / "concentration_requirements.csv",
-        help="Path to courseId -> concentrations/requirementTypes mapping CSV",
+        help="Path to courseNumber -> concentrations/requirementTypes mapping CSV",
     )
     parser.add_argument(
         "--output",

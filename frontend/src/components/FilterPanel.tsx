@@ -7,7 +7,7 @@ interface FilterPanelProps {
   onClear: () => void
 }
 
-const FIELDS: FacetField[] = ['quarter', 'concentrations', 'requirementTypes', 'units', 'days', 'instructor']
+const FIELDS: FacetField[] = ['quarter', 'concentrations', 'requirementTypes', 'program', 'units', 'day', 'instructor']
 
 export function FilterPanel({ facetOptions, selection, onToggle, onClear }: FilterPanelProps) {
   const activeCount = Object.values(selection).reduce((sum, s) => sum + (s?.size ?? 0), 0)

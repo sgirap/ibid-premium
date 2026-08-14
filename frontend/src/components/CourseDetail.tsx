@@ -1,4 +1,5 @@
 import type { Course } from '../types/course'
+import { instructorName } from '../lib/facets'
 
 interface CourseDetailProps {
   course: Course
@@ -17,7 +18,7 @@ export function CourseDetail({ course, onClose }: CourseDetailProps) {
       >
         <div className="flex items-start justify-between gap-4">
           <div>
-            <p className="text-xs font-mono text-gray-500 dark:text-gray-400">{course.courseId}</p>
+            <p className="text-xs font-mono text-gray-500 dark:text-gray-400">{course.course}</p>
             <h2 className="text-lg font-semibold text-gray-900 dark:text-gray-100">{course.title}</h2>
           </div>
           <button
@@ -33,25 +34,37 @@ export function CourseDetail({ course, onClose }: CourseDetailProps) {
         <dl className="mt-4 grid grid-cols-2 gap-3 text-sm">
           <div>
             <dt className="text-gray-500 dark:text-gray-400">Instructor</dt>
-            <dd className="text-gray-900 dark:text-gray-100">{course.instructor}</dd>
+            <dd className="text-gray-900 dark:text-gray-100">{instructorName(course) || 'Staff'}</dd>
           </div>
           <div>
             <dt className="text-gray-500 dark:text-gray-400">Quarter</dt>
             <dd className="text-gray-900 dark:text-gray-100">{course.quarter}</dd>
           </div>
           <div>
-            <dt className="text-gray-500 dark:text-gray-400">Days &amp; Time</dt>
-            <dd className="text-gray-900 dark:text-gray-100">{course.days.join('/')} · {course.time}</dd>
+            <dt className="text-gray-500 dark:text-gray-400">Day &amp; Time</dt>
+            <dd className="text-gray-900 dark:text-gray-100">
+              {course.day && course.time ? `${course.day} · ${course.time}` : 'TBD'}
+            </dd>
           </div>
           <div>
             <dt className="text-gray-500 dark:text-gray-400">Units</dt>
             <dd className="text-gray-900 dark:text-gray-100">{course.units}</dd>
           </div>
+          <div>
+            <dt className="text-gray-500 dark:text-gray-400">Program</dt>
+            <dd className="text-gray-900 dark:text-gray-100">{course.program}</dd>
+          </div>
+          <div>
+            <dt className="text-gray-500 dark:text-gray-400">Location</dt>
+            <dd className="text-gray-900 dark:text-gray-100">
+              {course.building ? `${course.building}${course.location ? ` ${course.location}` : ''}` : '—'}
+            </dd>
+          </div>
+          <div>
+            <dt className="text-gray-500 dark:text-gray-400">Capacity</dt>
+            <dd className="text-gray-900 dark:text-gray-100">{course.capacity || '—'}</dd>
+          </div>
         </dl>
-
-        {course.description && (
-          <p className="mt-4 text-sm text-gray-700 dark:text-gray-300">{course.description}</p>
-        )}
 
         {course.concentrations.length > 0 && (
           <div className="mt-4">

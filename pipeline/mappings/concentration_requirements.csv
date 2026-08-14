@@ -1,3 +1,264 @@
 courseNumber,concentrations
-30116,Analytic Finance
-30130,Analytic Finance
+30000,Accounting
+30001,Accounting
+30005,Accounting
+30116,Accounting
+30118,Accounting;Entrepreneurship
+30120,Accounting
+30121,Accounting;Entrepreneurship
+30122,Accounting
+30130,Accounting;Finance
+30131,Accounting;Finance;International Business
+30133,"Accounting;Business, Society and Sustainability"
+30135,Accounting;Applied Artificial Intelligence
+30830,Accounting
+30831,Accounting
+30835,Accounting
+30840,Accounting
+31401,Entrepreneurship
+31402,Entrepreneurship
+31403,Behavioral Science;Entrepreneurship
+31425,"Business, Society and Sustainability"
+31702,Behavioral Science
+32100,Business Analytics
+32120,Business Analytics
+32130,Business Analytics
+32200,Applied Artificial Intelligence;Business Analytics;Strategic Management
+32210,Applied Artificial Intelligence
+32810,Applied Artificial Intelligence;Business Analytics
+33001,Economics
+33002,Economics
+33032,Economics
+33040,Economics
+33050,Economics
+33101,Economics
+33112,Economics
+33230,Economics;Strategic Management
+33250,"Business, Society and Sustainability;Economics"
+33251,"Business, Society and Sustainability;Economics"
+33301,Economics
+33305,"Business, Society and Sustainability;Economics"
+33320,Economics
+33350,Economics;Healthcare
+33351,Healthcare
+33352,Healthcare
+33353,Healthcare
+33401,Economics
+33403,Economics
+33410,Economics
+33450,Finance
+33451,Finance
+33454,Economics
+33471,"Business, Society and Sustainability"
+33501,Economics;International Business
+33502,Economics;International Business
+33503,Economics;International Business;Strategic Management
+33520,Economics;International Business
+33882,Economics
+34101,Analytic Finance;Entrepreneurship;Finance
+34102,Entrepreneurship;Strategic Management
+34103,Entrepreneurship;Strategic Management
+34104,Entrepreneurship;Healthcare
+34106,Entrepreneurship;Strategic Management
+34108,Entrepreneurship;Strategic Management
+34111,Entrepreneurship
+34113,"Business, Society and Sustainability;Entrepreneurship"
+34115,"Business, Society and Sustainability;Entrepreneurship;Healthcare"
+34117,"Business, Society and Sustainability;Entrepreneurship;Strategic Management"
+34200,Applied Artificial Intelligence;Entrepreneurship
+34205,Entrepreneurship;Healthcare
+34206,Entrepreneurship
+34208,Entrepreneurship
+34210,Entrepreneurship;Healthcare
+34211,Entrepreneurship
+34215,Entrepreneurship
+34219,Entrepreneurship
+34220,Entrepreneurship;Strategic Management
+34302,Entrepreneurship
+34305,Entrepreneurship
+34308,Entrepreneurship
+34702,Entrepreneurship;Healthcare
+34704,Entrepreneurship
+34705,Entrepreneurship;Healthcare
+34709,Entrepreneurship;Healthcare
+34715,Entrepreneurship
+34735,"Business, Society and Sustainability"
+34815,Entrepreneurship
+34816,Entrepreneurship;Strategic Management
+34820,Entrepreneurship
+34822,Strategic Management
+34825,Entrepreneurship;Finance
+34826,Entrepreneurship;Finance
+34882,Entrepreneurship
+34887,Entrepreneurship
+34901,Analytic Finance;Finance
+34902,Analytic Finance;Finance
+34903,Analytic Finance;Finance
+34904,Analytic Finance;Finance
+34905,Analytic Finance
+34906,Analytic Finance;Finance
+35000,Finance
+35100,Analytic Finance;Finance
+35101,Finance
+35118,Analytic Finance;Finance;Healthcare
+35120,Analytic Finance;Finance
+35121,Analytic Finance;Finance
+35122,Finance
+35123,Analytic Finance;Entrepreneurship;Finance
+35124,Finance
+35125,Finance
+35126,Analytic Finance;Business Analytics;Finance
+35130,Analytic Finance;Finance
+35134,Analytic Finance;Finance
+35136,Analytic Finance;Finance
+35137,Analytic Finance;Applied Artificial Intelligence;Business Analytics;Finance
+35139,Analytic Finance;Finance
+35141,Analytic Finance;Finance
+35145,Finance
+35146,Finance
+35150,Analytic Finance;Finance
+35154,Finance
+35155,Analytic Finance;Finance
+35160,Finance
+35200,Analytic Finance;Finance
+35201,Analytic Finance;Finance
+35207,Analytic Finance;Finance
+35210,Analytic Finance;Finance;International Business
+35211,Finance
+35213,Analytic Finance;Entrepreneurship;Finance;International Business
+35214,Analytic Finance;Finance
+35215,Analytic Finance;Finance
+35216,Finance
+35217,Finance
+35218,Analytic Finance;Finance
+35219,Analytic Finance;Finance;International Business
+35220,Finance
+35222,Finance
+35225,"Business, Society and Sustainability;Finance"
+35230,Finance
+35817,Finance;Healthcare
+35823,Entrepreneurship;Finance
+35824,Finance
+35830,Finance
+35889,Finance
+35904,Finance
+35907,Analytic Finance;Finance
+35908,Analytic Finance;Finance
+35910,Finance
+35912,Finance
+35916,Analytic Finance;Finance
+36106,Business Analytics;Operations Management
+36109,Business Analytics;Operations Management
+36110,Entrepreneurship
+36115,Entrepreneurship
+37000,Marketing Management
+37101,Marketing Management
+37103,Business Analytics;Marketing Management
+37105,Business Analytics;Marketing Management
+37107,Business Analytics;Marketing Management
+37110,Marketing Management
+37113,Business Analytics
+37115,Business Analytics
+37200,Entrepreneurship;Marketing Management;Strategic Management
+37201,Entrepreneurship;Healthcare;Marketing Management;Strategic Management
+37202,Business Analytics;Marketing Management
+37209,Marketing Management
+37212,"Business, Society and Sustainability;Marketing Management"
+37215,Marketing Management
+37301,Entrepreneurship;Marketing Management
+37310,Marketing Management
+37703,Entrepreneurship;Healthcare;Marketing Management
+37730,Marketing Management
+37802,Business Analytics
+37810,Marketing Management
+37820,Marketing Management
+37882,Marketing Management
+37902,Marketing Management
+38001,Behavioral Science
+38002,Behavioral Science
+38003,Behavioral Science
+38101,Behavioral Science
+38102,Behavioral Science
+38103,Behavioral Science
+38105,Behavioral Science
+38107,Behavioral Science
+38115,"Behavioral Science;Business, Society and Sustainability"
+38116,Behavioral Science
+38118,Behavioral Science
+38119,"Behavioral Science;Business, Society and Sustainability"
+38120,Behavioral Science;Economics
+38122,"Behavioral Science;Business, Society and Sustainability"
+38126,Behavioral Science
+38128,"Business, Society and Sustainability"
+38129,"Behavioral Science;Business, Society and Sustainability"
+38820,Behavioral Science
+38821,Behavioral Science
+38825,Behavioral Science
+38870,Behavioral Science
+38886,Behavioral Science
+39001,Strategic Management
+39002,Behavioral Science
+39101,Entrepreneurship;Strategic Management
+39802,Behavioral Science
+40000,Operations Management
+40101,Operations Management
+40108,Business Analytics;Operations Management
+40110,Entrepreneurship;Operations Management
+40111,Operations Management
+40205,Business Analytics;Healthcare;Operations Management
+40206,Business Analytics;Healthcare;Operations Management
+40721,Business Analytics;Healthcare;Operations Management
+40812,Operations Management
+41000,Econometrics and Statistics
+41001,Econometrics and Statistics
+41100,Econometrics and Statistics
+41201,Business Analytics;Econometrics and Statistics
+41202,Business Analytics;Econometrics and Statistics
+41203,Analytic Finance;Business Analytics;Econometrics and Statistics;Finance
+41204,Business Analytics;Econometrics and Statistics
+41206,Econometrics and Statistics;Entrepreneurship
+41207,Econometrics and Statistics
+41208,Econometrics and Statistics
+41215,Business Analytics;Econometrics and Statistics
+41301,Business Analytics;Econometrics and Statistics;Entrepreneurship;Marketing Management
+41305,Business Analytics;Econometrics and Statistics;Entrepreneurship;Marketing Management
+41814,Business Analytics;Econometrics and Statistics
+41901,Econometrics and Statistics
+41902,Econometrics and Statistics
+41903,Econometrics and Statistics
+41910,Econometrics and Statistics
+42001,Economics;Strategic Management
+42108,Strategic Management
+42116,Economics;Strategic Management
+42119,Strategic Management
+42121,Strategic Management
+42123,Strategic Management
+42124,Strategic Management
+42125,"Business, Society and Sustainability;Strategic Management"
+42126,Strategic Management
+42127,Strategic Management
+42129,"Business, Society and Sustainability"
+42133,Strategic Management
+42135,Economics;Strategic Management
+42136,"Business, Society and Sustainability;Strategic Management"
+42300,Healthcare
+42310,Healthcare
+42705,Entrepreneurship;Strategic Management
+42708,"Business, Society and Sustainability;Strategic Management"
+42709,Healthcare;Strategic Management
+42710,"Business, Society and Sustainability;Healthcare;Strategic Management"
+42711,"Business, Society and Sustainability;Entrepreneurship;Strategic Management"
+42712,"Business, Society and Sustainability"
+42715,Strategic Management
+42726,Strategic Management
+42730,Strategic Management
+42812,Strategic Management
+42813,Strategic Management
+42819,Strategic Management
+42820,Entrepreneurship;Strategic Management
+42830,Entrepreneurship;Strategic Management
+43100,Applied Artificial Intelligence;Business Analytics
+43120,Applied Artificial Intelligence;Entrepreneurship
+43130,"Applied Artificial Intelligence;Business, Society and Sustainability"
+43800,Applied Artificial Intelligence
+43950,Applied Artificial Intelligence

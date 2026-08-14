@@ -13,7 +13,9 @@
     "building": "Harper Center",
     "location": "C02",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Accounting"
+    ],
     "foundationsArea": "Financial Accounting",
     "flmbeArea": ""
   },
@@ -31,7 +33,9 @@
     "building": "Harper Center",
     "location": "C02",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Accounting"
+    ],
     "foundationsArea": "Financial Accounting",
     "flmbeArea": ""
   },
@@ -49,7 +53,9 @@
     "building": "Harper Center",
     "location": "C02",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Accounting"
+    ],
     "foundationsArea": "Financial Accounting",
     "flmbeArea": ""
   },
@@ -67,7 +73,9 @@
     "building": "Harper Center",
     "location": "C05",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Accounting"
+    ],
     "foundationsArea": "Financial Accounting",
     "flmbeArea": ""
   },
@@ -85,7 +93,9 @@
     "building": "Harper Center",
     "location": "C05",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Accounting"
+    ],
     "foundationsArea": "Financial Accounting",
     "flmbeArea": ""
   },
@@ -103,7 +113,9 @@
     "building": "Harper Center",
     "location": "C05",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Accounting"
+    ],
     "foundationsArea": "Financial Accounting",
     "flmbeArea": ""
   },
@@ -121,7 +133,9 @@
     "building": "Harper Center",
     "location": "C06",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Accounting"
+    ],
     "foundationsArea": "Financial Accounting",
     "flmbeArea": ""
   },
@@ -139,7 +153,9 @@
     "building": "Harper Center",
     "location": "C01",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Accounting"
+    ],
     "foundationsArea": "Financial Accounting",
     "flmbeArea": ""
   },
@@ -157,7 +173,9 @@
     "building": "Gleacher Center",
     "location": "404",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Accounting"
+    ],
     "foundationsArea": "Financial Accounting",
     "flmbeArea": ""
   },
@@ -175,7 +193,9 @@
     "building": "Harper Center",
     "location": "C03",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Accounting"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Decisions"
   },
@@ -193,7 +213,9 @@
     "building": "Harper Center",
     "location": "C03",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Accounting"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Decisions"
   },
@@ -211,7 +233,9 @@
     "building": "Gleacher Center",
     "location": "206",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Accounting"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Decisions"
   },
@@ -230,7 +254,7 @@
     "location": "C09",
     "units": 100.0,
     "concentrations": [
-      "Analytic Finance"
+      "Accounting"
     ],
     "foundationsArea": "Financial Accounting",
     "flmbeArea": ""
@@ -250,7 +274,7 @@
     "location": "C09",
     "units": 100.0,
     "concentrations": [
-      "Analytic Finance"
+      "Accounting"
     ],
     "foundationsArea": "Financial Accounting",
     "flmbeArea": ""
@@ -269,7 +293,10 @@
     "building": "Harper Center",
     "location": "C04",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Accounting",
+      "Entrepreneurship"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -287,7 +314,10 @@
     "building": "Harper Center",
     "location": "C04",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Accounting",
+      "Entrepreneurship"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -305,7 +335,10 @@
     "building": "Gleacher Center",
     "location": "406",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Accounting",
+      "Entrepreneurship"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -324,7 +357,8 @@
     "location": "C08",
     "units": 100.0,
     "concentrations": [
-      "Analytic Finance"
+      "Accounting",
+      "Finance"
     ],
     "foundationsArea": "Financial Accounting",
     "flmbeArea": ""
@@ -344,7 +378,8 @@
     "location": "306",
     "units": 100.0,
     "concentrations": [
-      "Analytic Finance"
+      "Accounting",
+      "Finance"
     ],
     "foundationsArea": "Financial Accounting",
     "flmbeArea": ""
@@ -507,7 +542,9 @@
     "building": "Harper Center",
     "location": "225",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -525,7 +562,9 @@
     "building": "Harper Center",
     "location": "225",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -543,7 +582,9 @@
     "building": "Harper Center",
     "location": "225",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -561,7 +602,9 @@
     "building": "Harper Center",
     "location": "225",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -579,7 +622,9 @@
     "building": "Harper Center",
     "location": "225",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -597,7 +642,9 @@
     "building": "Booth 455",
     "location": "140",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -615,7 +662,9 @@
     "building": "Gleacher Center",
     "location": "422",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -633,7 +682,9 @@
     "building": "",
     "location": "",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -651,7 +702,10 @@
     "building": "Harper Center",
     "location": "219",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Behavioral Science",
+      "Entrepreneurship"
+    ],
     "foundationsArea": "",
     "flmbeArea": "People"
   },
@@ -669,7 +723,10 @@
     "building": "Harper Center",
     "location": "219",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Behavioral Science",
+      "Entrepreneurship"
+    ],
     "foundationsArea": "",
     "flmbeArea": "People"
   },
@@ -705,7 +762,9 @@
     "building": "Gleacher Center",
     "location": "206",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Business, Society and Sustainability"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -723,7 +782,9 @@
     "building": "Harper Center",
     "location": "C06",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Business Analytics"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -741,7 +802,9 @@
     "building": "Harper Center",
     "location": "C07",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Economics"
+    ],
     "foundationsArea": "Microeconomics",
     "flmbeArea": ""
   },
@@ -759,7 +822,9 @@
     "building": "Harper Center",
     "location": "C07",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Economics"
+    ],
     "foundationsArea": "Microeconomics",
     "flmbeArea": ""
   },
@@ -777,7 +842,9 @@
     "building": "Harper Center",
     "location": "C07",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Economics"
+    ],
     "foundationsArea": "Microeconomics",
     "flmbeArea": ""
   },
@@ -795,7 +862,9 @@
     "building": "Harper Center",
     "location": "C07",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Economics"
+    ],
     "foundationsArea": "Microeconomics",
     "flmbeArea": ""
   },
@@ -813,7 +882,9 @@
     "building": "Harper Center",
     "location": "C08",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Economics"
+    ],
     "foundationsArea": "Microeconomics",
     "flmbeArea": ""
   },
@@ -831,7 +902,9 @@
     "building": "Harper Center",
     "location": "C08",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Economics"
+    ],
     "foundationsArea": "Microeconomics",
     "flmbeArea": ""
   },
@@ -849,7 +922,9 @@
     "building": "Harper Center",
     "location": "C08",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Economics"
+    ],
     "foundationsArea": "Microeconomics",
     "flmbeArea": ""
   },
@@ -867,7 +942,9 @@
     "building": "Gleacher Center",
     "location": "308",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Economics"
+    ],
     "foundationsArea": "Microeconomics",
     "flmbeArea": ""
   },
@@ -885,7 +962,9 @@
     "building": "Gleacher Center",
     "location": "208",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Economics"
+    ],
     "foundationsArea": "Microeconomics",
     "flmbeArea": ""
   },
@@ -903,7 +982,9 @@
     "building": "Harper Center",
     "location": "C05",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Economics"
+    ],
     "foundationsArea": "Microeconomics",
     "flmbeArea": ""
   },
@@ -921,7 +1002,9 @@
     "building": "Harper Center",
     "location": "C05",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Economics"
+    ],
     "foundationsArea": "Microeconomics",
     "flmbeArea": ""
   },
@@ -939,7 +1022,9 @@
     "building": "Gleacher Center",
     "location": "406",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Economics"
+    ],
     "foundationsArea": "Microeconomics",
     "flmbeArea": ""
   },
@@ -957,7 +1042,9 @@
     "building": "Harper Center",
     "location": "C10",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Economics"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Economy"
   },
@@ -975,7 +1062,9 @@
     "building": "Harper Center",
     "location": "C10",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Economics"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Economy"
   },
@@ -993,7 +1082,10 @@
     "building": "Harper Center",
     "location": "C01",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Economics",
+      "Strategic Management"
+    ],
     "foundationsArea": "Microeconomics",
     "flmbeArea": ""
   },
@@ -1011,7 +1103,10 @@
     "building": "Gleacher Center",
     "location": "408",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Economics",
+      "Strategic Management"
+    ],
     "foundationsArea": "Microeconomics",
     "flmbeArea": ""
   },
@@ -1029,7 +1124,9 @@
     "building": "Gleacher Center",
     "location": "206",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Healthcare"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -1047,7 +1144,9 @@
     "building": "Harper Center",
     "location": "C10",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Economics"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Economy"
   },
@@ -1065,7 +1164,9 @@
     "building": "Harper Center",
     "location": "C10",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Economics"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Economy"
   },
@@ -1083,7 +1184,10 @@
     "building": "Harper Center",
     "location": "C09",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Economics",
+      "International Business"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Economy"
   },
@@ -1101,7 +1205,10 @@
     "building": "",
     "location": "",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Economics",
+      "International Business"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Economy"
   },
@@ -1299,7 +1406,11 @@
     "building": "Harper Center",
     "location": "C07",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Analytic Finance",
+      "Entrepreneurship",
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Finance"
   },
@@ -1317,7 +1428,11 @@
     "building": "Harper Center",
     "location": "C07",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Analytic Finance",
+      "Entrepreneurship",
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Finance"
   },
@@ -1335,7 +1450,11 @@
     "building": "Harper Center",
     "location": "C07",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Analytic Finance",
+      "Entrepreneurship",
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Finance"
   },
@@ -1353,7 +1472,11 @@
     "building": "Harper Center",
     "location": "C07",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Analytic Finance",
+      "Entrepreneurship",
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Finance"
   },
@@ -1371,7 +1494,10 @@
     "building": "Harper Center",
     "location": "C09",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship",
+      "Strategic Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -1389,7 +1515,10 @@
     "building": "Gleacher Center",
     "location": "408",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship",
+      "Strategic Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -1407,7 +1536,10 @@
     "building": "Harper Center",
     "location": "C02",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship",
+      "Strategic Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -1425,7 +1557,10 @@
     "building": "Gleacher Center",
     "location": "408",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship",
+      "Strategic Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -1443,7 +1578,10 @@
     "building": "Harper Center",
     "location": "C08",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship",
+      "Strategic Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -1461,7 +1599,10 @@
     "building": "Gleacher Center",
     "location": "406",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship",
+      "Strategic Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -1479,7 +1620,9 @@
     "building": "Harper Center",
     "location": "C01",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -1497,7 +1640,9 @@
     "building": "Gleacher Center",
     "location": "206",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -1515,7 +1660,11 @@
     "building": "Harper Center",
     "location": "C04",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Business, Society and Sustainability",
+      "Entrepreneurship",
+      "Strategic Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Society"
   },
@@ -1533,7 +1682,10 @@
     "building": "Harper Center",
     "location": "C09",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship",
+      "Healthcare"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -1569,7 +1721,10 @@
     "building": "",
     "location": "",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship",
+      "Strategic Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -1587,7 +1742,9 @@
     "building": "Harper Center",
     "location": "C25",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -1605,7 +1762,9 @@
     "building": "Harper Center",
     "location": "C25",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -1623,7 +1782,9 @@
     "building": "Gleacher Center",
     "location": "208",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -1641,7 +1802,9 @@
     "building": "Harper Center",
     "location": "C06",
     "units": 50.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -1659,7 +1822,9 @@
     "building": "Gleacher Center",
     "location": "308",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -1677,7 +1842,10 @@
     "building": "Harper Center",
     "location": "C25",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship",
+      "Healthcare"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -1695,7 +1863,10 @@
     "building": "Harper Center",
     "location": "C25",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship",
+      "Healthcare"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -1713,7 +1884,10 @@
     "building": "Harper Center",
     "location": "3B",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Analytic Finance",
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Finance"
   },
@@ -1731,7 +1905,10 @@
     "building": "Harper Center",
     "location": "3B",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Analytic Finance",
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Finance"
   },
@@ -1749,7 +1926,10 @@
     "building": "Harper Center",
     "location": "3B",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Analytic Finance",
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Finance"
   },
@@ -1767,7 +1947,10 @@
     "building": "Harper Center",
     "location": "3B",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Analytic Finance",
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Finance"
   },
@@ -1785,7 +1968,10 @@
     "building": "Harper Center",
     "location": "3B",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Analytic Finance",
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Finance"
   },
@@ -1803,7 +1989,9 @@
     "building": "Harper Center",
     "location": "C09",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Finance"
   },
@@ -1821,7 +2009,9 @@
     "building": "Harper Center",
     "location": "C09",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Finance"
   },
@@ -1839,7 +2029,9 @@
     "building": "Harper Center",
     "location": "C02",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Finance"
   },
@@ -1857,7 +2049,9 @@
     "building": "Gleacher Center",
     "location": "204",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Finance"
   },
@@ -1875,7 +2069,11 @@
     "building": "Harper Center",
     "location": "C05",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Analytic Finance",
+      "Finance",
+      "Healthcare"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -1893,7 +2091,10 @@
     "building": "Gleacher Center",
     "location": "206",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Analytic Finance",
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -1911,7 +2112,12 @@
     "building": "Gleacher Center",
     "location": "206",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Analytic Finance",
+      "Applied Artificial Intelligence",
+      "Business Analytics",
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -1929,7 +2135,12 @@
     "building": "Gleacher Center",
     "location": "206",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Analytic Finance",
+      "Applied Artificial Intelligence",
+      "Business Analytics",
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -1947,7 +2158,10 @@
     "building": "Gleacher Center",
     "location": "208",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Analytic Finance",
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -1965,7 +2179,10 @@
     "building": "Gleacher Center",
     "location": "204",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Analytic Finance",
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -1983,7 +2200,10 @@
     "building": "Gleacher Center",
     "location": "206",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Analytic Finance",
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -2001,7 +2221,10 @@
     "building": "Gleacher Center",
     "location": "206",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Analytic Finance",
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -2019,7 +2242,10 @@
     "building": "Harper Center",
     "location": "C05",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Analytic Finance",
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Finance"
   },
@@ -2037,7 +2263,10 @@
     "building": "Harper Center",
     "location": "C05",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Analytic Finance",
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Finance"
   },
@@ -2055,7 +2284,10 @@
     "building": "Harper Center",
     "location": "C04",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Analytic Finance",
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Finance"
   },
@@ -2073,7 +2305,10 @@
     "building": "Harper Center",
     "location": "C01",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Analytic Finance",
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -2091,7 +2326,10 @@
     "building": "",
     "location": "",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Analytic Finance",
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -2109,7 +2347,10 @@
     "building": "Gleacher Center",
     "location": "208",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Analytic Finance",
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -2127,7 +2368,9 @@
     "building": "Harper Center",
     "location": "C25",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -2145,7 +2388,9 @@
     "building": "Harper Center",
     "location": "C25",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -2163,7 +2408,9 @@
     "building": "Harper Center",
     "location": "C25",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -2181,7 +2428,10 @@
     "building": "Gleacher Center",
     "location": "206",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Business, Society and Sustainability",
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -2199,7 +2449,9 @@
     "building": "Harper Center",
     "location": "C08",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -2217,7 +2469,9 @@
     "building": "Gleacher Center",
     "location": "208",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -2379,7 +2633,10 @@
     "building": "Harper Center",
     "location": "C07",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Business Analytics",
+      "Operations Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Decisions"
   },
@@ -2397,7 +2654,9 @@
     "building": "Harper Center",
     "location": "C04",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -2415,7 +2674,9 @@
     "building": "Gleacher Center",
     "location": "404",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -2505,7 +2766,9 @@
     "building": "Harper Center",
     "location": "C03",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Marketing Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Marketing"
   },
@@ -2523,7 +2786,9 @@
     "building": "Harper Center",
     "location": "C03",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Marketing Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Marketing"
   },
@@ -2541,7 +2806,9 @@
     "building": "Harper Center",
     "location": "C03",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Marketing Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Marketing"
   },
@@ -2559,7 +2826,9 @@
     "building": "Harper Center",
     "location": "C06",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Marketing Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Marketing"
   },
@@ -2577,7 +2846,9 @@
     "building": "Harper Center",
     "location": "C10",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Marketing Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Marketing"
   },
@@ -2595,7 +2866,9 @@
     "building": "Gleacher Center",
     "location": "306",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Business Analytics"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Marketing"
   },
@@ -2613,7 +2886,10 @@
     "building": "Harper Center",
     "location": "C03",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Business Analytics",
+      "Marketing Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Marketing"
   },
@@ -2631,7 +2907,10 @@
     "building": "Gleacher Center",
     "location": "304",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Business Analytics",
+      "Marketing Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Marketing"
   },
@@ -2649,7 +2928,9 @@
     "building": "Gleacher Center",
     "location": "406",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Marketing Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Marketing"
   },
@@ -2703,7 +2984,9 @@
     "building": "Gleacher Center",
     "location": "406",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Marketing Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Marketing"
   },
@@ -2775,7 +3058,9 @@
     "building": "Harper Center",
     "location": "C08",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Behavioral Science"
+    ],
     "foundationsArea": "",
     "flmbeArea": "People"
   },
@@ -2793,7 +3078,9 @@
     "building": "Harper Center",
     "location": "C08",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Behavioral Science"
+    ],
     "foundationsArea": "",
     "flmbeArea": "People"
   },
@@ -2811,7 +3098,9 @@
     "building": "Gleacher Center",
     "location": "208",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Behavioral Science"
+    ],
     "foundationsArea": "",
     "flmbeArea": "People"
   },
@@ -2829,7 +3118,9 @@
     "building": "Harper Center",
     "location": "C04",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Behavioral Science"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Decisions"
   },
@@ -2847,7 +3138,9 @@
     "building": "Gleacher Center",
     "location": "404",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Behavioral Science"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Decisions"
   },
@@ -2865,7 +3158,9 @@
     "building": "Harper Center",
     "location": "C05",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Behavioral Science"
+    ],
     "foundationsArea": "",
     "flmbeArea": "People"
   },
@@ -2883,7 +3178,9 @@
     "building": "Gleacher Center",
     "location": "404",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Behavioral Science"
+    ],
     "foundationsArea": "",
     "flmbeArea": "People"
   },
@@ -2901,7 +3198,9 @@
     "building": "Harper Center",
     "location": "C25",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Behavioral Science"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -2919,7 +3218,9 @@
     "building": "Harper Center",
     "location": "C07",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Behavioral Science"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -2937,7 +3238,9 @@
     "building": "Booth 455",
     "location": "130",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Behavioral Science"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -2955,7 +3258,10 @@
     "building": "Gleacher Center",
     "location": "304",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Behavioral Science",
+      "Business, Society and Sustainability"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Society"
   },
@@ -2973,7 +3279,10 @@
     "building": "Harper Center",
     "location": "C04",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Behavioral Science",
+      "Economics"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Decisions"
   },
@@ -2991,7 +3300,10 @@
     "building": "Harper Center",
     "location": "C04",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Behavioral Science",
+      "Economics"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Decisions"
   },
@@ -3009,7 +3321,10 @@
     "building": "Gleacher Center",
     "location": "406",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Behavioral Science",
+      "Economics"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Decisions"
   },
@@ -3135,7 +3450,10 @@
     "building": "Harper Center",
     "location": "C01",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship",
+      "Strategic Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Strategy"
   },
@@ -3153,7 +3471,10 @@
     "building": "Gleacher Center",
     "location": "304",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship",
+      "Strategic Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Strategy"
   },
@@ -3171,7 +3492,9 @@
     "building": "Harper Center",
     "location": "C02",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Operations Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Operations"
   },
@@ -3189,7 +3512,9 @@
     "building": "Harper Center",
     "location": "C09",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Operations Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Operations"
   },
@@ -3207,7 +3532,9 @@
     "building": "Gleacher Center",
     "location": "308",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Operations Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Operations"
   },
@@ -3243,7 +3570,9 @@
     "building": "Harper Center",
     "location": "C09",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Econometrics and Statistics"
+    ],
     "foundationsArea": "Statistics",
     "flmbeArea": ""
   },
@@ -3261,7 +3590,9 @@
     "building": "Harper Center",
     "location": "C09",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Econometrics and Statistics"
+    ],
     "foundationsArea": "Statistics",
     "flmbeArea": ""
   },
@@ -3279,7 +3610,9 @@
     "building": "Harper Center",
     "location": "C06",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Econometrics and Statistics"
+    ],
     "foundationsArea": "Statistics",
     "flmbeArea": ""
   },
@@ -3297,7 +3630,9 @@
     "building": "Harper Center",
     "location": "C06",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Econometrics and Statistics"
+    ],
     "foundationsArea": "Statistics",
     "flmbeArea": ""
   },
@@ -3315,7 +3650,9 @@
     "building": "Harper Center",
     "location": "C06",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Econometrics and Statistics"
+    ],
     "foundationsArea": "Statistics",
     "flmbeArea": ""
   },
@@ -3333,7 +3670,9 @@
     "building": "Gleacher Center",
     "location": "304",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Econometrics and Statistics"
+    ],
     "foundationsArea": "Statistics",
     "flmbeArea": ""
   },
@@ -3351,7 +3690,9 @@
     "building": "Gleacher Center",
     "location": "304",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Econometrics and Statistics"
+    ],
     "foundationsArea": "Statistics",
     "flmbeArea": ""
   },
@@ -3369,7 +3710,9 @@
     "building": "Harper Center",
     "location": "C08",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Econometrics and Statistics"
+    ],
     "foundationsArea": "Statistics",
     "flmbeArea": ""
   },
@@ -3387,7 +3730,9 @@
     "building": "Harper Center",
     "location": "C08",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Econometrics and Statistics"
+    ],
     "foundationsArea": "Statistics",
     "flmbeArea": ""
   },
@@ -3441,7 +3786,9 @@
     "building": "Harper Center",
     "location": "C09",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Econometrics and Statistics"
+    ],
     "foundationsArea": "Statistics",
     "flmbeArea": ""
   },
@@ -3477,7 +3824,10 @@
     "building": "Harper Center",
     "location": "C06",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Economics",
+      "Strategic Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Strategy"
   },
@@ -3495,7 +3845,10 @@
     "building": "Harper Center",
     "location": "C10",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Economics",
+      "Strategic Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Strategy"
   },
@@ -3513,7 +3866,10 @@
     "building": "Harper Center",
     "location": "C10",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Economics",
+      "Strategic Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Strategy"
   },
@@ -3531,7 +3887,10 @@
     "building": "",
     "location": "",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Economics",
+      "Strategic Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Strategy"
   },
@@ -3549,7 +3908,10 @@
     "building": "Gleacher Center",
     "location": "308",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Economics",
+      "Strategic Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Strategy"
   },
@@ -3567,7 +3929,10 @@
     "building": "Harper Center",
     "location": "C01",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Economics",
+      "Strategic Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Strategy"
   },
@@ -3585,7 +3950,10 @@
     "building": "Gleacher Center",
     "location": "306",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Economics",
+      "Strategic Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Strategy"
   },
@@ -3603,7 +3971,9 @@
     "building": "Gleacher Center",
     "location": "200",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Strategic Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -3621,7 +3991,9 @@
     "building": "Harper Center",
     "location": "C10",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Strategic Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -3639,7 +4011,9 @@
     "building": "Gleacher Center",
     "location": "306",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Strategic Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -3657,7 +4031,9 @@
     "building": "Gleacher Center",
     "location": "306",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Strategic Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -3675,7 +4051,9 @@
     "building": "Harper Center",
     "location": "C02",
     "units": 50.0,
-    "concentrations": [],
+    "concentrations": [
+      "Strategic Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -3711,7 +4089,10 @@
     "building": "Harper Center",
     "location": "C09",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Applied Artificial Intelligence",
+      "Business Analytics"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -3729,7 +4110,10 @@
     "building": "Harper Center",
     "location": "C25",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Applied Artificial Intelligence",
+      "Business Analytics"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -3747,7 +4131,10 @@
     "building": "Gleacher Center",
     "location": "308",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Applied Artificial Intelligence",
+      "Business Analytics"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -3765,7 +4152,10 @@
     "building": "Harper Center",
     "location": "C02",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Applied Artificial Intelligence",
+      "Entrepreneurship"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -3783,7 +4173,10 @@
     "building": "Gleacher Center",
     "location": "306",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Applied Artificial Intelligence",
+      "Entrepreneurship"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -3819,7 +4212,9 @@
     "building": "Gleacher Center",
     "location": "206",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Accounting"
+    ],
     "foundationsArea": "Financial Accounting",
     "flmbeArea": ""
   },
@@ -3837,7 +4232,9 @@
     "building": "Gleacher Center",
     "location": "206",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Accounting"
+    ],
     "foundationsArea": "Financial Accounting",
     "flmbeArea": ""
   },
@@ -3855,7 +4252,9 @@
     "building": "Harper Center",
     "location": "C07",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Accounting"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Decisions"
   },
@@ -3873,7 +4272,10 @@
     "building": "Harper Center",
     "location": "C08",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Accounting",
+      "Entrepreneurship"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -3891,7 +4293,10 @@
     "building": "Harper Center",
     "location": "C08",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Accounting",
+      "Entrepreneurship"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -3909,7 +4314,10 @@
     "building": "Gleacher Center",
     "location": "404",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Accounting",
+      "Entrepreneurship"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -3927,7 +4335,10 @@
     "building": "Harper Center",
     "location": "C10",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Accounting",
+      "Entrepreneurship"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -3945,7 +4356,10 @@
     "building": "Harper Center",
     "location": "C10",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Accounting",
+      "Entrepreneurship"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -3963,7 +4377,10 @@
     "building": "Gleacher Center",
     "location": "308",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Accounting",
+      "Entrepreneurship"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -3981,7 +4398,9 @@
     "building": "Harper Center",
     "location": "C08",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Accounting"
+    ],
     "foundationsArea": "Financial Accounting",
     "flmbeArea": ""
   },
@@ -4000,7 +4419,8 @@
     "location": "C02",
     "units": 100.0,
     "concentrations": [
-      "Analytic Finance"
+      "Accounting",
+      "Finance"
     ],
     "foundationsArea": "Financial Accounting",
     "flmbeArea": ""
@@ -4020,7 +4440,8 @@
     "location": "C09",
     "units": 100.0,
     "concentrations": [
-      "Analytic Finance"
+      "Accounting",
+      "Finance"
     ],
     "foundationsArea": "Financial Accounting",
     "flmbeArea": ""
@@ -4040,7 +4461,8 @@
     "location": "306",
     "units": 100.0,
     "concentrations": [
-      "Analytic Finance"
+      "Accounting",
+      "Finance"
     ],
     "foundationsArea": "Financial Accounting",
     "flmbeArea": ""
@@ -4059,7 +4481,11 @@
     "building": "Harper Center",
     "location": "C10",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Accounting",
+      "Finance",
+      "International Business"
+    ],
     "foundationsArea": "Financial Accounting",
     "flmbeArea": ""
   },
@@ -4077,7 +4503,11 @@
     "building": "Harper Center",
     "location": "C10",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Accounting",
+      "Finance",
+      "International Business"
+    ],
     "foundationsArea": "Financial Accounting",
     "flmbeArea": ""
   },
@@ -4095,7 +4525,11 @@
     "building": "Gleacher Center",
     "location": "208",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Accounting",
+      "Finance",
+      "International Business"
+    ],
     "foundationsArea": "Financial Accounting",
     "flmbeArea": ""
   },
@@ -4221,7 +4655,9 @@
     "building": "Harper Center",
     "location": "225",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -4239,7 +4675,9 @@
     "building": "Harper Center",
     "location": "225",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -4257,7 +4695,9 @@
     "building": "Harper Center",
     "location": "225",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -4275,7 +4715,9 @@
     "building": "Harper Center",
     "location": "225",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -4293,7 +4735,9 @@
     "building": "Harper Center",
     "location": "225",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -4311,7 +4755,9 @@
     "building": "Booth 455",
     "location": "140",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -4329,7 +4775,9 @@
     "building": "Booth 455",
     "location": "140",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -4347,7 +4795,9 @@
     "building": "Gleacher Center",
     "location": "422",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -4365,7 +4815,9 @@
     "building": "Booth 455",
     "location": "140",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -4383,7 +4835,9 @@
     "building": "Booth 455",
     "location": "140",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -4401,7 +4855,10 @@
     "building": "Harper Center",
     "location": "219",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Behavioral Science",
+      "Entrepreneurship"
+    ],
     "foundationsArea": "",
     "flmbeArea": "People"
   },
@@ -4419,7 +4876,10 @@
     "building": "Harper Center",
     "location": "219",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Behavioral Science",
+      "Entrepreneurship"
+    ],
     "foundationsArea": "",
     "flmbeArea": "People"
   },
@@ -4437,7 +4897,10 @@
     "building": "Booth 455",
     "location": "140",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Behavioral Science",
+      "Entrepreneurship"
+    ],
     "foundationsArea": "",
     "flmbeArea": "People"
   },
@@ -4455,7 +4918,10 @@
     "building": "Booth 455",
     "location": "140",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Behavioral Science",
+      "Entrepreneurship"
+    ],
     "foundationsArea": "",
     "flmbeArea": "People"
   },
@@ -4509,7 +4975,9 @@
     "building": "Harper Center",
     "location": "C10",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Behavioral Science"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -4527,7 +4995,9 @@
     "building": "Harper Center",
     "location": "C07",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Business Analytics"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -4545,7 +5015,9 @@
     "building": "Harper Center",
     "location": "C07",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Business Analytics"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -4563,7 +5035,9 @@
     "building": "Harper Center",
     "location": "C25",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Applied Artificial Intelligence"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -4581,7 +5055,9 @@
     "building": "Gleacher Center",
     "location": "308",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Applied Artificial Intelligence"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -4599,7 +5075,9 @@
     "building": "Harper Center",
     "location": "C09",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Economics"
+    ],
     "foundationsArea": "Microeconomics",
     "flmbeArea": ""
   },
@@ -4617,7 +5095,9 @@
     "building": "Gleacher Center",
     "location": "206",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Economics"
+    ],
     "foundationsArea": "Microeconomics",
     "flmbeArea": ""
   },
@@ -4635,7 +5115,9 @@
     "building": "Harper Center",
     "location": "C05",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Economics"
+    ],
     "foundationsArea": "",
     "flmbeArea": "People"
   },
@@ -4653,7 +5135,9 @@
     "building": "Harper Center",
     "location": "C05",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Economics"
+    ],
     "foundationsArea": "",
     "flmbeArea": "People"
   },
@@ -4671,7 +5155,9 @@
     "building": "Gleacher Center",
     "location": "306",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Economics"
+    ],
     "foundationsArea": "",
     "flmbeArea": "People"
   },
@@ -4689,7 +5175,9 @@
     "building": "Harper Center",
     "location": "C09",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Economics"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Economy"
   },
@@ -4707,7 +5195,10 @@
     "building": "Harper Center",
     "location": "C25",
     "units": 0.0,
-    "concentrations": [],
+    "concentrations": [
+      "Business, Society and Sustainability",
+      "Economics"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Society"
   },
@@ -4725,7 +5216,10 @@
     "building": "",
     "location": "",
     "units": 0.0,
-    "concentrations": [],
+    "concentrations": [
+      "Business, Society and Sustainability",
+      "Economics"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Society"
   },
@@ -4743,7 +5237,10 @@
     "building": "Harper Center",
     "location": "3A",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Business, Society and Sustainability",
+      "Economics"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Society"
   },
@@ -4761,7 +5258,10 @@
     "building": "Harper Center",
     "location": "3SW",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Business, Society and Sustainability",
+      "Economics"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Society"
   },
@@ -4779,7 +5279,10 @@
     "building": "Harper Center",
     "location": "223",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Business, Society and Sustainability",
+      "Economics"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Society"
   },
@@ -4797,7 +5300,10 @@
     "building": "Harper Center",
     "location": "223",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Business, Society and Sustainability",
+      "Economics"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Society"
   },
@@ -4815,7 +5321,10 @@
     "building": "Harper Center",
     "location": "223",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Business, Society and Sustainability",
+      "Economics"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Society"
   },
@@ -4833,7 +5342,10 @@
     "building": "Harper Center",
     "location": "207DN",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Business, Society and Sustainability",
+      "Economics"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Society"
   },
@@ -4851,7 +5363,10 @@
     "building": "Harper Center",
     "location": "3SW",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Business, Society and Sustainability",
+      "Economics"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Society"
   },
@@ -4869,7 +5384,10 @@
     "building": "Harper Center",
     "location": "223",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Business, Society and Sustainability",
+      "Economics"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Society"
   },
@@ -4887,7 +5405,10 @@
     "building": "Harper Center",
     "location": "223",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Business, Society and Sustainability",
+      "Economics"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Society"
   },
@@ -4905,7 +5426,10 @@
     "building": "Harper Center",
     "location": "223",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Business, Society and Sustainability",
+      "Economics"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Society"
   },
@@ -4923,7 +5447,10 @@
     "building": "",
     "location": "",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Business, Society and Sustainability",
+      "Economics"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Society"
   },
@@ -4941,7 +5468,10 @@
     "building": "",
     "location": "",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Business, Society and Sustainability",
+      "Economics"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Society"
   },
@@ -4959,7 +5489,10 @@
     "building": "",
     "location": "",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Business, Society and Sustainability",
+      "Economics"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Society"
   },
@@ -4977,7 +5510,10 @@
     "building": "Harper Center",
     "location": "C05",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Business, Society and Sustainability",
+      "Economics"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Society"
   },
@@ -4995,7 +5531,10 @@
     "building": "Harper Center",
     "location": "C05",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Business, Society and Sustainability",
+      "Economics"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Society"
   },
@@ -5013,7 +5552,10 @@
     "building": "Gleacher Center",
     "location": "308",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Business, Society and Sustainability",
+      "Economics"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Society"
   },
@@ -5031,7 +5573,9 @@
     "building": "Gleacher Center",
     "location": "208",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Economics"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -5049,7 +5593,9 @@
     "building": "Gleacher Center",
     "location": "208",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Economics"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -5067,7 +5613,10 @@
     "building": "Harper Center",
     "location": "C03",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Economics",
+      "Healthcare"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -5085,7 +5634,10 @@
     "building": "",
     "location": "",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Economics",
+      "Healthcare"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -5103,7 +5655,9 @@
     "building": "Gleacher Center",
     "location": "306",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Healthcare"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -5121,7 +5675,9 @@
     "building": "Harper Center",
     "location": "C02",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Economics"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Economy"
   },
@@ -5139,7 +5695,9 @@
     "building": "Harper Center",
     "location": "C02",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Economics"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Economy"
   },
@@ -5157,7 +5715,9 @@
     "building": "Gleacher Center",
     "location": "306",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Economics"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Economy"
   },
@@ -5175,7 +5735,9 @@
     "building": "Gleacher Center",
     "location": "308",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -5193,7 +5755,9 @@
     "building": "Harper Center",
     "location": "C08",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Business, Society and Sustainability"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Society"
   },
@@ -5211,7 +5775,11 @@
     "building": "Harper Center",
     "location": "C02",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Economics",
+      "International Business",
+      "Strategic Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Economy"
   },
@@ -5229,7 +5797,11 @@
     "building": "Gleacher Center",
     "location": "408",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Economics",
+      "International Business",
+      "Strategic Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Economy"
   },
@@ -5553,7 +6125,11 @@
     "building": "Harper Center",
     "location": "C08",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Analytic Finance",
+      "Entrepreneurship",
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Finance"
   },
@@ -5571,7 +6147,11 @@
     "building": "Gleacher Center",
     "location": "204",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Analytic Finance",
+      "Entrepreneurship",
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Finance"
   },
@@ -5589,7 +6169,10 @@
     "building": "Harper Center",
     "location": "C05",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship",
+      "Strategic Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -5607,7 +6190,10 @@
     "building": "Harper Center",
     "location": "C25",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship",
+      "Strategic Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -5625,7 +6211,10 @@
     "building": "Harper Center",
     "location": "C25",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship",
+      "Strategic Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -5643,7 +6232,10 @@
     "building": "Gleacher Center",
     "location": "208",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship",
+      "Strategic Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -5661,7 +6253,10 @@
     "building": "Harper Center",
     "location": "C08",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship",
+      "Healthcare"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -5679,7 +6274,10 @@
     "building": "Gleacher Center",
     "location": "408",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship",
+      "Healthcare"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -5697,7 +6295,10 @@
     "building": "Harper Center",
     "location": "C08",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship",
+      "Strategic Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -5715,7 +6316,10 @@
     "building": "Gleacher Center",
     "location": "408",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship",
+      "Strategic Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -5733,7 +6337,9 @@
     "building": "Harper Center",
     "location": "C25",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -5751,7 +6357,9 @@
     "building": "Gleacher Center",
     "location": "204",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -5769,7 +6377,10 @@
     "building": "Harper Center",
     "location": "C07",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Business, Society and Sustainability",
+      "Entrepreneurship"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Society"
   },
@@ -5787,7 +6398,10 @@
     "building": "Gleacher Center",
     "location": "306",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Business, Society and Sustainability",
+      "Entrepreneurship"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Society"
   },
@@ -5805,7 +6419,9 @@
     "building": "Gleacher Center",
     "location": "200",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -5823,7 +6439,9 @@
     "building": "Gleacher Center",
     "location": "200",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -5841,7 +6459,9 @@
     "building": "Harper Center",
     "location": "3B",
     "units": 50.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -5859,7 +6479,9 @@
     "building": "Harper Center",
     "location": "C08",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -5877,7 +6499,10 @@
     "building": "",
     "location": "",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship",
+      "Strategic Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -5895,7 +6520,9 @@
     "building": "Harper Center",
     "location": "C07",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -5913,7 +6540,9 @@
     "building": "Harper Center",
     "location": "C07",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -5931,7 +6560,10 @@
     "building": "Gleacher Center",
     "location": "400",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship",
+      "Healthcare"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -5949,7 +6581,10 @@
     "building": "Gleacher Center",
     "location": "404",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship",
+      "Healthcare"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -5967,7 +6602,9 @@
     "building": "Harper Center",
     "location": "C09",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Business, Society and Sustainability"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -5985,7 +6622,9 @@
     "building": "",
     "location": "",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Analytic Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -6003,7 +6642,10 @@
     "building": "Harper Center",
     "location": "3B",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Analytic Finance",
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -6021,7 +6663,9 @@
     "building": "Harper Center",
     "location": "C09",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Finance"
   },
@@ -6039,7 +6683,9 @@
     "building": "Harper Center",
     "location": "C09",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Finance"
   },
@@ -6057,7 +6703,9 @@
     "building": "Harper Center",
     "location": "C09",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Finance"
   },
@@ -6075,7 +6723,9 @@
     "building": "",
     "location": "",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Finance"
   },
@@ -6093,7 +6743,10 @@
     "building": "Harper Center",
     "location": "C01",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Analytic Finance",
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Finance"
   },
@@ -6111,7 +6764,10 @@
     "building": "Harper Center",
     "location": "C01",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Analytic Finance",
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Finance"
   },
@@ -6129,7 +6785,10 @@
     "building": "Gleacher Center",
     "location": "308",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Analytic Finance",
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Finance"
   },
@@ -6147,7 +6806,10 @@
     "building": "Gleacher Center",
     "location": "206",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Analytic Finance",
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Finance"
   },
@@ -6165,7 +6827,9 @@
     "building": "Gleacher Center",
     "location": "200",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -6183,7 +6847,9 @@
     "building": "Gleacher Center",
     "location": "200",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -6201,7 +6867,10 @@
     "building": "Harper Center",
     "location": "C04",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Analytic Finance",
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Finance"
   },
@@ -6219,7 +6888,10 @@
     "building": "Gleacher Center",
     "location": "208",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Analytic Finance",
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Finance"
   },
@@ -6237,7 +6909,9 @@
     "building": "Harper Center",
     "location": "C04",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -6255,7 +6929,9 @@
     "building": "Harper Center",
     "location": "C04",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -6273,7 +6949,10 @@
     "building": "Harper Center",
     "location": "C03",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Analytic Finance",
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Finance"
   },
@@ -6291,7 +6970,10 @@
     "building": "Harper Center",
     "location": "C03",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Analytic Finance",
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Finance"
   },
@@ -6309,7 +6991,10 @@
     "building": "Harper Center",
     "location": "C07",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Analytic Finance",
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Finance"
   },
@@ -6327,7 +7012,10 @@
     "building": "Gleacher Center",
     "location": "404",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Analytic Finance",
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Finance"
   },
@@ -6345,7 +7033,10 @@
     "building": "Harper Center",
     "location": "C04",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Analytic Finance",
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Finance"
   },
@@ -6363,7 +7054,10 @@
     "building": "Harper Center",
     "location": "C04",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Analytic Finance",
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Finance"
   },
@@ -6381,7 +7075,10 @@
     "building": "Gleacher Center",
     "location": "204",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Analytic Finance",
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Finance"
   },
@@ -6399,7 +7096,10 @@
     "building": "",
     "location": "",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Analytic Finance",
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Finance"
   },
@@ -6417,7 +7117,12 @@
     "building": "Harper Center",
     "location": "C10",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Analytic Finance",
+      "Entrepreneurship",
+      "Finance",
+      "International Business"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -6435,7 +7140,10 @@
     "building": "Harper Center",
     "location": "C03",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Analytic Finance",
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Finance"
   },
@@ -6453,7 +7161,10 @@
     "building": "Gleacher Center",
     "location": "408",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Analytic Finance",
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Finance"
   },
@@ -6543,7 +7254,10 @@
     "building": "",
     "location": "",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Analytic Finance",
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -6633,7 +7347,10 @@
     "building": "Harper Center",
     "location": "C01",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Business Analytics",
+      "Operations Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Decisions"
   },
@@ -6651,7 +7368,10 @@
     "building": "Harper Center",
     "location": "C01",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Business Analytics",
+      "Operations Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Decisions"
   },
@@ -6669,7 +7389,9 @@
     "building": "Harper Center",
     "location": "C01",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -6687,7 +7409,9 @@
     "building": "Gleacher Center",
     "location": "406",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -6777,7 +7501,9 @@
     "building": "Harper Center",
     "location": "C03",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Marketing Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Marketing"
   },
@@ -6795,7 +7521,9 @@
     "building": "Harper Center",
     "location": "C03",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Marketing Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Marketing"
   },
@@ -6813,7 +7541,9 @@
     "building": "Gleacher Center",
     "location": "406",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Marketing Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Marketing"
   },
@@ -6831,7 +7561,9 @@
     "building": "Harper Center",
     "location": "C05",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Marketing Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Marketing"
   },
@@ -6849,7 +7581,9 @@
     "building": "Harper Center",
     "location": "C05",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Marketing Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Marketing"
   },
@@ -6867,7 +7601,9 @@
     "building": "Gleacher Center",
     "location": "208",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Marketing Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Marketing"
   },
@@ -6885,7 +7621,9 @@
     "building": "Gleacher Center",
     "location": "208",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Marketing Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Marketing"
   },
@@ -6903,7 +7641,12 @@
     "building": "Gleacher Center",
     "location": "30",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship",
+      "Healthcare",
+      "Marketing Management",
+      "Strategic Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Marketing"
   },
@@ -6921,7 +7664,12 @@
     "building": "Gleacher Center",
     "location": "204",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship",
+      "Healthcare",
+      "Marketing Management",
+      "Strategic Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Marketing"
   },
@@ -6939,7 +7687,9 @@
     "building": "",
     "location": "",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Marketing Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Marketing"
   },
@@ -6957,7 +7707,9 @@
     "building": "Gleacher Center",
     "location": "408",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Marketing Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Marketing"
   },
@@ -6975,7 +7727,9 @@
     "building": "Harper Center",
     "location": "C02",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Marketing Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -6993,7 +7747,9 @@
     "building": "Harper Center",
     "location": "C02",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Marketing Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -7011,7 +7767,9 @@
     "building": "Gleacher Center",
     "location": "208",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Marketing Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -7029,7 +7787,9 @@
     "building": "Gleacher Center",
     "location": "208",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Marketing Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -7137,7 +7897,9 @@
     "building": "Harper Center",
     "location": "C02",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Behavioral Science"
+    ],
     "foundationsArea": "",
     "flmbeArea": "People"
   },
@@ -7155,7 +7917,9 @@
     "building": "Gleacher Center",
     "location": "206",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Behavioral Science"
+    ],
     "foundationsArea": "",
     "flmbeArea": "People"
   },
@@ -7173,7 +7937,9 @@
     "building": "Harper Center",
     "location": "C06",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Behavioral Science"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Decisions"
   },
@@ -7191,7 +7957,9 @@
     "building": "Harper Center",
     "location": "C06",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Behavioral Science"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Decisions"
   },
@@ -7209,7 +7977,9 @@
     "building": "Gleacher Center",
     "location": "404",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Behavioral Science"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Decisions"
   },
@@ -7227,7 +7997,9 @@
     "building": "Harper Center",
     "location": "C10",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Behavioral Science"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -7245,7 +8017,9 @@
     "building": "Harper Center",
     "location": "C10",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Behavioral Science"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -7263,7 +8037,9 @@
     "building": "Harper Center",
     "location": "C10",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Behavioral Science"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -7281,7 +8057,9 @@
     "building": "Gleacher Center",
     "location": "206",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Behavioral Science"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -7299,7 +8077,9 @@
     "building": "Gleacher Center",
     "location": "206",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Behavioral Science"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -7317,7 +8097,9 @@
     "building": "Harper Center",
     "location": "C01",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Behavioral Science"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -7335,7 +8117,9 @@
     "building": "Harper Center",
     "location": "C01",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Behavioral Science"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -7443,7 +8227,10 @@
     "building": "Harper Center",
     "location": "C01",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship",
+      "Strategic Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Strategy"
   },
@@ -7461,7 +8248,10 @@
     "building": "Gleacher Center",
     "location": "308",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship",
+      "Strategic Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Strategy"
   },
@@ -7479,7 +8269,9 @@
     "building": "Harper Center",
     "location": "C06",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Operations Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Operations"
   },
@@ -7497,7 +8289,9 @@
     "building": "Harper Center",
     "location": "C06",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Operations Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Operations"
   },
@@ -7515,7 +8309,9 @@
     "building": "Harper Center",
     "location": "C06",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Operations Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Operations"
   },
@@ -7533,7 +8329,10 @@
     "building": "Gleacher Center",
     "location": "208",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Business Analytics",
+      "Operations Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Operations"
   },
@@ -7551,7 +8350,10 @@
     "building": "Harper Center",
     "location": "C05",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship",
+      "Operations Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Operations"
   },
@@ -7569,7 +8371,10 @@
     "building": "Gleacher Center",
     "location": "404",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship",
+      "Operations Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Operations"
   },
@@ -7587,7 +8392,9 @@
     "building": "Gleacher Center",
     "location": "204",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Econometrics and Statistics"
+    ],
     "foundationsArea": "Statistics",
     "flmbeArea": ""
   },
@@ -7605,7 +8412,9 @@
     "building": "Gleacher Center",
     "location": "204",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Econometrics and Statistics"
+    ],
     "foundationsArea": "Statistics",
     "flmbeArea": ""
   },
@@ -7623,7 +8432,10 @@
     "building": "Harper Center",
     "location": "C06",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Business Analytics",
+      "Econometrics and Statistics"
+    ],
     "foundationsArea": "Statistics",
     "flmbeArea": ""
   },
@@ -7641,7 +8453,10 @@
     "building": "Harper Center",
     "location": "C25",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Business Analytics",
+      "Econometrics and Statistics"
+    ],
     "foundationsArea": "Statistics",
     "flmbeArea": ""
   },
@@ -7659,7 +8474,10 @@
     "building": "Gleacher Center",
     "location": "406",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Business Analytics",
+      "Econometrics and Statistics"
+    ],
     "foundationsArea": "Statistics",
     "flmbeArea": ""
   },
@@ -7713,7 +8531,9 @@
     "building": "Harper Center",
     "location": "3B",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Econometrics and Statistics"
+    ],
     "foundationsArea": "Statistics",
     "flmbeArea": ""
   },
@@ -7731,7 +8551,9 @@
     "building": "Harper Center",
     "location": "3B",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Econometrics and Statistics"
+    ],
     "foundationsArea": "Statistics",
     "flmbeArea": ""
   },
@@ -7767,7 +8589,10 @@
     "building": "Harper Center",
     "location": "C04",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Economics",
+      "Strategic Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Strategy"
   },
@@ -7785,7 +8610,10 @@
     "building": "Harper Center",
     "location": "C04",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Economics",
+      "Strategic Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Strategy"
   },
@@ -7803,7 +8631,10 @@
     "building": "Gleacher Center",
     "location": "406",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Economics",
+      "Strategic Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Strategy"
   },
@@ -7839,7 +8670,9 @@
     "building": "Harper Center",
     "location": "C04",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Strategic Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -7857,7 +8690,9 @@
     "building": "Gleacher Center",
     "location": "204",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Strategic Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -7875,7 +8710,9 @@
     "building": "Gleacher Center",
     "location": "204",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Strategic Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -7893,7 +8730,10 @@
     "building": "Harper Center",
     "location": "C02",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Economics",
+      "Strategic Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Strategy"
   },
@@ -7911,7 +8751,10 @@
     "building": "Gleacher Center",
     "location": "208",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Economics",
+      "Strategic Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Strategy"
   },
@@ -7929,7 +8772,10 @@
     "building": "Harper Center",
     "location": "C09",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Business, Society and Sustainability",
+      "Strategic Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Society"
   },
@@ -7947,7 +8793,10 @@
     "building": "Gleacher Center",
     "location": "204",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Healthcare",
+      "Strategic Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -7965,7 +8814,11 @@
     "building": "Harper Center",
     "location": "C07",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Business, Society and Sustainability",
+      "Entrepreneurship",
+      "Strategic Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -7983,7 +8836,9 @@
     "building": "Harper Center",
     "location": "219",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Strategic Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -8001,7 +8856,10 @@
     "building": "Harper Center",
     "location": "C10",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Applied Artificial Intelligence",
+      "Business Analytics"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -8019,7 +8877,10 @@
     "building": "Gleacher Center",
     "location": "208",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Applied Artificial Intelligence",
+      "Business Analytics"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -8037,7 +8898,10 @@
     "building": "Harper Center",
     "location": "C06",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Applied Artificial Intelligence",
+      "Business, Society and Sustainability"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -8055,7 +8919,9 @@
     "building": "Harper Center",
     "location": "C05",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Accounting"
+    ],
     "foundationsArea": "Financial Accounting",
     "flmbeArea": ""
   },
@@ -8073,7 +8939,9 @@
     "building": "Harper Center",
     "location": "C09",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Accounting"
+    ],
     "foundationsArea": "Financial Accounting",
     "flmbeArea": ""
   },
@@ -8091,7 +8959,9 @@
     "building": "Gleacher Center",
     "location": "408",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Accounting"
+    ],
     "foundationsArea": "Financial Accounting",
     "flmbeArea": ""
   },
@@ -8109,7 +8979,9 @@
     "building": "Gleacher Center",
     "location": "206",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Accounting"
+    ],
     "foundationsArea": "Financial Accounting",
     "flmbeArea": ""
   },
@@ -8127,7 +8999,9 @@
     "building": "Harper Center",
     "location": "C07",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Accounting"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Decisions"
   },
@@ -8145,7 +9019,9 @@
     "building": "Harper Center",
     "location": "C07",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Accounting"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Decisions"
   },
@@ -8163,7 +9039,9 @@
     "building": "Gleacher Center",
     "location": "304",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Accounting"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Decisions"
   },
@@ -8181,7 +9059,10 @@
     "building": "Harper Center",
     "location": "C09",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Accounting",
+      "Entrepreneurship"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -8200,7 +9081,8 @@
     "location": "C02",
     "units": 100.0,
     "concentrations": [
-      "Analytic Finance"
+      "Accounting",
+      "Finance"
     ],
     "foundationsArea": "Financial Accounting",
     "flmbeArea": ""
@@ -8220,7 +9102,8 @@
     "location": "304",
     "units": 100.0,
     "concentrations": [
-      "Analytic Finance"
+      "Accounting",
+      "Finance"
     ],
     "foundationsArea": "Financial Accounting",
     "flmbeArea": ""
@@ -8240,7 +9123,8 @@
     "location": "304",
     "units": 100.0,
     "concentrations": [
-      "Analytic Finance"
+      "Accounting",
+      "Finance"
     ],
     "foundationsArea": "Financial Accounting",
     "flmbeArea": ""
@@ -8259,7 +9143,10 @@
     "building": "Harper Center",
     "location": "C04",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Accounting",
+      "Business, Society and Sustainability"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Society"
   },
@@ -8277,7 +9164,10 @@
     "building": "Gleacher Center",
     "location": "204",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Accounting",
+      "Business, Society and Sustainability"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Society"
   },
@@ -8295,7 +9185,10 @@
     "building": "Gleacher Center",
     "location": "204",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Accounting",
+      "Business, Society and Sustainability"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Society"
   },
@@ -8313,7 +9206,10 @@
     "building": "Harper Center",
     "location": "C08",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Accounting",
+      "Applied Artificial Intelligence"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -8331,7 +9227,10 @@
     "building": "Harper Center",
     "location": "C08",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Accounting",
+      "Applied Artificial Intelligence"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -8349,7 +9248,10 @@
     "building": "Gleacher Center",
     "location": "304",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Accounting",
+      "Applied Artificial Intelligence"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -8475,7 +9377,9 @@
     "building": "Harper Center",
     "location": "225",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -8493,7 +9397,9 @@
     "building": "Harper Center",
     "location": "225",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -8511,7 +9417,9 @@
     "building": "Harper Center",
     "location": "225",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -8529,7 +9437,9 @@
     "building": "Harper Center",
     "location": "225",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -8547,7 +9457,9 @@
     "building": "Harper Center",
     "location": "225",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -8565,7 +9477,9 @@
     "building": "Booth 455",
     "location": "140",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -8583,7 +9497,9 @@
     "building": "Gleacher Center",
     "location": "422",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -8601,7 +9517,9 @@
     "building": "",
     "location": "",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -8619,7 +9537,9 @@
     "building": "Gleacher Center",
     "location": "422",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -8655,7 +9575,9 @@
     "building": "Gleacher Center",
     "location": "208",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Business Analytics"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -8673,7 +9595,9 @@
     "building": "Gleacher Center",
     "location": "208",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Business Analytics"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -8691,7 +9615,9 @@
     "building": "Harper Center",
     "location": "C03",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Applied Artificial Intelligence"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -8709,7 +9635,9 @@
     "building": "Gleacher Center",
     "location": "206",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Applied Artificial Intelligence"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -8727,7 +9655,9 @@
     "building": "Harper Center",
     "location": "C04",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Economics"
+    ],
     "foundationsArea": "Microeconomics",
     "flmbeArea": ""
   },
@@ -8745,7 +9675,9 @@
     "building": "Gleacher Center",
     "location": "306",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Economics"
+    ],
     "foundationsArea": "Microeconomics",
     "flmbeArea": ""
   },
@@ -8763,7 +9695,9 @@
     "building": "Harper Center",
     "location": "C01",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Economics"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Economy"
   },
@@ -8781,7 +9715,9 @@
     "building": "Harper Center",
     "location": "C01",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Economics"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Economy"
   },
@@ -8799,7 +9735,9 @@
     "building": "Gleacher Center",
     "location": "306",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Economics"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Economy"
   },
@@ -8817,7 +9755,9 @@
     "building": "Harper Center",
     "location": "C09",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Economics"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Economy"
   },
@@ -8835,7 +9775,9 @@
     "building": "Harper Center",
     "location": "C09",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Economics"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Economy"
   },
@@ -8853,7 +9795,10 @@
     "building": "Harper Center",
     "location": "C08",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Business, Society and Sustainability",
+      "Economics"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Society"
   },
@@ -8871,7 +9816,10 @@
     "building": "Harper Center",
     "location": "C08",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Business, Society and Sustainability",
+      "Economics"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Society"
   },
@@ -8889,7 +9837,10 @@
     "building": "Gleacher Center",
     "location": "308",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Business, Society and Sustainability",
+      "Economics"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Society"
   },
@@ -8907,7 +9858,9 @@
     "building": "Harper Center",
     "location": "C01",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -8925,7 +9878,9 @@
     "building": "Gleacher Center",
     "location": "308",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -8943,7 +9898,9 @@
     "building": "Gleacher Center",
     "location": "308",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -8961,7 +9918,9 @@
     "building": "Harper Center",
     "location": "C06",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Business, Society and Sustainability"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Society"
   },
@@ -8979,7 +9938,9 @@
     "building": "Harper Center",
     "location": "C06",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Business, Society and Sustainability"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Society"
   },
@@ -8997,7 +9958,9 @@
     "building": "Harper Center",
     "location": "C06",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Business, Society and Sustainability"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Society"
   },
@@ -9015,7 +9978,9 @@
     "building": "",
     "location": "",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Business, Society and Sustainability"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Society"
   },
@@ -9033,7 +9998,10 @@
     "building": "Harper Center",
     "location": "C10",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Economics",
+      "International Business"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Economy"
   },
@@ -9051,7 +10019,10 @@
     "building": "Gleacher Center",
     "location": "206",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Economics",
+      "International Business"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Economy"
   },
@@ -9069,7 +10040,10 @@
     "building": "Gleacher Center",
     "location": "206",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Economics",
+      "International Business"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Economy"
   },
@@ -9321,7 +10295,11 @@
     "building": "Harper Center",
     "location": "C08",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Analytic Finance",
+      "Entrepreneurship",
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Finance"
   },
@@ -9339,7 +10317,11 @@
     "building": "Gleacher Center",
     "location": "408",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Analytic Finance",
+      "Entrepreneurship",
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Finance"
   },
@@ -9357,7 +10339,10 @@
     "building": "Harper Center",
     "location": "C06",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship",
+      "Strategic Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -9375,7 +10360,10 @@
     "building": "",
     "location": "",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship",
+      "Strategic Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -9393,7 +10381,10 @@
     "building": "",
     "location": "",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship",
+      "Strategic Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -9411,7 +10402,10 @@
     "building": "Gleacher Center",
     "location": "208",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship",
+      "Strategic Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -9429,7 +10423,11 @@
     "building": "Gleacher Center",
     "location": "206",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Business, Society and Sustainability",
+      "Entrepreneurship",
+      "Healthcare"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -9447,7 +10445,11 @@
     "building": "Gleacher Center",
     "location": "206",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Business, Society and Sustainability",
+      "Entrepreneurship",
+      "Healthcare"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -9465,7 +10467,10 @@
     "building": "Harper Center",
     "location": "C05",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Applied Artificial Intelligence",
+      "Entrepreneurship"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -9483,7 +10488,9 @@
     "building": "Harper Center",
     "location": "C25",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -9501,7 +10508,9 @@
     "building": "Harper Center",
     "location": "C25",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -9519,7 +10528,9 @@
     "building": "Harper Center",
     "location": "C25",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -9537,7 +10548,9 @@
     "building": "Gleacher Center",
     "location": "306",
     "units": 50.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -9555,7 +10568,10 @@
     "building": "Gleacher Center",
     "location": "400",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship",
+      "Healthcare"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -9573,7 +10589,10 @@
     "building": "Gleacher Center",
     "location": "404",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship",
+      "Healthcare"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -9591,7 +10610,10 @@
     "building": "Harper Center",
     "location": "C03",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship",
+      "Healthcare"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -9609,7 +10631,10 @@
     "building": "Harper Center",
     "location": "C03",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship",
+      "Healthcare"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -9627,7 +10652,9 @@
     "building": "Harper Center",
     "location": "C05",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -9645,7 +10672,9 @@
     "building": "Harper Center",
     "location": "C05",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -9663,7 +10692,10 @@
     "building": "Harper Center",
     "location": "3A",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Analytic Finance",
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Finance"
   },
@@ -9681,7 +10713,10 @@
     "building": "Harper Center",
     "location": "3A",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Analytic Finance",
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Finance"
   },
@@ -9699,7 +10734,10 @@
     "building": "Harper Center",
     "location": "3B",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Analytic Finance",
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Finance"
   },
@@ -9717,7 +10755,10 @@
     "building": "Harper Center",
     "location": "3B",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Analytic Finance",
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Finance"
   },
@@ -9735,7 +10776,9 @@
     "building": "Harper Center",
     "location": "C03",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Finance"
   },
@@ -9753,7 +10796,9 @@
     "building": "Harper Center",
     "location": "C03",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Finance"
   },
@@ -9771,7 +10816,9 @@
     "building": "Harper Center",
     "location": "C07",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Finance"
   },
@@ -9789,7 +10836,9 @@
     "building": "Harper Center",
     "location": "C07",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Finance"
   },
@@ -9807,7 +10856,9 @@
     "building": "Gleacher Center",
     "location": "206",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Finance"
   },
@@ -9861,7 +10912,10 @@
     "building": "Gleacher Center",
     "location": "204",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Analytic Finance",
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Finance"
   },
@@ -9879,7 +10933,11 @@
     "building": "Harper Center",
     "location": "C25",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Analytic Finance",
+      "Business Analytics",
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -9897,7 +10955,11 @@
     "building": "Gleacher Center",
     "location": "208",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Analytic Finance",
+      "Business Analytics",
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -9915,7 +10977,11 @@
     "building": "Gleacher Center",
     "location": "208",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Analytic Finance",
+      "Business Analytics",
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -9933,7 +10999,9 @@
     "building": "Gleacher Center",
     "location": "406",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -9951,7 +11019,10 @@
     "building": "Harper Center",
     "location": "C09",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Analytic Finance",
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Finance"
   },
@@ -9969,7 +11040,10 @@
     "building": "Harper Center",
     "location": "C06",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Analytic Finance",
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Finance"
   },
@@ -9987,7 +11061,10 @@
     "building": "Gleacher Center",
     "location": "204",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Analytic Finance",
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Finance"
   },
@@ -10005,7 +11082,10 @@
     "building": "Harper Center",
     "location": "C02",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Analytic Finance",
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -10023,7 +11103,10 @@
     "building": "Harper Center",
     "location": "C02",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Analytic Finance",
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -10041,7 +11124,10 @@
     "building": "Gleacher Center",
     "location": "306",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Analytic Finance",
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -10113,7 +11199,10 @@
     "building": "Harper Center",
     "location": "3SW",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Analytic Finance",
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -10131,7 +11220,10 @@
     "building": "Harper Center",
     "location": "3SW",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Analytic Finance",
+      "Finance"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -10221,7 +11313,10 @@
     "building": "Harper Center",
     "location": "C08",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Business Analytics",
+      "Operations Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Decisions"
   },
@@ -10239,7 +11334,10 @@
     "building": "Gleacher Center",
     "location": "304",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Business Analytics",
+      "Operations Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Decisions"
   },
@@ -10257,7 +11355,9 @@
     "building": "Harper Center",
     "location": "C10",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -10275,7 +11375,9 @@
     "building": "Gleacher Center",
     "location": "206",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -10311,7 +11413,9 @@
     "building": "Harper Center",
     "location": "C09",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Marketing Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Marketing"
   },
@@ -10329,7 +11433,9 @@
     "building": "Harper Center",
     "location": "C03",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Marketing Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Marketing"
   },
@@ -10347,7 +11453,9 @@
     "building": "Harper Center",
     "location": "C03",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Marketing Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Marketing"
   },
@@ -10365,7 +11473,9 @@
     "building": "Gleacher Center",
     "location": "208",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Marketing Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Marketing"
   },
@@ -10383,7 +11493,9 @@
     "building": "Gleacher Center",
     "location": "306",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Marketing Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Marketing"
   },
@@ -10401,7 +11513,9 @@
     "building": "Harper Center",
     "location": "C04",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Marketing Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Marketing"
   },
@@ -10419,7 +11533,9 @@
     "building": "Harper Center",
     "location": "C04",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Marketing Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Marketing"
   },
@@ -10437,7 +11553,9 @@
     "building": "",
     "location": "",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Marketing Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Marketing"
   },
@@ -10455,7 +11573,9 @@
     "building": "Harper Center",
     "location": "C05",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Business Analytics"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Marketing"
   },
@@ -10473,7 +11593,9 @@
     "building": "Gleacher Center",
     "location": "404",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Business Analytics"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Marketing"
   },
@@ -10491,7 +11613,12 @@
     "building": "Harper Center",
     "location": "C05",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship",
+      "Healthcare",
+      "Marketing Management",
+      "Strategic Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Marketing"
   },
@@ -10509,7 +11636,12 @@
     "building": "Harper Center",
     "location": "C05",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship",
+      "Healthcare",
+      "Marketing Management",
+      "Strategic Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Marketing"
   },
@@ -10527,7 +11659,12 @@
     "building": "Gleacher Center",
     "location": "308",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Entrepreneurship",
+      "Healthcare",
+      "Marketing Management",
+      "Strategic Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Marketing"
   },
@@ -10545,7 +11682,10 @@
     "building": "Harper Center",
     "location": "C01",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Business Analytics",
+      "Marketing Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Marketing"
   },
@@ -10563,7 +11703,10 @@
     "building": "Harper Center",
     "location": "C01",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Business Analytics",
+      "Marketing Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Marketing"
   },
@@ -10581,7 +11724,9 @@
     "building": "Harper Center",
     "location": "C08",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Marketing Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Marketing"
   },
@@ -10599,7 +11744,10 @@
     "building": "Harper Center",
     "location": "C08",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Business, Society and Sustainability",
+      "Marketing Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Society"
   },
@@ -10617,7 +11765,10 @@
     "building": "Gleacher Center",
     "location": "408",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Business, Society and Sustainability",
+      "Marketing Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Society"
   },
@@ -10653,7 +11804,9 @@
     "building": "",
     "location": "",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Marketing Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -10797,7 +11950,9 @@
     "building": "Harper Center",
     "location": "C07",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Behavioral Science"
+    ],
     "foundationsArea": "",
     "flmbeArea": "People"
   },
@@ -10815,7 +11970,9 @@
     "building": "Harper Center",
     "location": "C07",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Behavioral Science"
+    ],
     "foundationsArea": "",
     "flmbeArea": "People"
   },
@@ -10833,7 +11990,9 @@
     "building": "Harper Center",
     "location": "C05",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Behavioral Science"
+    ],
     "foundationsArea": "",
     "flmbeArea": "People"
   },
@@ -10851,7 +12010,9 @@
     "building": "Harper Center",
     "location": "C05",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Behavioral Science"
+    ],
     "foundationsArea": "",
     "flmbeArea": "People"
   },
@@ -10869,7 +12030,9 @@
     "building": "Harper Center",
     "location": "C02",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Behavioral Science"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -10887,7 +12050,9 @@
     "building": "Harper Center",
     "location": "C10",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Behavioral Science"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -10905,7 +12070,9 @@
     "building": "Harper Center",
     "location": "C10",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Behavioral Science"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -10923,7 +12090,9 @@
     "building": "Harper Center",
     "location": "C05",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Behavioral Science"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -10941,7 +12110,9 @@
     "building": "Harper Center",
     "location": "C05",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Behavioral Science"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -10959,7 +12130,9 @@
     "building": "Gleacher Center",
     "location": "204",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Behavioral Science"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -10977,7 +12150,9 @@
     "building": "Gleacher Center",
     "location": "204",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Behavioral Science"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -10995,7 +12170,9 @@
     "building": "Harper Center",
     "location": "C10",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Behavioral Science"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -11013,7 +12190,10 @@
     "building": "Harper Center",
     "location": "C03",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Behavioral Science",
+      "Economics"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Decisions"
   },
@@ -11031,7 +12211,10 @@
     "building": "Harper Center",
     "location": "C03",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Behavioral Science",
+      "Economics"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Decisions"
   },
@@ -11049,7 +12232,10 @@
     "building": "Gleacher Center",
     "location": "308",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Behavioral Science",
+      "Economics"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Decisions"
   },
@@ -11067,7 +12253,10 @@
     "building": "Gleacher Center",
     "location": "404",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Behavioral Science",
+      "Business, Society and Sustainability"
+    ],
     "foundationsArea": "",
     "flmbeArea": "People"
   },
@@ -11157,7 +12346,9 @@
     "building": "Gleacher Center",
     "location": "404",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Strategic Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Strategy"
   },
@@ -11175,7 +12366,9 @@
     "building": "Harper Center",
     "location": "C04",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Operations Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Operations"
   },
@@ -11193,7 +12386,9 @@
     "building": "Harper Center",
     "location": "C04",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Operations Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Operations"
   },
@@ -11211,7 +12406,9 @@
     "building": "Gleacher Center",
     "location": "406",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Operations Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Operations"
   },
@@ -11229,7 +12426,9 @@
     "building": "Harper Center",
     "location": "C08",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Operations Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Operations"
   },
@@ -11247,7 +12446,9 @@
     "building": "Harper Center",
     "location": "C08",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Operations Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Operations"
   },
@@ -11265,7 +12466,11 @@
     "building": "Booth 455",
     "location": "132",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Business Analytics",
+      "Healthcare",
+      "Operations Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -11283,7 +12488,11 @@
     "building": "Booth 455",
     "location": "132",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Business Analytics",
+      "Healthcare",
+      "Operations Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -11337,7 +12546,9 @@
     "building": "Harper Center",
     "location": "C01",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Econometrics and Statistics"
+    ],
     "foundationsArea": "Statistics",
     "flmbeArea": ""
   },
@@ -11355,7 +12566,9 @@
     "building": "Harper Center",
     "location": "C01",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Econometrics and Statistics"
+    ],
     "foundationsArea": "Statistics",
     "flmbeArea": ""
   },
@@ -11373,7 +12586,9 @@
     "building": "Gleacher Center",
     "location": "406",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Econometrics and Statistics"
+    ],
     "foundationsArea": "Statistics",
     "flmbeArea": ""
   },
@@ -11391,7 +12606,12 @@
     "building": "Gleacher Center",
     "location": "306",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Analytic Finance",
+      "Business Analytics",
+      "Econometrics and Statistics",
+      "Finance"
+    ],
     "foundationsArea": "Statistics",
     "flmbeArea": ""
   },
@@ -11409,7 +12629,9 @@
     "building": "Harper Center",
     "location": "C02",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Econometrics and Statistics"
+    ],
     "foundationsArea": "Statistics",
     "flmbeArea": ""
   },
@@ -11445,7 +12667,9 @@
     "building": "Harper Center",
     "location": "3B",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Econometrics and Statistics"
+    ],
     "foundationsArea": "Statistics",
     "flmbeArea": ""
   },
@@ -11463,7 +12687,9 @@
     "building": "Harper Center",
     "location": "C09",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Econometrics and Statistics"
+    ],
     "foundationsArea": "Statistics",
     "flmbeArea": ""
   },
@@ -11481,7 +12707,10 @@
     "building": "Harper Center",
     "location": "C01",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Economics",
+      "Strategic Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Strategy"
   },
@@ -11499,7 +12728,10 @@
     "building": "Harper Center",
     "location": "C01",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Economics",
+      "Strategic Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Strategy"
   },
@@ -11517,7 +12749,10 @@
     "building": "Harper Center",
     "location": "C07",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Economics",
+      "Strategic Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Strategy"
   },
@@ -11535,7 +12770,10 @@
     "building": "Harper Center",
     "location": "C07",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Economics",
+      "Strategic Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Strategy"
   },
@@ -11553,7 +12791,10 @@
     "building": "Gleacher Center",
     "location": "208",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Economics",
+      "Strategic Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Strategy"
   },
@@ -11571,7 +12812,10 @@
     "building": "Gleacher Center",
     "location": "208",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Economics",
+      "Strategic Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Strategy"
   },
@@ -11589,7 +12833,9 @@
     "building": "Harper Center",
     "location": "C08",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Strategic Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -11607,7 +12853,9 @@
     "building": "Gleacher Center",
     "location": "200",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Strategic Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -11625,7 +12873,9 @@
     "building": "Gleacher Center",
     "location": "200",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Strategic Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -11643,7 +12893,9 @@
     "building": "Gleacher Center",
     "location": "408",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Business, Society and Sustainability"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -11697,7 +12949,10 @@
     "building": "Harper Center",
     "location": "C08",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Business, Society and Sustainability",
+      "Strategic Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -11715,7 +12970,11 @@
     "building": "Harper Center",
     "location": "C04",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Business, Society and Sustainability",
+      "Healthcare",
+      "Strategic Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -11733,7 +12992,11 @@
     "building": "Harper Center",
     "location": "C04",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Business, Society and Sustainability",
+      "Healthcare",
+      "Strategic Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -11751,7 +13014,9 @@
     "building": "Harper Center",
     "location": "C02",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Strategic Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Strategy"
   },
@@ -11769,7 +13034,9 @@
     "building": "Gleacher Center",
     "location": "308",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Strategic Management"
+    ],
     "foundationsArea": "",
     "flmbeArea": "Strategy"
   },
@@ -11787,7 +13054,10 @@
     "building": "Harper Center",
     "location": "C10",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Applied Artificial Intelligence",
+      "Business Analytics"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   },
@@ -11805,7 +13075,10 @@
     "building": "Gleacher Center",
     "location": "406",
     "units": 100.0,
-    "concentrations": [],
+    "concentrations": [
+      "Applied Artificial Intelligence",
+      "Business Analytics"
+    ],
     "foundationsArea": "",
     "flmbeArea": ""
   }

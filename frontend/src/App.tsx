@@ -9,6 +9,7 @@ import { CourseDetail } from './components/CourseDetail'
 import { DonateButton } from './components/DonateButton'
 import { courseMatchesFacets, getFacetOptions, type FacetField, type FacetSelection } from './lib/facets'
 import { courseKey } from './lib/schedule'
+import { sortCourses, SORT_LABELS, type SortOption } from './lib/sort'
 import type { Course } from './types/course'
 
 const FACET_FIELDS: FacetField[] = [
@@ -31,6 +32,7 @@ function App() {
   const [selection, setSelection] = useState<FacetSelection>({})
   const [selectedCourse, setSelectedCourse] = useState<Course | null>(null)
   const [view, setView] = useState<'browse' | 'saved'>('browse')
+  const [sort, setSort] = useState<SortOption>('default')
 
   const fuse = useMemo(
     () =>
@@ -51,8 +53,9 @@ function App() {
 
   const filteredCourses = useMemo(() => {
     const base = query.trim() ? fuse.search(query).map((r) => r.item) : courses
-    return base.filter((course) => courseMatchesFacets(course, selection))
-  }, [courses, fuse, query, selection])
+    const matched = base.filter((course) => courseMatchesFacets(course, selection))
+    return sortCourses(matched, sort)
+  }, [courses, fuse, query, selection, sort])
 
   const savedCourses = useMemo(() => courses.filter((c) => savedKeys.has(courseKey(c))), [courses, savedKeys])
   const savedUnitsTotal = useMemo(() => savedCourses.reduce((sum, c) => sum + c.units, 0), [savedCourses])
@@ -125,9 +128,25 @@ function App() {
               />
 
               <div className="flex-1 space-y-3">
-                <p className="text-sm text-gray-500 dark:text-gray-400">
-                  {visibleCourses.length} class{visibleCourses.length === 1 ? '' : 'es'}
-                </p>
+                <div className="flex items-center justify-between gap-2">
+                  <p className="text-sm text-gray-500 dark:text-gray-400">
+                    {visibleCourses.length} class{visibleCourses.length === 1 ? '' : 'es'}
+                  </p>
+                  <label className="flex items-center gap-1.5 text-sm text-gray-500 dark:text-gray-400">
+                    Sort by
+                    <select
+                      value={sort}
+                      onChange={(e) => setSort(e.target.value as SortOption)}
+                      className="rounded border border-gray-300 bg-white px-2 py-1 text-sm text-gray-900 focus:border-gray-900 focus:outline-none dark:border-gray-700 dark:bg-gray-900 dark:text-gray-100"
+                    >
+                      {(Object.keys(SORT_LABELS) as SortOption[]).map((option) => (
+                        <option key={option} value={option}>
+                          {SORT_LABELS[option]}
+                        </option>
+                      ))}
+                    </select>
+                  </label>
+                </div>
                 {visibleCourses.map((course, i) => (
                   <CourseCard
                     key={`${courseKey(course)}-${i}`}

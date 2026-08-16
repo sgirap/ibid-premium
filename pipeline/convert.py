@@ -145,15 +145,13 @@ def load_requirement_mapping(path: Path | None) -> dict[str, tuple[str, str]]:
     return {row["courseNumber"].strip(): (row["requirementType"].strip(), row["area"].strip()) for _, row in df.iterrows()}
 
 
-def normalize_eval_name(first_name: str, last_name: str) -> tuple[str, str]:
-    first = str(first_name).strip().split()
+def normalize_eval_last_name(last_name: str) -> str:
     last = str(last_name).strip().split()
-    return (first[0].lower() if first else "", last[-1].lower() if last else "")
+    return last[-1].lower() if last else ""
 
 
-def eval_key(course_number: str, first_name: str, last_name: str) -> str:
-    norm_first, norm_last = normalize_eval_name(first_name, last_name)
-    return f"{course_number}|{norm_first}|{norm_last}"
+def eval_key(course_number: str, last_name: str) -> str:
+    return f"{course_number}|{normalize_eval_last_name(last_name)}"
 
 
 def load_evaluations(path: Path) -> dict[str, dict]:
@@ -165,7 +163,7 @@ def load_evaluations(path: Path) -> dict[str, dict]:
 def attach_evaluations(records: list[dict], evaluations: dict[str, dict]) -> None:
     """Mutates records in place, setting record["evaluation"]."""
     for record in records:
-        key = eval_key(record["courseNumber"], record["professorFirstName"], record["professorLastName"])
+        key = eval_key(record["courseNumber"], record["professorLastName"])
         record["evaluation"] = evaluations.get(key)
 
 

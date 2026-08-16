@@ -122,11 +122,11 @@ page (new curriculum year, course number changes, etc.) and commit the regenerat
 
 ## Course evaluations
 
-`data/evaluations.json` maps `"{courseNumber}|{normalizedFirstName}|{normalizedLastName}"`
-to aggregated rating scores (recommend, clarity, engagement, usefulness, overall value,
-hours/week, response counts). `convert.py` attaches the matching entry to every class as
-`evaluation` (or `null` if none matches) — looked up by courseNumber + instructor name,
-same as the module docstring says.
+`data/evaluations.json` maps `"{courseNumber}|{normalizedLastName}"` to aggregated
+rating scores (recommend, clarity, engagement, usefulness, overall value, hours/week,
+response counts). `convert.py` attaches the matching entry to every class as
+`evaluation` (or `null` if none matches) — looked up by courseNumber + instructor last
+name, same as the module docstring says.
 
 Built by `build_evaluations.py` from a raw course evaluation export (one row per
 section+term+instructor):
@@ -143,12 +143,16 @@ evaluation export — even one that only covers the latest term — always produ
 correct, up-to-date aggregate; nothing from prior uploads is lost, and nothing goes
 stale. Pass `--no-merge` to instead treat `--input` as the complete row history.
 
-Instructor names are matched heuristically: the evaluation export uses full legal names
-(e.g. "Joao Pedro" / "Bacelar Fernandes Granja") while the course export uses short
-display names (e.g. "Joao" / "Granja"). Both are normalized to (first name's first word,
-last name's last word) before matching — captures ~78% of instructors with zero observed
-false-positive collisions, but can't recover a nickname-vs-formal-name mismatch (e.g.
-"Bob" vs "Robert"); those classes just get `evaluation: null`.
+Instructor names are matched on courseNumber + last name (normalized to its last word,
+lowercased) rather than a full first+last match: the evaluation export uses full legal
+names (e.g. "Joao Pedro" / "Bacelar Fernandes Granja") while the course export uses
+short display names (e.g. "Joao" / "Granja"), so first names rarely agree between the
+two, but last names do. Scoping by courseNumber keeps this safe — across the whole
+evaluation history there's exactly one courseNumber+lastName pair taught by two
+different people (a co-taught section), and merging their scores there is harmless
+since they teach the identical sections anyway. Matches ~424 of 655 real classes.
+Still can't recover an instructor missing from the evaluation data entirely — those
+classes just get `evaluation: null`.
 
 `convert.py` re-attaches evaluations to **every** class in the master list on every run
 (not just newly converted ones) reading `data/evaluations.json` fresh each time, so a

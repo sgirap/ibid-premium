@@ -27,15 +27,18 @@ rating) into one entry per courseNumber+instructor.
 Matching instructor names between this file and the course export is lossy:
 the evaluation export uses full legal names (e.g. "Joao Pedro" / "Bacelar
 Fernandes Granja") while the course export uses short display names (e.g.
-"Joao" / "Granja"). Both are normalized to (first name's first word, last
-name's last word) — e.g. "Joao"/"Granja" — before matching, since that's
-where the two datasets actually agree. This has zero observed collisions in
-practice, but is still a heuristic: it can't recover instructors who go by a
-nickname in one dataset and a formal name in the other (e.g. "Bob" vs
-"Robert"), and those just won't have evaluation data attached.
+"Joao" / "Granja") — first names in particular rarely agree. Matching is
+done on courseNumber + last name's last word (e.g. "Granja") instead, since
+that's where the two datasets actually agree. Scoping by courseNumber (not
+just last name) keeps this safe: across the whole evaluation history there's
+exactly one courseNumber+lastName pair taught by two different people (a
+co-taught section), and merging their scores there is harmless since they
+teach the identical sections anyway. This covers noticeably more instructors
+than a first+last match would; it still can't recover an instructor who
+isn't in the evaluation data at all.
 
-Output is a JSON object keyed by "{courseNumber}|{normFirst}|{normLast}" for
-O(1) lookup in convert.py.
+Output is a JSON object keyed by "{courseNumber}|{normLastName}" for O(1)
+lookup in convert.py.
 """
 
 import argparse
@@ -57,15 +60,13 @@ RATING_COLUMNS = {
 REQUIRED_COLUMNS = ["Course Name", "First Name", "Last Name", "Term", "InvitedCount", "RespondentCount", *RATING_COLUMNS]
 
 
-def normalize_name(first_name: str, last_name: str) -> tuple[str, str]:
-    first = str(first_name).strip().split()
+def normalize_last_name(last_name: str) -> str:
     last = str(last_name).strip().split()
-    return (first[0].lower() if first else "", last[-1].lower() if last else "")
+    return last[-1].lower() if last else ""
 
 
-def eval_key(course_number: str, first_name: str, last_name: str) -> str:
-    norm_first, norm_last = normalize_name(first_name, last_name)
-    return f"{course_number}|{norm_first}|{norm_last}"
+def eval_key(course_number: str, last_name: str) -> str:
+    return f"{course_number}|{normalize_last_name(last_name)}"
 
 
 def row_key(row: dict) -> tuple:
@@ -106,7 +107,7 @@ def read_rows(input_path: Path) -> list[dict]:
 def build_index(rows: list[dict]) -> dict[str, dict]:
     df = pd.DataFrame(rows)
     df["courseNumber"] = df["Course Name"].astype(str).str.split().str[0]
-    df["key"] = [eval_key(cn, f, l) for cn, f, l in zip(df["courseNumber"], df["First Name"], df["Last Name"])]
+    df["key"] = [eval_key(cn, l) for cn, l in zip(df["courseNumber"], df["Last Name"])]
 
     index: dict[str, dict] = {}
     for key, group in df.groupby("key"):

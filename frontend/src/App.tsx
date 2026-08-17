@@ -8,7 +8,7 @@ import { CourseCard } from './components/CourseCard'
 import { CourseDetail } from './components/CourseDetail'
 import { DonateButton } from './components/DonateButton'
 import { courseMatchesFacets, getFacetOptions, type FacetField, type FacetSelection } from './lib/facets'
-import { courseKey } from './lib/schedule'
+import { courseKey, groupByQuarter } from './lib/schedule'
 import { sortCourses, SORT_LABELS, type SortOption } from './lib/sort'
 import type { Course } from './types/course'
 
@@ -59,6 +59,7 @@ function App() {
 
   const savedCourses = useMemo(() => courses.filter((c) => savedKeys.has(courseKey(c))), [courses, savedKeys])
   const savedUnitsTotal = useMemo(() => savedCourses.reduce((sum, c) => sum + c.units, 0), [savedCourses])
+  const savedByQuarter = useMemo(() => groupByQuarter(savedCourses), [savedCourses])
 
   function toggleFacet(field: FacetField, value: string) {
     setSelection((prev) => {
@@ -79,7 +80,7 @@ function App() {
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-950">
       <header className="border-b border-gray-200 bg-white dark:border-gray-800 dark:bg-gray-900">
-        <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4">
+        <div className="mx-auto flex max-w-[1600px] items-center justify-between px-4 py-4">
           <div>
             <h1 className="text-xl font-semibold text-gray-900 dark:text-gray-100">Booth Class Explorer</h1>
             <p className="text-sm text-gray-500 dark:text-gray-400">Search and filter Booth's course catalog</p>
@@ -102,7 +103,7 @@ function App() {
                   view === 'saved' ? 'bg-gray-900 text-white dark:bg-gray-100 dark:text-gray-900' : 'text-gray-600 dark:text-gray-400'
                 }`}
               >
-                ★ My Schedule ({savedCourses.length})
+                ★ My Classes ({savedCourses.length})
               </button>
             </div>
             <DonateButton />
@@ -110,7 +111,7 @@ function App() {
         </div>
       </header>
 
-      <main className="mx-auto max-w-6xl px-4 py-6">
+      <main className="mx-auto max-w-[1600px] px-4 py-6">
         {loading && <p className="text-sm text-gray-500 dark:text-gray-400">Loading classes…</p>}
         {error && <p className="text-sm text-red-600">Failed to load classes: {error}</p>}
 
@@ -165,22 +166,33 @@ function App() {
         )}
 
         {!loading && !error && view === 'saved' && (
-          <div className="space-y-3">
+          <div className="space-y-6">
             <p className="text-sm text-gray-500 dark:text-gray-400">
               {savedCourses.length} class{savedCourses.length === 1 ? '' : 'es'} saved · {savedUnitsTotal} units total
             </p>
-            {savedCourses.map((course, i) => (
-              <CourseCard
-                key={`${courseKey(course)}-${i}`}
-                course={course}
-                onSelect={setSelectedCourse}
-                isSaved={isSaved(courseKey(course))}
-                onToggleSave={(c) => toggleSaved(courseKey(c))}
-              />
+            {savedByQuarter.map(({ quarter, courses: quarterCourses }) => (
+              <div key={quarter} className="space-y-3">
+                <h2 className="text-sm font-semibold text-gray-900 dark:text-gray-100">
+                  {quarter}
+                  <span className="ml-2 font-normal text-gray-500 dark:text-gray-400">
+                    {quarterCourses.length} class{quarterCourses.length === 1 ? '' : 'es'} ·{' '}
+                    {quarterCourses.reduce((sum, c) => sum + c.units, 0)} units
+                  </span>
+                </h2>
+                {quarterCourses.map((course, i) => (
+                  <CourseCard
+                    key={`${courseKey(course)}-${i}`}
+                    course={course}
+                    onSelect={setSelectedCourse}
+                    isSaved={isSaved(courseKey(course))}
+                    onToggleSave={(c) => toggleSaved(courseKey(c))}
+                  />
+                ))}
+              </div>
             ))}
             {savedCourses.length === 0 && (
               <p className="text-sm text-gray-500 dark:text-gray-400">
-                Nothing saved yet — click the ☆ on a class to add it to your schedule. Saved here, on this device.
+                Nothing saved yet — click the ☆ on a class to add it to your classes. Saved here, on this device.
               </p>
             )}
           </div>

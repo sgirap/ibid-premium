@@ -87,8 +87,8 @@ export function FilterPanel({ facetOptions, selection, onToggle, onClear }: Filt
   const activeCount = Object.values(selection).reduce((sum, s) => sum + (s?.size ?? 0), 0)
 
   return (
-    <aside className="w-full shrink-0 space-y-5 md:w-64">
-      <div className="flex items-center justify-between">
+    <aside className="w-full shrink-0 md:w-64 xl:w-[40rem] 2xl:w-[52rem]">
+      <div className="mb-4 flex items-center justify-between">
         <h2 className="text-sm font-semibold text-gray-900 dark:text-gray-100">Filters</h2>
         {activeCount > 0 && (
           <button
@@ -101,36 +101,41 @@ export function FilterPanel({ facetOptions, selection, onToggle, onClear }: Filt
         )}
       </div>
 
-      {BEFORE_DEGREE_REQUIREMENTS.map((field) => {
-        const options = facetOptions[field] ?? []
-        if (options.length === 0) return null
-        const selected = selection[field] ?? new Set<string>()
+      {/* Single column on narrow/medium screens keeps this a normal sidebar;
+          wide screens spread facet groups across columns so the panel takes
+          less vertical space instead of scrolling forever. */}
+      <div className="grid grid-cols-1 items-start gap-x-8 gap-y-5 xl:grid-cols-2 2xl:grid-cols-3">
+        {BEFORE_DEGREE_REQUIREMENTS.map((field) => {
+          const options = facetOptions[field] ?? []
+          if (options.length === 0) return null
+          const selected = selection[field] ?? new Set<string>()
 
-        return <FacetGroup key={field} field={field} options={options} selected={selected} onToggle={(value) => onToggle(field, value)} />
-      })}
+          return <FacetGroup key={field} field={field} options={options} selected={selected} onToggle={(value) => onToggle(field, value)} />
+        })}
 
-      {DEGREE_REQUIREMENT_FIELDS.some((field) => (facetOptions[field] ?? []).length > 0) && (
-        <div>
-          <h2 className="mb-3 text-sm font-semibold text-gray-900 dark:text-gray-100">Degree Requirements</h2>
-          <div className="space-y-4">
-            {DEGREE_REQUIREMENT_FIELDS.map((field) => {
-              const options = facetOptions[field] ?? []
-              if (options.length === 0) return null
-              const selected = selection[field] ?? new Set<string>()
+        {DEGREE_REQUIREMENT_FIELDS.some((field) => (facetOptions[field] ?? []).length > 0) && (
+          <div>
+            <h2 className="mb-3 text-sm font-semibold text-gray-900 dark:text-gray-100">Degree Requirements</h2>
+            <div className="space-y-4">
+              {DEGREE_REQUIREMENT_FIELDS.map((field) => {
+                const options = facetOptions[field] ?? []
+                if (options.length === 0) return null
+                const selected = selection[field] ?? new Set<string>()
 
-              return <FacetGroup key={field} field={field} options={options} selected={selected} onToggle={(value) => onToggle(field, value)} />
-            })}
+                return <FacetGroup key={field} field={field} options={options} selected={selected} onToggle={(value) => onToggle(field, value)} />
+              })}
+            </div>
           </div>
-        </div>
-      )}
+        )}
 
-      {AFTER_DEGREE_REQUIREMENTS.map((field) => {
-        const options = facetOptions[field] ?? []
-        if (options.length === 0) return null
-        const selected = selection[field] ?? new Set<string>()
+        {AFTER_DEGREE_REQUIREMENTS.map((field) => {
+          const options = facetOptions[field] ?? []
+          if (options.length === 0) return null
+          const selected = selection[field] ?? new Set<string>()
 
-        return <FacetGroup key={field} field={field} options={options} selected={selected} onToggle={(value) => onToggle(field, value)} />
-      })}
+          return <FacetGroup key={field} field={field} options={options} selected={selected} onToggle={(value) => onToggle(field, value)} />
+        })}
+      </div>
     </aside>
   )
 }

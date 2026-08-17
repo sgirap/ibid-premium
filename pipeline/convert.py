@@ -57,10 +57,17 @@ import itertools
 import json
 import re
 import sys
+import unicodedata
 from datetime import datetime
 from pathlib import Path
 
 import pandas as pd
+
+
+def strip_accents(text: str) -> str:
+    """'Dubé' -> 'Dube' — so accented and unaccented spellings of the same
+    name match each other."""
+    return "".join(ch for ch in unicodedata.normalize("NFKD", text) if not unicodedata.combining(ch))
 
 SCHEDULE_SEGMENT_RE = re.compile(
     r"(?P<day>[A-Za-z]+),\s*(?P<time>\d{1,2}:\d{2}\s*[AP]M\s*-\s*\d{1,2}:\d{2}\s*[AP]M)"
@@ -145,26 +152,71 @@ def load_requirement_mapping(path: Path | None) -> dict[str, tuple[str, str]]:
     return {row["courseNumber"].strip(): (row["requirementType"].strip(), row["area"].strip()) for _, row in df.iterrows()}
 
 
+NAME_SUFFIXES = {"jr", "sr", "ii", "iii", "iv", "v"}
+
+
+def last_name_tokens(last_name: str) -> list[str]:
+    """Split a last name into tokens, dropping trailing generational suffixes
+    (e.g. "Pagliari Jr." -> ["Pagliari"], not ["Pagliari", "Jr."]) so they
+    don't get mistaken for the surname itself.
+    """
+    tokens = strip_accents(str(last_name)).strip().split()
+    while tokens and tokens[-1].lower().rstrip(".") in NAME_SUFFIXES:
+        tokens.pop()
+    return tokens
+
+
 def normalize_eval_last_name(last_name: str) -> str:
-    last = str(last_name).strip().split()
-    return last[-1].lower() if last else ""
+    tokens = last_name_tokens(last_name)
+    return tokens[-1].lower() if tokens else ""
 
 
 def eval_key(course_number: str, last_name: str) -> str:
     return f"{course_number}|{normalize_eval_last_name(last_name)}"
 
 
-def eval_key_candidates(course_number: str, last_name: str) -> list[str]:
-    """Primary key first, plus a fallback using just the part after the last
-    hyphen (e.g. "Riggs-Cragun" -> "Cragun") for hyphenated last names, since
-    the two datasets aren't consistent about which half of a hyphenated name
-    they use.
+def load_name_aliases(path: Path | None) -> dict[str, set[str]]:
+    """Load a manual name-discrepancy map (marriage names, inconsistent
+    accents/hyphenation the automatic normalization doesn't catch, etc).
+
+    Expected CSV columns: nameA, nameB — each row is a pair of last names
+    known to refer to the same instructor. Returns a symmetric
+    normalizedLastName -> {other known variants} map.
     """
-    keys = [eval_key(course_number, last_name)]
-    last = str(last_name).strip().split()
-    if last and "-" in last[-1]:
-        keys.append(eval_key(course_number, last[-1].rsplit("-", 1)[-1]))
-    return keys
+    if path is None or not path.exists():
+        return {}
+    df = pd.read_csv(path, dtype=str).fillna("")
+    aliases: dict[str, set[str]] = {}
+    for _, row in df.iterrows():
+        a, b = normalize_eval_last_name(row["nameA"]), normalize_eval_last_name(row["nameB"])
+        if not a or not b:
+            continue
+        aliases.setdefault(a, set()).add(b)
+        aliases.setdefault(b, set()).add(a)
+    return aliases
+
+
+def eval_key_candidates(course_number: str, last_name: str, aliases: dict[str, set[str]] | None = None) -> list[str]:
+    """Primary key first, plus fallbacks for known name discrepancies:
+
+    - Just the part after the last hyphen for hyphenated last names (e.g.
+      "Riggs-Cragun" -> "Cragun"), since the two datasets aren't consistent
+      about which half of a hyphenated name they use.
+    - For a space-separated compound surname (e.g. "Almagro Garcia"), the
+      *first* word too (e.g. "Almagro") — one dataset sometimes gives only
+      the first part of a compound last name where the other gives the full
+      thing. (The primary key already covers the last word.)
+    - Any variants listed in the manual alias map (marriage names, etc).
+    """
+    tokens = last_name_tokens(last_name)
+    variants = {normalize_eval_last_name(last_name)}
+    if tokens and "-" in tokens[-1]:
+        variants.add(normalize_eval_last_name(tokens[-1].rsplit("-", 1)[-1]))
+    if len(tokens) > 1:
+        variants.add(tokens[0].lower())
+    for variant in list(variants):
+        variants |= (aliases or {}).get(variant, set())
+    return [f"{course_number}|{v}" for v in variants]
 
 
 def load_evaluations(path: Path) -> dict[str, dict]:
@@ -173,11 +225,11 @@ def load_evaluations(path: Path) -> dict[str, dict]:
     return json.loads(path.read_text())
 
 
-def attach_evaluations(records: list[dict], evaluations: dict[str, dict]) -> None:
+def attach_evaluations(records: list[dict], evaluations: dict[str, dict], aliases: dict[str, set[str]] | None = None) -> None:
     """Mutates records in place, setting record["evaluation"]."""
     for record in records:
         record["evaluation"] = next(
-            (evaluations[key] for key in eval_key_candidates(record["courseNumber"], record["professorLastName"]) if key in evaluations),
+            (evaluations[key] for key in eval_key_candidates(record["courseNumber"], record["professorLastName"], aliases) if key in evaluations),
             None,
         )
 
@@ -282,6 +334,12 @@ def main():
         help="Path to the evaluation index CSV/JSON (built by build_evaluations.py)",
     )
     parser.add_argument(
+        "--name-aliases",
+        type=Path,
+        default=Path(__file__).parent / "mappings" / "instructor_name_aliases.csv",
+        help="Path to the manual last-name discrepancy map (marriage names, accents, etc)",
+    )
+    parser.add_argument(
         "--master",
         type=Path,
         default=Path(__file__).parent / "data" / "master_classes.json",
@@ -312,7 +370,8 @@ def main():
         print(f"Merged {len(new_records)} records from {args.input.name} into master ({len(merged_records)} total) -> {args.master}")
 
     evaluations = load_evaluations(args.evaluations)
-    attach_evaluations(merged_records, evaluations)
+    aliases = load_name_aliases(args.name_aliases)
+    attach_evaluations(merged_records, evaluations, aliases)
     matched = sum(1 for r in merged_records if r["evaluation"] is not None)
     print(f"Matched evaluations for {matched} of {len(merged_records)} classes")
 

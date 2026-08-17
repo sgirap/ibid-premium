@@ -44,9 +44,19 @@ lookup in convert.py.
 import argparse
 import json
 import sys
+import unicodedata
 from pathlib import Path
 
 import pandas as pd
+
+
+def strip_accents(text: str) -> str:
+    """'Dubé' -> 'Dube' — so accented and unaccented spellings of the same
+    name match each other."""
+    return "".join(ch for ch in unicodedata.normalize("NFKD", text) if not unicodedata.combining(ch))
+
+
+NAME_SUFFIXES = {"jr", "sr", "ii", "iii", "iv", "v"}
 
 RATING_COLUMNS = {
     "Excluding class sessions, estimate the average number of hours per week spent in preparation or review. - Mean": "avgHoursPerWeek",
@@ -60,9 +70,20 @@ RATING_COLUMNS = {
 REQUIRED_COLUMNS = ["Course Name", "First Name", "Last Name", "Term", "InvitedCount", "RespondentCount", *RATING_COLUMNS]
 
 
+def last_name_tokens(last_name: str) -> list[str]:
+    """Splits a last name into tokens, dropping trailing generational
+    suffixes (e.g. "Pagliari Jr." -> ["Pagliari"], not ["Pagliari", "Jr."])
+    so they don't get mistaken for the surname itself.
+    """
+    tokens = strip_accents(str(last_name)).strip().split()
+    while tokens and tokens[-1].lower().rstrip(".") in NAME_SUFFIXES:
+        tokens.pop()
+    return tokens
+
+
 def normalize_last_name(last_name: str) -> str:
-    last = str(last_name).strip().split()
-    return last[-1].lower() if last else ""
+    tokens = last_name_tokens(last_name)
+    return tokens[-1].lower() if tokens else ""
 
 
 def eval_key(course_number: str, last_name: str) -> str:
@@ -104,6 +125,16 @@ def read_rows(input_path: Path) -> list[dict]:
     return df.to_dict("records")
 
 
+def _aggregate(group: pd.DataFrame) -> dict:
+    weights = group["RespondentCount"].clip(lower=1)
+    entry = {metric: round((group[col] * weights).sum() / weights.sum(), 2) for col, metric in RATING_COLUMNS.items()}
+    entry["invitedCount"] = int(group["InvitedCount"].sum())
+    entry["respondentCount"] = int(group["RespondentCount"].sum())
+    entry["sectionsEvaluated"] = len(group)
+    entry["mostRecentTerm"] = _latest_term(group["Term"])
+    return entry
+
+
 def build_index(rows: list[dict]) -> dict[str, dict]:
     df = pd.DataFrame(rows)
     df["courseNumber"] = df["Course Name"].astype(str).str.split().str[0]
@@ -111,13 +142,20 @@ def build_index(rows: list[dict]) -> dict[str, dict]:
 
     index: dict[str, dict] = {}
     for key, group in df.groupby("key"):
-        weights = group["RespondentCount"].clip(lower=1)
-        entry = {metric: round((group[col] * weights).sum() / weights.sum(), 2) for col, metric in RATING_COLUMNS.items()}
-        entry["invitedCount"] = int(group["InvitedCount"].sum())
-        entry["respondentCount"] = int(group["RespondentCount"].sum())
-        entry["sectionsEvaluated"] = len(group)
-        entry["mostRecentTerm"] = _latest_term(group["Term"])
-        index[key] = entry
+        index[key] = _aggregate(group)
+
+    # A space-separated compound surname (e.g. "Almagro Garcia") is indexed
+    # above under its last word ("garcia"), but the course export sometimes
+    # only has the first half ("Almagro"). Also index compound names under
+    # their first word, without overwriting any name that's already a
+    # legitimate key on its own.
+    df["firstToken"] = df["Last Name"].apply(lambda l: last_name_tokens(l)[0].lower() if len(last_name_tokens(l)) > 1 else None)
+    compound = df[df["firstToken"].notna()]
+    if not compound.empty:
+        for (course_number, first_token), group in compound.groupby(["courseNumber", "firstToken"]):
+            key = f"{course_number}|{first_token}"
+            if key not in index:
+                index[key] = _aggregate(group)
 
     return index
 

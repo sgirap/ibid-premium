@@ -152,13 +152,44 @@ evaluation history there's exactly one courseNumber+lastName pair taught by two
 different people (a co-taught section), and merging their scores there is harmless
 since they teach the identical sections anyway.
 
-Hyphenated last names get a second lookup attempt: if the primary key (full last name,
-e.g. "riggs-cragun") doesn't match, `attach_evaluations` also tries just the part after
-the last hyphen (e.g. "cragun"), since the two datasets aren't consistent about which
-half of a hyphenated name they use — the course export has "Amoray Riggs-Cragun" where
-the evaluation export just has "Amoray Cragun". Matches ~426 of 655 real classes. Still
-can't recover an instructor missing from the evaluation data entirely — those classes
+Several other name-format mismatches between the two datasets are also normalized away:
+
+- **Accents**: both sides strip accents before comparing (`strip_accents`), so "Dubé"
+  and "Dube" match.
+- **Generational suffixes**: "Pagliari Jr." is treated as "Pagliari" — trailing Jr/Sr/II/
+  III/IV/V tokens are dropped before taking the last name, on both the index-build side
+  and the lookup side, so a suffix never gets mistaken for the surname itself.
+- **Hyphenated names**: if the primary key (full last name, e.g. "riggs-cragun") doesn't
+  match, the lookup also tries just the part after the last hyphen (e.g. "cragun"),
+  since the two datasets aren't consistent about which half of a hyphenated name they
+  use — the course export has "Amoray Riggs-Cragun" where the evaluation export just
+  has "Amoray Cragun".
+- **Compound (space-separated) surnames**: `build_evaluations.py` indexes a multi-word
+  last name under *both* its last word (e.g. "Bacelar Fernandes Granja" -> "granja") and
+  its first word (-> "bacelar"), without overwriting an existing legitimate key — the
+  course export sometimes has only the first half of a compound surname (e.g. "Milena
+  Almagro" for eval's "Milena Almagro Garcia").
+- **Manual aliases**: `mappings/instructor_name_aliases.csv` is a hand-maintained map of
+  last-name discrepancies that can't be derived automatically — mainly marriage/name
+  changes (e.g. course export "Priya Parrish" / evaluation export "Priya Khetarpal").
+  Columns are `nameA,nameB`, one pair per row; both names are tried as extra lookup
+  keys. Add a row whenever you spot-check unmatched classes (see below) and confirm two
+  differently-spelled names are the same instructor.
+
+Matches ~442 of 655 real classes. Still can't recover an instructor missing from the
+evaluation data entirely, or a name discrepancy not covered by the above — those classes
 just get `evaluation: null`.
+
+**Spot-checking unmatched classes**: for any class with no evaluation match, check
+whether the evaluation export has a *different* last name for the *same* courseNumber
+and the *same* first name — that's a strong signal it's the same instructor under a
+last-name discrepancy the automatic rules didn't catch, and worth adding to
+`instructor_name_aliases.csv` after a quick sanity check (e.g. do the terms line up
+plausibly with one person's teaching history?). A shared first name with a completely
+different-looking last name and no other supporting evidence (e.g. course export
+"Bradford Levy" vs. evaluation export "Bradford Lynch") is more likely a coincidence
+than a discrepancy — don't alias those without independently confirming they're the
+same person.
 
 `convert.py` re-attaches evaluations to **every** class in the master list on every run
 (not just newly converted ones) reading `data/evaluations.json` fresh each time, so a

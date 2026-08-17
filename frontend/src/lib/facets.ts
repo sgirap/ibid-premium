@@ -39,10 +39,15 @@ function facetValues(course: Course, field: FacetField): string[] {
   return raw !== undefined && raw !== null && raw !== '' ? [String(raw)] : []
 }
 
+const DAY_ORDER = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+
 export function getFacetOptions(courses: Course[], field: FacetField): string[] {
   const values = new Set<string>()
   for (const course of courses) {
     facetValues(course, field).forEach((v) => values.add(v))
+  }
+  if (field === 'day') {
+    return Array.from(values).sort((a, b) => DAY_ORDER.indexOf(a) - DAY_ORDER.indexOf(b))
   }
   return Array.from(values).sort()
 }

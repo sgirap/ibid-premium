@@ -1739,7 +1739,7 @@
     "sectionsEvaluated": 2,
     "mostRecentTerm": "Spring 2022"
   },
-  "33450|jr.": {
+  "33450|pagliari": {
     "avgHoursPerWeek": 6.61,
     "clarity": 3.77,
     "engagement": 3.56,
@@ -1751,7 +1751,7 @@
     "sectionsEvaluated": 15,
     "mostRecentTerm": "Winter 2026"
   },
-  "33451|jr.": {
+  "33451|pagliari": {
     "avgHoursPerWeek": 4.66,
     "clarity": 4.34,
     "engagement": 4.08,
@@ -2579,6 +2579,18 @@
     "sectionsEvaluated": 2,
     "mostRecentTerm": "Spring 2026"
   },
+  "34302|curry": {
+    "avgHoursPerWeek": 3.73,
+    "clarity": 4.68,
+    "engagement": 4.83,
+    "usefulness": 4.7,
+    "overallValue": 4.63,
+    "recommend": 4.71,
+    "invitedCount": 120,
+    "respondentCount": 63,
+    "sectionsEvaluated": 2,
+    "mostRecentTerm": "Spring 2026"
+  },
   "34302|hermann": {
     "avgHoursPerWeek": 4.0,
     "clarity": 4.62,
@@ -2590,18 +2602,6 @@
     "respondentCount": 53,
     "sectionsEvaluated": 2,
     "mostRecentTerm": "Autumn 2025"
-  },
-  "34302|jr.": {
-    "avgHoursPerWeek": 3.73,
-    "clarity": 4.68,
-    "engagement": 4.83,
-    "usefulness": 4.7,
-    "overallValue": 4.63,
-    "recommend": 4.71,
-    "invitedCount": 120,
-    "respondentCount": 63,
-    "sectionsEvaluated": 2,
-    "mostRecentTerm": "Spring 2026"
   },
   "34302|o'connor": {
     "avgHoursPerWeek": 4.06,
@@ -2735,7 +2735,7 @@
     "sectionsEvaluated": 10,
     "mostRecentTerm": "Spring 2026"
   },
-  "34704|jr.": {
+  "34704|pagliari": {
     "avgHoursPerWeek": 5.77,
     "clarity": 4.85,
     "engagement": 4.69,
@@ -6994,5 +6994,101 @@
     "respondentCount": 5,
     "sectionsEvaluated": 1,
     "mostRecentTerm": "Autumn 2022"
+  },
+  "30000|bacelar": {
+    "avgHoursPerWeek": 4.48,
+    "clarity": 4.48,
+    "engagement": 4.63,
+    "usefulness": 4.47,
+    "overallValue": 4.28,
+    "recommend": 4.49,
+    "invitedCount": 632,
+    "respondentCount": 380,
+    "sectionsEvaluated": 11,
+    "mostRecentTerm": "Autumn 2025"
+  },
+  "30135|lynch": {
+    "avgHoursPerWeek": 2.69,
+    "clarity": 4.6,
+    "engagement": 4.73,
+    "usefulness": 4.59,
+    "overallValue": 4.44,
+    "recommend": 4.56,
+    "invitedCount": 177,
+    "respondentCount": 131,
+    "sectionsEvaluated": 3,
+    "mostRecentTerm": "Winter 2026"
+  },
+  "34103|pippel": {
+    "avgHoursPerWeek": 5.37,
+    "clarity": 4.59,
+    "engagement": 4.75,
+    "usefulness": 4.58,
+    "overallValue": 4.4,
+    "recommend": 4.47,
+    "invitedCount": 196,
+    "respondentCount": 97,
+    "sectionsEvaluated": 6,
+    "mostRecentTerm": "Autumn 2023"
+  },
+  "34108|pippel": {
+    "avgHoursPerWeek": 3.23,
+    "clarity": 4.55,
+    "engagement": 4.59,
+    "usefulness": 4.2,
+    "overallValue": 3.98,
+    "recommend": 4.15,
+    "invitedCount": 116,
+    "respondentCount": 66,
+    "sectionsEvaluated": 3,
+    "mostRecentTerm": "Winter 2023"
+  },
+  "35139|van": {
+    "avgHoursPerWeek": 5.0,
+    "clarity": 4.09,
+    "engagement": 3.83,
+    "usefulness": 4.17,
+    "overallValue": 4.04,
+    "recommend": 3.83,
+    "invitedCount": 63,
+    "respondentCount": 23,
+    "sectionsEvaluated": 1,
+    "mostRecentTerm": "Autumn 2025"
+  },
+  "36106|vande": {
+    "avgHoursPerWeek": 7.36,
+    "clarity": 3.29,
+    "engagement": 3.21,
+    "usefulness": 3.93,
+    "overallValue": 3.57,
+    "recommend": 2.93,
+    "invitedCount": 32,
+    "respondentCount": 14,
+    "sectionsEvaluated": 1,
+    "mostRecentTerm": "Summer 2024"
+  },
+  "42001|almagro": {
+    "avgHoursPerWeek": 3.95,
+    "clarity": 4.19,
+    "engagement": 4.27,
+    "usefulness": 4.22,
+    "overallValue": 3.96,
+    "recommend": 4.09,
+    "invitedCount": 184,
+    "respondentCount": 112,
+    "sectionsEvaluated": 6,
+    "mostRecentTerm": "Winter 2026"
+  },
+  "42001|garicano": {
+    "avgHoursPerWeek": 3.0,
+    "clarity": 4.0,
+    "engagement": 5.0,
+    "usefulness": 4.2,
+    "overallValue": 4.0,
+    "recommend": 4.2,
+    "invitedCount": 14,
+    "respondentCount": 5,
+    "sectionsEvaluated": 1,
+    "mostRecentTerm": "Spring 2023"
   }
 }

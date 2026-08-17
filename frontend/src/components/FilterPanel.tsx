@@ -9,7 +9,7 @@ interface FilterPanelProps {
 }
 
 const BEFORE_DEGREE_REQUIREMENTS: FacetField[] = ['quarter']
-const AFTER_DEGREE_REQUIREMENTS: FacetField[] = ['day', 'timing', 'building', 'program', 'concentrations', 'units', 'instructor']
+const AFTER_DEGREE_REQUIREMENTS: FacetField[] = ['day', 'program', 'concentrations', 'instructor', 'timing', 'building', 'units']
 
 // Foundations and FLMBE render together under one "Degree Requirements"
 // heading, and are OR'd rather than AND'd when both have a selection (see

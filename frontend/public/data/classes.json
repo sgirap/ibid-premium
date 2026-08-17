@@ -217,7 +217,18 @@
     ],
     "foundationsArea": "Financial Accounting",
     "flmbeArea": "",
-    "evaluation": null
+    "evaluation": {
+      "avgHoursPerWeek": 4.64,
+      "clarity": 4.45,
+      "engagement": 4.43,
+      "usefulness": 4.38,
+      "overallValue": 4.14,
+      "recommend": 4.2,
+      "invitedCount": 631,
+      "respondentCount": 324,
+      "sectionsEvaluated": 12,
+      "mostRecentTerm": "Autumn 2025"
+    }
   },
   {
     "quarter": "Autumn 2026",
@@ -261,7 +272,18 @@
     ],
     "foundationsArea": "Financial Accounting",
     "flmbeArea": "",
-    "evaluation": null
+    "evaluation": {
+      "avgHoursPerWeek": 4.64,
+      "clarity": 4.45,
+      "engagement": 4.43,
+      "usefulness": 4.38,
+      "overallValue": 4.14,
+      "recommend": 4.2,
+      "invitedCount": 631,
+      "respondentCount": 324,
+      "sectionsEvaluated": 12,
+      "mostRecentTerm": "Autumn 2025"
+    }
   },
   {
     "quarter": "Autumn 2026",

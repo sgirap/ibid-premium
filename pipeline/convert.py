@@ -154,6 +154,19 @@ def eval_key(course_number: str, last_name: str) -> str:
     return f"{course_number}|{normalize_eval_last_name(last_name)}"
 
 
+def eval_key_candidates(course_number: str, last_name: str) -> list[str]:
+    """Primary key first, plus a fallback using just the part after the last
+    hyphen (e.g. "Riggs-Cragun" -> "Cragun") for hyphenated last names, since
+    the two datasets aren't consistent about which half of a hyphenated name
+    they use.
+    """
+    keys = [eval_key(course_number, last_name)]
+    last = str(last_name).strip().split()
+    if last and "-" in last[-1]:
+        keys.append(eval_key(course_number, last[-1].rsplit("-", 1)[-1]))
+    return keys
+
+
 def load_evaluations(path: Path) -> dict[str, dict]:
     if not path.exists():
         return {}
@@ -163,8 +176,10 @@ def load_evaluations(path: Path) -> dict[str, dict]:
 def attach_evaluations(records: list[dict], evaluations: dict[str, dict]) -> None:
     """Mutates records in place, setting record["evaluation"]."""
     for record in records:
-        key = eval_key(record["courseNumber"], record["professorLastName"])
-        record["evaluation"] = evaluations.get(key)
+        record["evaluation"] = next(
+            (evaluations[key] for key in eval_key_candidates(record["courseNumber"], record["professorLastName"]) if key in evaluations),
+            None,
+        )
 
 
 def record_key(record: dict) -> tuple:

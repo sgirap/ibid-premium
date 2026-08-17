@@ -150,9 +150,15 @@ short display names (e.g. "Joao" / "Granja"), so first names rarely agree betwee
 two, but last names do. Scoping by courseNumber keeps this safe — across the whole
 evaluation history there's exactly one courseNumber+lastName pair taught by two
 different people (a co-taught section), and merging their scores there is harmless
-since they teach the identical sections anyway. Matches ~424 of 655 real classes.
-Still can't recover an instructor missing from the evaluation data entirely — those
-classes just get `evaluation: null`.
+since they teach the identical sections anyway.
+
+Hyphenated last names get a second lookup attempt: if the primary key (full last name,
+e.g. "riggs-cragun") doesn't match, `attach_evaluations` also tries just the part after
+the last hyphen (e.g. "cragun"), since the two datasets aren't consistent about which
+half of a hyphenated name they use — the course export has "Amoray Riggs-Cragun" where
+the evaluation export just has "Amoray Cragun". Matches ~426 of 655 real classes. Still
+can't recover an instructor missing from the evaluation data entirely — those classes
+just get `evaluation: null`.
 
 `convert.py` re-attaches evaluations to **every** class in the master list on every run
 (not just newly converted ones) reading `data/evaluations.json` fresh each time, so a

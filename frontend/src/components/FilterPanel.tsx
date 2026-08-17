@@ -87,7 +87,7 @@ export function FilterPanel({ facetOptions, selection, onToggle, onClear }: Filt
   const activeCount = Object.values(selection).reduce((sum, s) => sum + (s?.size ?? 0), 0)
 
   return (
-    <aside className="w-full shrink-0 md:w-64 xl:w-[40rem] 2xl:w-[52rem]">
+    <aside className="w-full shrink-0 md:w-64 xl:w-96 2xl:w-[28rem]">
       <div className="mb-4 flex items-center justify-between">
         <h2 className="text-sm font-semibold text-gray-900 dark:text-gray-100">Filters</h2>
         {activeCount > 0 && (

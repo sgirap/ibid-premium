@@ -80,7 +80,7 @@ function App() {
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-950">
       <header className="border-b border-gray-200 bg-white dark:border-gray-800 dark:bg-gray-900">
-        <div className="mx-auto flex max-w-[1600px] items-center justify-between px-4 py-4">
+        <div className="mx-auto flex max-w-[1600px] items-center justify-between px-8 py-4">
           <div>
             <h1 className="text-xl font-semibold text-gray-900 dark:text-gray-100">Booth Class Explorer</h1>
             <p className="text-sm text-gray-500 dark:text-gray-400">Search and filter Booth's course catalog</p>
@@ -111,7 +111,7 @@ function App() {
         </div>
       </header>
 
-      <main className="mx-auto max-w-[1600px] px-4 py-6">
+      <main className="mx-auto max-w-[1600px] px-8 py-6">
         {loading && <p className="text-sm text-gray-500 dark:text-gray-400">Loading classes…</p>}
         {error && <p className="text-sm text-red-600">Failed to load classes: {error}</p>}
 

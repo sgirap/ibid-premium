@@ -101,10 +101,11 @@ export function FilterPanel({ facetOptions, selection, onToggle, onClear }: Filt
         )}
       </div>
 
-      {/* Single column on narrow/medium screens keeps this a normal sidebar;
-          wide screens spread facet groups across columns so the panel takes
-          less vertical space instead of scrolling forever. */}
-      <div className="grid grid-cols-1 items-start gap-x-8 gap-y-5 xl:grid-cols-2 2xl:grid-cols-3">
+      {/* One facet section per row — on wide screens the panel itself is
+          wider (see aside above), so each row's chips wrap across more
+          horizontal space and take fewer lines, rather than being split
+          into side-by-side columns. */}
+      <div className="space-y-5">
         {BEFORE_DEGREE_REQUIREMENTS.map((field) => {
           const options = facetOptions[field] ?? []
           if (options.length === 0) return null

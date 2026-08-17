@@ -13664,7 +13664,18 @@
     ],
     "foundationsArea": "",
     "flmbeArea": "",
-    "evaluation": null
+    "evaluation": {
+      "avgHoursPerWeek": 2.69,
+      "clarity": 4.6,
+      "engagement": 4.73,
+      "usefulness": 4.59,
+      "overallValue": 4.44,
+      "recommend": 4.56,
+      "invitedCount": 177,
+      "respondentCount": 131,
+      "sectionsEvaluated": 3,
+      "mostRecentTerm": "Winter 2026"
+    }
   },
   {
     "quarter": "Winter 2027",
@@ -13687,7 +13698,18 @@
     ],
     "foundationsArea": "",
     "flmbeArea": "",
-    "evaluation": null
+    "evaluation": {
+      "avgHoursPerWeek": 2.69,
+      "clarity": 4.6,
+      "engagement": 4.73,
+      "usefulness": 4.59,
+      "overallValue": 4.44,
+      "recommend": 4.56,
+      "invitedCount": 177,
+      "respondentCount": 131,
+      "sectionsEvaluated": 3,
+      "mostRecentTerm": "Winter 2026"
+    }
   },
   {
     "quarter": "Winter 2027",
@@ -13710,7 +13732,18 @@
     ],
     "foundationsArea": "",
     "flmbeArea": "",
-    "evaluation": null
+    "evaluation": {
+      "avgHoursPerWeek": 2.69,
+      "clarity": 4.6,
+      "engagement": 4.73,
+      "usefulness": 4.59,
+      "overallValue": 4.44,
+      "recommend": 4.56,
+      "invitedCount": 177,
+      "respondentCount": 131,
+      "sectionsEvaluated": 3,
+      "mostRecentTerm": "Winter 2026"
+    }
   },
   {
     "quarter": "Winter 2027",
@@ -15548,7 +15581,18 @@
     ],
     "foundationsArea": "",
     "flmbeArea": "",
-    "evaluation": null
+    "evaluation": {
+      "avgHoursPerWeek": 4.0,
+      "clarity": 4.62,
+      "engagement": 4.58,
+      "usefulness": 4.6,
+      "overallValue": 4.51,
+      "recommend": 4.62,
+      "invitedCount": 121,
+      "respondentCount": 53,
+      "sectionsEvaluated": 2,
+      "mostRecentTerm": "Autumn 2025"
+    }
   },
   {
     "quarter": "Winter 2027",

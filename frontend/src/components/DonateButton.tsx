@@ -1,4 +1,4 @@
-const DONATE_URL = 'https://ko-fi.com/'
+const DONATE_URL = 'https://ko-fi.com/saigirap'
 
 export function DonateButton() {
   return (

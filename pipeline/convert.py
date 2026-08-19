@@ -10,7 +10,7 @@ accumulated set of every class ever exported, across terms — rather than
 replacing it. A record's (course, quarter, day, time, professorFirstName,
 professorLastName) identifies a specific offering: re-running convert.py
 with a fresher export of a term already in the master list updates those
-records in place (e.g. capacity or room changes); offerings from terms not
+records in place (e.g. room changes); offerings from terms not
 present in the new export are left untouched. frontend/public/data/classes.json
 is then (re)written from the full merged master list. Pass --no-merge to
 skip this and treat --input as the complete dataset instead.
@@ -254,7 +254,7 @@ def load_master(path: Path) -> list[dict]:
 
 def merge_records(master_records: list[dict], new_records: list[dict]) -> list[dict]:
     """New records overwrite any existing record with the same key (e.g. a
-    re-exported term whose capacity/room changed); everything else in the
+    re-exported term whose room changed); everything else in the
     master list is left untouched, and unmatched new records are appended.
     """
     merged = {record_key(r): r for r in master_records}
@@ -299,7 +299,6 @@ def convert(input_path: Path, concentration_mapping_path: Path | None, requireme
                     "day": day,
                     "time": time,
                     "timing": compute_timing(time),
-                    "capacity": str(row.get("Capacity", "")).strip(),
                     "building": normalize_building(row.get("Building")),
                     "location": str(row.get("Location", "")).strip() if pd.notna(row.get("Location")) else "",
                     "units": float(row.get("Units", 0)) if str(row.get("Units", "")).strip() else 0,

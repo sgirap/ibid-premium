@@ -29,7 +29,7 @@ replacing it — `classes.json` always reflects the full accumulated history. A 
 specific offering:
 
 - If the new export contains an offering already in the master list (e.g. you
-  re-exported the same term because capacity or room changed), the master record is
+  re-exported the same term because the room changed), the master record is
   **updated in place** — no duplicate.
 - Overlap *within* a single new export is deduped the same way — only the last row for
   a given key survives.
@@ -43,6 +43,10 @@ past terms. Pass `--no-merge` to instead treat `--input` as the complete dataset
 ## Expected export columns
 
 `Quarter, Title, Course, Program, Faculty, Schedule, Capacity, Building, Location, Units`
+
+`Capacity` is present in the raw export but intentionally not carried into the schema —
+it's a static snapshot from whenever the export was pulled, not live enrollment data,
+so surfacing it would be misleading.
 
 `Course` looks like `30000-01` (base course number + section). `Faculty` and `Schedule`
 each get parsed and can fan a single row out into multiple class records:

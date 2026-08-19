@@ -22,7 +22,6 @@ export interface Course {
   day: string
   time: string
   timing: string
-  capacity: string
   building: string
   location: string
   units: number

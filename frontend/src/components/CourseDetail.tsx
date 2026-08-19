@@ -76,10 +76,6 @@ export function CourseDetail({ course, onClose, isSaved, onToggleSave }: CourseD
               {course.building ? `${course.building}${course.location ? ` ${course.location}` : ''}` : '—'}
             </dd>
           </div>
-          <div>
-            <dt className="text-gray-500 dark:text-gray-400">Capacity</dt>
-            <dd className="text-gray-900 dark:text-gray-100">{course.capacity || '—'}</dd>
-          </div>
         </dl>
 
         {course.concentrations.length > 0 && (

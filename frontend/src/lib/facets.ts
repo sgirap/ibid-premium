@@ -1,4 +1,5 @@
 import type { Course } from '../types/course'
+import { quarterSortKey } from './schedule'
 
 export type FacetField =
   | 'quarter'
@@ -40,6 +41,7 @@ function facetValues(course: Course, field: FacetField): string[] {
 }
 
 const DAY_ORDER = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+const TIMING_ORDER = ['Morning', 'Afternoon', 'Evening']
 
 export function getFacetOptions(courses: Course[], field: FacetField): string[] {
   const values = new Set<string>()
@@ -48,6 +50,16 @@ export function getFacetOptions(courses: Course[], field: FacetField): string[] 
   }
   if (field === 'day') {
     return Array.from(values).sort((a, b) => DAY_ORDER.indexOf(a) - DAY_ORDER.indexOf(b))
+  }
+  if (field === 'timing') {
+    return Array.from(values).sort((a, b) => TIMING_ORDER.indexOf(a) - TIMING_ORDER.indexOf(b))
+  }
+  if (field === 'quarter') {
+    return Array.from(values).sort((a, b) => {
+      const [ay, as] = quarterSortKey(a)
+      const [by, bs] = quarterSortKey(b)
+      return ay - by || as - bs
+    })
   }
   return Array.from(values).sort()
 }

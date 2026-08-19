@@ -6,7 +6,7 @@ export function courseKey(course: Course): string {
 
 const SEASON_ORDER: Record<string, number> = { Winter: 0, Spring: 1, Summer: 2, Autumn: 3 }
 
-function quarterSortKey(quarter: string): [number, number] {
+export function quarterSortKey(quarter: string): [number, number] {
   const [season, year] = quarter.split(' ')
   return [Number(year) || 0, SEASON_ORDER[season] ?? -1]
 }

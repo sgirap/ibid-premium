@@ -1114,7 +1114,18 @@
     "concentrations": [],
     "foundationsArea": "",
     "flmbeArea": "",
-    "evaluation": null
+    "evaluation": {
+      "avgHoursPerWeek": 3.0,
+      "clarity": 4.82,
+      "engagement": 4.73,
+      "usefulness": 4.64,
+      "overallValue": 4.73,
+      "recommend": 4.64,
+      "invitedCount": 28,
+      "respondentCount": 11,
+      "sectionsEvaluated": 1,
+      "mostRecentTerm": "Summer 2026"
+    }
   },
   {
     "quarter": "Autumn 2026",
@@ -2381,13 +2392,13 @@
       "avgHoursPerWeek": 4.71,
       "clarity": 4.7,
       "engagement": 4.72,
-      "usefulness": 4.58,
-      "overallValue": 4.4,
-      "recommend": 4.39,
-      "invitedCount": 1081,
-      "respondentCount": 838,
-      "sectionsEvaluated": 24,
-      "mostRecentTerm": "Spring 2026"
+      "usefulness": 4.59,
+      "overallValue": 4.41,
+      "recommend": 4.4,
+      "invitedCount": 1119,
+      "respondentCount": 871,
+      "sectionsEvaluated": 25,
+      "mostRecentTerm": "Summer 2026"
     }
   },
   {
@@ -2413,13 +2424,13 @@
       "avgHoursPerWeek": 4.71,
       "clarity": 4.7,
       "engagement": 4.72,
-      "usefulness": 4.58,
-      "overallValue": 4.4,
-      "recommend": 4.39,
-      "invitedCount": 1081,
-      "respondentCount": 838,
-      "sectionsEvaluated": 24,
-      "mostRecentTerm": "Spring 2026"
+      "usefulness": 4.59,
+      "overallValue": 4.41,
+      "recommend": 4.4,
+      "invitedCount": 1119,
+      "respondentCount": 871,
+      "sectionsEvaluated": 25,
+      "mostRecentTerm": "Summer 2026"
     }
   },
   {
@@ -4585,16 +4596,16 @@
     "foundationsArea": "",
     "flmbeArea": "",
     "evaluation": {
-      "avgHoursPerWeek": 3.29,
+      "avgHoursPerWeek": 3.25,
       "clarity": 4.48,
-      "engagement": 4.66,
-      "usefulness": 4.56,
-      "overallValue": 4.41,
-      "recommend": 4.61,
-      "invitedCount": 276,
-      "respondentCount": 102,
-      "sectionsEvaluated": 6,
-      "mostRecentTerm": "Winter 2026"
+      "engagement": 4.67,
+      "usefulness": 4.54,
+      "overallValue": 4.4,
+      "recommend": 4.57,
+      "invitedCount": 331,
+      "respondentCount": 114,
+      "sectionsEvaluated": 7,
+      "mostRecentTerm": "Summer 2026"
     }
   },
   {
@@ -4617,16 +4628,16 @@
     "foundationsArea": "",
     "flmbeArea": "",
     "evaluation": {
-      "avgHoursPerWeek": 3.29,
+      "avgHoursPerWeek": 3.25,
       "clarity": 4.48,
-      "engagement": 4.66,
-      "usefulness": 4.56,
-      "overallValue": 4.41,
-      "recommend": 4.61,
-      "invitedCount": 276,
-      "respondentCount": 102,
-      "sectionsEvaluated": 6,
-      "mostRecentTerm": "Winter 2026"
+      "engagement": 4.67,
+      "usefulness": 4.54,
+      "overallValue": 4.4,
+      "recommend": 4.57,
+      "invitedCount": 331,
+      "respondentCount": 114,
+      "sectionsEvaluated": 7,
+      "mostRecentTerm": "Summer 2026"
     }
   },
   {
@@ -6036,16 +6047,16 @@
     "foundationsArea": "",
     "flmbeArea": "",
     "evaluation": {
-      "avgHoursPerWeek": 1.22,
-      "clarity": 4.78,
-      "engagement": 4.83,
-      "usefulness": 4.7,
-      "overallValue": 4.52,
-      "recommend": 4.61,
-      "invitedCount": 60,
-      "respondentCount": 23,
-      "sectionsEvaluated": 1,
-      "mostRecentTerm": "Winter 2026"
+      "avgHoursPerWeek": 1.28,
+      "clarity": 4.72,
+      "engagement": 4.79,
+      "usefulness": 4.72,
+      "overallValue": 4.48,
+      "recommend": 4.62,
+      "invitedCount": 90,
+      "respondentCount": 29,
+      "sectionsEvaluated": 2,
+      "mostRecentTerm": "Summer 2026"
     }
   },
   {
@@ -7188,7 +7199,18 @@
     "concentrations": [],
     "foundationsArea": "",
     "flmbeArea": "",
-    "evaluation": null
+    "evaluation": {
+      "avgHoursPerWeek": 3.0,
+      "clarity": 4.82,
+      "engagement": 4.73,
+      "usefulness": 4.64,
+      "overallValue": 4.73,
+      "recommend": 4.64,
+      "invitedCount": 28,
+      "respondentCount": 11,
+      "sectionsEvaluated": 1,
+      "mostRecentTerm": "Summer 2026"
+    }
   },
   {
     "quarter": "Spring 2027",
@@ -7348,16 +7370,16 @@
     "foundationsArea": "Microeconomics",
     "flmbeArea": "",
     "evaluation": {
-      "avgHoursPerWeek": 3.76,
+      "avgHoursPerWeek": 3.74,
       "clarity": 4.29,
-      "engagement": 3.86,
+      "engagement": 3.87,
       "usefulness": 4.08,
-      "overallValue": 3.81,
-      "recommend": 3.88,
-      "invitedCount": 567,
-      "respondentCount": 269,
-      "sectionsEvaluated": 12,
-      "mostRecentTerm": "Autumn 2024"
+      "overallValue": 3.82,
+      "recommend": 3.89,
+      "invitedCount": 604,
+      "respondentCount": 281,
+      "sectionsEvaluated": 13,
+      "mostRecentTerm": "Summer 2026"
     }
   },
   {
@@ -7380,16 +7402,16 @@
     "foundationsArea": "Microeconomics",
     "flmbeArea": "",
     "evaluation": {
-      "avgHoursPerWeek": 3.76,
+      "avgHoursPerWeek": 3.74,
       "clarity": 4.29,
-      "engagement": 3.86,
+      "engagement": 3.87,
       "usefulness": 4.08,
-      "overallValue": 3.81,
-      "recommend": 3.88,
-      "invitedCount": 567,
-      "respondentCount": 269,
-      "sectionsEvaluated": 12,
-      "mostRecentTerm": "Autumn 2024"
+      "overallValue": 3.82,
+      "recommend": 3.89,
+      "invitedCount": 604,
+      "respondentCount": 281,
+      "sectionsEvaluated": 13,
+      "mostRecentTerm": "Summer 2026"
     }
   },
   {
@@ -9083,13 +9105,13 @@
       "avgHoursPerWeek": 4.71,
       "clarity": 4.7,
       "engagement": 4.72,
-      "usefulness": 4.58,
-      "overallValue": 4.4,
-      "recommend": 4.39,
-      "invitedCount": 1081,
-      "respondentCount": 838,
-      "sectionsEvaluated": 24,
-      "mostRecentTerm": "Spring 2026"
+      "usefulness": 4.59,
+      "overallValue": 4.41,
+      "recommend": 4.4,
+      "invitedCount": 1119,
+      "respondentCount": 871,
+      "sectionsEvaluated": 25,
+      "mostRecentTerm": "Summer 2026"
     }
   },
   {
@@ -9115,13 +9137,13 @@
       "avgHoursPerWeek": 4.71,
       "clarity": 4.7,
       "engagement": 4.72,
-      "usefulness": 4.58,
-      "overallValue": 4.4,
-      "recommend": 4.39,
-      "invitedCount": 1081,
-      "respondentCount": 838,
-      "sectionsEvaluated": 24,
-      "mostRecentTerm": "Spring 2026"
+      "usefulness": 4.59,
+      "overallValue": 4.41,
+      "recommend": 4.4,
+      "invitedCount": 1119,
+      "respondentCount": 871,
+      "sectionsEvaluated": 25,
+      "mostRecentTerm": "Summer 2026"
     }
   },
   {
@@ -11369,16 +11391,16 @@
     "foundationsArea": "",
     "flmbeArea": "Decisions",
     "evaluation": {
-      "avgHoursPerWeek": 4.48,
-      "clarity": 4.22,
-      "engagement": 3.57,
-      "usefulness": 3.93,
-      "overallValue": 3.53,
-      "recommend": 3.6,
-      "invitedCount": 110,
-      "respondentCount": 58,
-      "sectionsEvaluated": 3,
-      "mostRecentTerm": "Spring 2026"
+      "avgHoursPerWeek": 4.37,
+      "clarity": 4.3,
+      "engagement": 3.64,
+      "usefulness": 4.0,
+      "overallValue": 3.62,
+      "recommend": 3.66,
+      "invitedCount": 123,
+      "respondentCount": 64,
+      "sectionsEvaluated": 4,
+      "mostRecentTerm": "Summer 2026"
     }
   },
   {
@@ -11401,16 +11423,16 @@
     "foundationsArea": "",
     "flmbeArea": "Decisions",
     "evaluation": {
-      "avgHoursPerWeek": 4.48,
-      "clarity": 4.22,
-      "engagement": 3.57,
-      "usefulness": 3.93,
-      "overallValue": 3.53,
-      "recommend": 3.6,
-      "invitedCount": 110,
-      "respondentCount": 58,
-      "sectionsEvaluated": 3,
-      "mostRecentTerm": "Spring 2026"
+      "avgHoursPerWeek": 4.37,
+      "clarity": 4.3,
+      "engagement": 3.64,
+      "usefulness": 4.0,
+      "overallValue": 3.62,
+      "recommend": 3.66,
+      "invitedCount": 123,
+      "respondentCount": 64,
+      "sectionsEvaluated": 4,
+      "mostRecentTerm": "Summer 2026"
     }
   },
   {
@@ -11433,16 +11455,16 @@
     "foundationsArea": "",
     "flmbeArea": "Decisions",
     "evaluation": {
-      "avgHoursPerWeek": 4.48,
-      "clarity": 4.22,
-      "engagement": 3.57,
-      "usefulness": 3.93,
-      "overallValue": 3.53,
-      "recommend": 3.6,
-      "invitedCount": 110,
-      "respondentCount": 58,
-      "sectionsEvaluated": 3,
-      "mostRecentTerm": "Spring 2026"
+      "avgHoursPerWeek": 4.37,
+      "clarity": 4.3,
+      "engagement": 3.64,
+      "usefulness": 4.0,
+      "overallValue": 3.62,
+      "recommend": 3.66,
+      "invitedCount": 123,
+      "respondentCount": 64,
+      "sectionsEvaluated": 4,
+      "mostRecentTerm": "Summer 2026"
     }
   },
   {
@@ -12371,16 +12393,16 @@
     "foundationsArea": "",
     "flmbeArea": "Strategy",
     "evaluation": {
-      "avgHoursPerWeek": 3.49,
-      "clarity": 4.46,
-      "engagement": 4.7,
-      "usefulness": 4.38,
-      "overallValue": 4.23,
-      "recommend": 4.38,
-      "invitedCount": 184,
-      "respondentCount": 124,
-      "sectionsEvaluated": 3,
-      "mostRecentTerm": "Spring 2026"
+      "avgHoursPerWeek": 3.52,
+      "clarity": 4.49,
+      "engagement": 4.73,
+      "usefulness": 4.4,
+      "overallValue": 4.24,
+      "recommend": 4.43,
+      "invitedCount": 202,
+      "respondentCount": 139,
+      "sectionsEvaluated": 4,
+      "mostRecentTerm": "Summer 2026"
     }
   },
   {
@@ -12825,16 +12847,16 @@
     "foundationsArea": "",
     "flmbeArea": "Decisions",
     "evaluation": {
-      "avgHoursPerWeek": 5.38,
-      "clarity": 3.88,
-      "engagement": 3.12,
-      "usefulness": 3.73,
-      "overallValue": 3.15,
-      "recommend": 2.92,
-      "invitedCount": 42,
-      "respondentCount": 26,
-      "sectionsEvaluated": 1,
-      "mostRecentTerm": "Summer 2025"
+      "avgHoursPerWeek": 5.09,
+      "clarity": 3.82,
+      "engagement": 3.0,
+      "usefulness": 3.59,
+      "overallValue": 3.06,
+      "recommend": 2.97,
+      "invitedCount": 92,
+      "respondentCount": 34,
+      "sectionsEvaluated": 2,
+      "mostRecentTerm": "Summer 2026"
     }
   },
   {
@@ -12854,7 +12876,18 @@
     "concentrations": [],
     "foundationsArea": "",
     "flmbeArea": "",
-    "evaluation": null
+    "evaluation": {
+      "avgHoursPerWeek": 3.0,
+      "clarity": 4.82,
+      "engagement": 4.73,
+      "usefulness": 4.64,
+      "overallValue": 4.73,
+      "recommend": 4.64,
+      "invitedCount": 28,
+      "respondentCount": 11,
+      "sectionsEvaluated": 1,
+      "mostRecentTerm": "Summer 2026"
+    }
   },
   {
     "quarter": "Summer 2027",
@@ -12878,16 +12911,16 @@
     "foundationsArea": "",
     "flmbeArea": "Finance",
     "evaluation": {
-      "avgHoursPerWeek": 9.02,
-      "clarity": 4.48,
-      "engagement": 4.61,
-      "usefulness": 4.66,
-      "overallValue": 4.53,
-      "recommend": 4.56,
-      "invitedCount": 1047,
-      "respondentCount": 414,
-      "sectionsEvaluated": 16,
-      "mostRecentTerm": "Winter 2026"
+      "avgHoursPerWeek": 9.09,
+      "clarity": 4.47,
+      "engagement": 4.59,
+      "usefulness": 4.65,
+      "overallValue": 4.52,
+      "recommend": 4.54,
+      "invitedCount": 1107,
+      "respondentCount": 423,
+      "sectionsEvaluated": 17,
+      "mostRecentTerm": "Summer 2026"
     }
   },
   {
@@ -12913,13 +12946,13 @@
       "avgHoursPerWeek": 4.71,
       "clarity": 4.7,
       "engagement": 4.72,
-      "usefulness": 4.58,
-      "overallValue": 4.4,
-      "recommend": 4.39,
-      "invitedCount": 1081,
-      "respondentCount": 838,
-      "sectionsEvaluated": 24,
-      "mostRecentTerm": "Spring 2026"
+      "usefulness": 4.59,
+      "overallValue": 4.41,
+      "recommend": 4.4,
+      "invitedCount": 1119,
+      "respondentCount": 871,
+      "sectionsEvaluated": 25,
+      "mostRecentTerm": "Summer 2026"
     }
   },
   {
@@ -12974,7 +13007,18 @@
     ],
     "foundationsArea": "",
     "flmbeArea": "Finance",
-    "evaluation": null
+    "evaluation": {
+      "avgHoursPerWeek": 6.31,
+      "clarity": 4.69,
+      "engagement": 4.77,
+      "usefulness": 4.54,
+      "overallValue": 4.38,
+      "recommend": 4.62,
+      "invitedCount": 16,
+      "respondentCount": 13,
+      "sectionsEvaluated": 1,
+      "mostRecentTerm": "Summer 2026"
+    }
   },
   {
     "quarter": "Summer 2027",
@@ -13062,16 +13106,16 @@
     "foundationsArea": "",
     "flmbeArea": "Marketing",
     "evaluation": {
-      "avgHoursPerWeek": 5.94,
-      "clarity": 4.46,
-      "engagement": 4.57,
-      "usefulness": 4.58,
-      "overallValue": 4.46,
-      "recommend": 4.46,
-      "invitedCount": 512,
-      "respondentCount": 239,
-      "sectionsEvaluated": 10,
-      "mostRecentTerm": "Summer 2025"
+      "avgHoursPerWeek": 5.85,
+      "clarity": 4.48,
+      "engagement": 4.59,
+      "usefulness": 4.6,
+      "overallValue": 4.47,
+      "recommend": 4.48,
+      "invitedCount": 622,
+      "respondentCount": 289,
+      "sectionsEvaluated": 12,
+      "mostRecentTerm": "Summer 2026"
     }
   },
   {
@@ -13094,16 +13138,16 @@
     "foundationsArea": "",
     "flmbeArea": "Marketing",
     "evaluation": {
-      "avgHoursPerWeek": 5.94,
-      "clarity": 4.46,
-      "engagement": 4.57,
-      "usefulness": 4.58,
-      "overallValue": 4.46,
-      "recommend": 4.46,
-      "invitedCount": 512,
-      "respondentCount": 239,
-      "sectionsEvaluated": 10,
-      "mostRecentTerm": "Summer 2025"
+      "avgHoursPerWeek": 5.85,
+      "clarity": 4.48,
+      "engagement": 4.59,
+      "usefulness": 4.6,
+      "overallValue": 4.47,
+      "recommend": 4.48,
+      "invitedCount": 622,
+      "respondentCount": 289,
+      "sectionsEvaluated": 12,
+      "mostRecentTerm": "Summer 2026"
     }
   },
   {
@@ -13158,16 +13202,16 @@
     "foundationsArea": "",
     "flmbeArea": "",
     "evaluation": {
-      "avgHoursPerWeek": 3.29,
+      "avgHoursPerWeek": 3.25,
       "clarity": 4.48,
-      "engagement": 4.66,
-      "usefulness": 4.56,
-      "overallValue": 4.41,
-      "recommend": 4.61,
-      "invitedCount": 276,
-      "respondentCount": 102,
-      "sectionsEvaluated": 6,
-      "mostRecentTerm": "Winter 2026"
+      "engagement": 4.67,
+      "usefulness": 4.54,
+      "overallValue": 4.4,
+      "recommend": 4.57,
+      "invitedCount": 331,
+      "respondentCount": 114,
+      "sectionsEvaluated": 7,
+      "mostRecentTerm": "Summer 2026"
     }
   },
   {
@@ -13211,16 +13255,16 @@
     "foundationsArea": "",
     "flmbeArea": "Operations",
     "evaluation": {
-      "avgHoursPerWeek": 4.7,
+      "avgHoursPerWeek": 4.67,
       "clarity": 4.77,
-      "engagement": 4.85,
-      "usefulness": 4.74,
-      "overallValue": 4.61,
-      "recommend": 4.69,
-      "invitedCount": 509,
-      "respondentCount": 340,
-      "sectionsEvaluated": 10,
-      "mostRecentTerm": "Summer 2025"
+      "engagement": 4.84,
+      "usefulness": 4.72,
+      "overallValue": 4.58,
+      "recommend": 4.67,
+      "invitedCount": 608,
+      "respondentCount": 397,
+      "sectionsEvaluated": 12,
+      "mostRecentTerm": "Summer 2026"
     }
   },
   {
@@ -13243,16 +13287,16 @@
     "foundationsArea": "",
     "flmbeArea": "Operations",
     "evaluation": {
-      "avgHoursPerWeek": 4.7,
+      "avgHoursPerWeek": 4.67,
       "clarity": 4.77,
-      "engagement": 4.85,
-      "usefulness": 4.74,
-      "overallValue": 4.61,
-      "recommend": 4.69,
-      "invitedCount": 509,
-      "respondentCount": 340,
-      "sectionsEvaluated": 10,
-      "mostRecentTerm": "Summer 2025"
+      "engagement": 4.84,
+      "usefulness": 4.72,
+      "overallValue": 4.58,
+      "recommend": 4.67,
+      "invitedCount": 608,
+      "respondentCount": 397,
+      "sectionsEvaluated": 12,
+      "mostRecentTerm": "Summer 2026"
     }
   },
   {
@@ -13275,16 +13319,16 @@
     "foundationsArea": "Statistics",
     "flmbeArea": "",
     "evaluation": {
-      "avgHoursPerWeek": 5.35,
-      "clarity": 3.88,
-      "engagement": 3.82,
-      "usefulness": 4.18,
-      "overallValue": 3.82,
-      "recommend": 3.76,
-      "invitedCount": 54,
-      "respondentCount": 17,
-      "sectionsEvaluated": 2,
-      "mostRecentTerm": "Spring 2025"
+      "avgHoursPerWeek": 4.82,
+      "clarity": 4.41,
+      "engagement": 4.32,
+      "usefulness": 4.48,
+      "overallValue": 4.23,
+      "recommend": 4.23,
+      "invitedCount": 93,
+      "respondentCount": 44,
+      "sectionsEvaluated": 4,
+      "mostRecentTerm": "Summer 2026"
     }
   },
   {
@@ -13307,16 +13351,16 @@
     "foundationsArea": "Statistics",
     "flmbeArea": "",
     "evaluation": {
-      "avgHoursPerWeek": 5.35,
-      "clarity": 3.88,
-      "engagement": 3.82,
-      "usefulness": 4.18,
-      "overallValue": 3.82,
-      "recommend": 3.76,
-      "invitedCount": 54,
-      "respondentCount": 17,
-      "sectionsEvaluated": 2,
-      "mostRecentTerm": "Spring 2025"
+      "avgHoursPerWeek": 4.82,
+      "clarity": 4.41,
+      "engagement": 4.32,
+      "usefulness": 4.48,
+      "overallValue": 4.23,
+      "recommend": 4.23,
+      "invitedCount": 93,
+      "respondentCount": 44,
+      "sectionsEvaluated": 4,
+      "mostRecentTerm": "Summer 2026"
     }
   },
   {
@@ -13340,16 +13384,16 @@
     "foundationsArea": "",
     "flmbeArea": "Strategy",
     "evaluation": {
-      "avgHoursPerWeek": 3.49,
-      "clarity": 4.46,
-      "engagement": 4.7,
-      "usefulness": 4.38,
-      "overallValue": 4.23,
-      "recommend": 4.38,
-      "invitedCount": 184,
-      "respondentCount": 124,
-      "sectionsEvaluated": 3,
-      "mostRecentTerm": "Spring 2026"
+      "avgHoursPerWeek": 3.52,
+      "clarity": 4.49,
+      "engagement": 4.73,
+      "usefulness": 4.4,
+      "overallValue": 4.24,
+      "recommend": 4.43,
+      "invitedCount": 202,
+      "respondentCount": 139,
+      "sectionsEvaluated": 4,
+      "mostRecentTerm": "Summer 2026"
     }
   },
   {
@@ -15355,16 +15399,16 @@
     "foundationsArea": "",
     "flmbeArea": "Finance",
     "evaluation": {
-      "avgHoursPerWeek": 9.02,
-      "clarity": 4.48,
-      "engagement": 4.61,
-      "usefulness": 4.66,
-      "overallValue": 4.53,
-      "recommend": 4.56,
-      "invitedCount": 1047,
-      "respondentCount": 414,
-      "sectionsEvaluated": 16,
-      "mostRecentTerm": "Winter 2026"
+      "avgHoursPerWeek": 9.09,
+      "clarity": 4.47,
+      "engagement": 4.59,
+      "usefulness": 4.65,
+      "overallValue": 4.52,
+      "recommend": 4.54,
+      "invitedCount": 1107,
+      "respondentCount": 423,
+      "sectionsEvaluated": 17,
+      "mostRecentTerm": "Summer 2026"
     }
   },
   {
@@ -15389,16 +15433,16 @@
     "foundationsArea": "",
     "flmbeArea": "Finance",
     "evaluation": {
-      "avgHoursPerWeek": 9.02,
-      "clarity": 4.48,
-      "engagement": 4.61,
-      "usefulness": 4.66,
-      "overallValue": 4.53,
-      "recommend": 4.56,
-      "invitedCount": 1047,
-      "respondentCount": 414,
-      "sectionsEvaluated": 16,
-      "mostRecentTerm": "Winter 2026"
+      "avgHoursPerWeek": 9.09,
+      "clarity": 4.47,
+      "engagement": 4.59,
+      "usefulness": 4.65,
+      "overallValue": 4.52,
+      "recommend": 4.54,
+      "invitedCount": 1107,
+      "respondentCount": 423,
+      "sectionsEvaluated": 17,
+      "mostRecentTerm": "Summer 2026"
     }
   },
   {
@@ -15444,16 +15488,16 @@
     "foundationsArea": "",
     "flmbeArea": "",
     "evaluation": {
-      "avgHoursPerWeek": 4.06,
+      "avgHoursPerWeek": 4.1,
       "clarity": 4.5,
       "engagement": 4.54,
       "usefulness": 4.59,
-      "overallValue": 4.42,
-      "recommend": 4.42,
-      "invitedCount": 983,
-      "respondentCount": 430,
-      "sectionsEvaluated": 19,
-      "mostRecentTerm": "Winter 2026"
+      "overallValue": 4.43,
+      "recommend": 4.43,
+      "invitedCount": 1037,
+      "respondentCount": 461,
+      "sectionsEvaluated": 20,
+      "mostRecentTerm": "Summer 2026"
     }
   },
   {
@@ -15477,16 +15521,16 @@
     "foundationsArea": "",
     "flmbeArea": "",
     "evaluation": {
-      "avgHoursPerWeek": 4.06,
+      "avgHoursPerWeek": 4.1,
       "clarity": 4.5,
       "engagement": 4.54,
       "usefulness": 4.59,
-      "overallValue": 4.42,
-      "recommend": 4.42,
-      "invitedCount": 983,
-      "respondentCount": 430,
-      "sectionsEvaluated": 19,
-      "mostRecentTerm": "Winter 2026"
+      "overallValue": 4.43,
+      "recommend": 4.43,
+      "invitedCount": 1037,
+      "respondentCount": 461,
+      "sectionsEvaluated": 20,
+      "mostRecentTerm": "Summer 2026"
     }
   },
   {
@@ -17796,16 +17840,16 @@
     "foundationsArea": "",
     "flmbeArea": "",
     "evaluation": {
-      "avgHoursPerWeek": 3.29,
+      "avgHoursPerWeek": 3.25,
       "clarity": 4.48,
-      "engagement": 4.66,
-      "usefulness": 4.56,
-      "overallValue": 4.41,
-      "recommend": 4.61,
-      "invitedCount": 276,
-      "respondentCount": 102,
-      "sectionsEvaluated": 6,
-      "mostRecentTerm": "Winter 2026"
+      "engagement": 4.67,
+      "usefulness": 4.54,
+      "overallValue": 4.4,
+      "recommend": 4.57,
+      "invitedCount": 331,
+      "respondentCount": 114,
+      "sectionsEvaluated": 7,
+      "mostRecentTerm": "Summer 2026"
     }
   },
   {
@@ -17912,16 +17956,16 @@
     "foundationsArea": "",
     "flmbeArea": "",
     "evaluation": {
-      "avgHoursPerWeek": 3.29,
+      "avgHoursPerWeek": 3.25,
       "clarity": 4.48,
-      "engagement": 4.66,
-      "usefulness": 4.56,
-      "overallValue": 4.41,
-      "recommend": 4.61,
-      "invitedCount": 276,
-      "respondentCount": 102,
-      "sectionsEvaluated": 6,
-      "mostRecentTerm": "Winter 2026"
+      "engagement": 4.67,
+      "usefulness": 4.54,
+      "overallValue": 4.4,
+      "recommend": 4.57,
+      "invitedCount": 331,
+      "respondentCount": 114,
+      "sectionsEvaluated": 7,
+      "mostRecentTerm": "Summer 2026"
     }
   },
   {
@@ -17944,16 +17988,16 @@
     "foundationsArea": "",
     "flmbeArea": "",
     "evaluation": {
-      "avgHoursPerWeek": 3.29,
+      "avgHoursPerWeek": 3.25,
       "clarity": 4.48,
-      "engagement": 4.66,
-      "usefulness": 4.56,
-      "overallValue": 4.41,
-      "recommend": 4.61,
-      "invitedCount": 276,
-      "respondentCount": 102,
-      "sectionsEvaluated": 6,
-      "mostRecentTerm": "Winter 2026"
+      "engagement": 4.67,
+      "usefulness": 4.54,
+      "overallValue": 4.4,
+      "recommend": 4.57,
+      "invitedCount": 331,
+      "respondentCount": 114,
+      "sectionsEvaluated": 7,
+      "mostRecentTerm": "Summer 2026"
     }
   },
   {

@@ -59,7 +59,7 @@ export function CourseDetail({ course, onClose, isSaved, onToggleSave }: CourseD
           <div>
             <dt className="text-gray-500 dark:text-gray-400">Day &amp; Time</dt>
             <dd className="text-gray-900 dark:text-gray-100">
-              {course.day && course.time ? `${course.day} · ${course.time}` : 'TBD'}
+              {[course.day, course.time].filter(Boolean).join(' · ') || 'TBD'}
             </dd>
           </div>
           <div>

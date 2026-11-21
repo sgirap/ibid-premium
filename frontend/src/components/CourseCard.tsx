@@ -9,7 +9,7 @@ interface CourseCardProps {
 }
 
 export function CourseCard({ course, onSelect, isSaved, onToggleSave }: CourseCardProps) {
-  const schedule = course.day && course.time ? `${course.day} · ${course.time}` : 'Schedule TBD'
+  const schedule = [course.day, course.time].filter(Boolean).join(' · ') || 'Schedule TBD'
   const hasBadges = course.concentrations.length > 0 || !!course.foundationsArea || !!course.flmbeArea
 
   return (

@@ -82,6 +82,7 @@ def strip_accents(text: str) -> str:
 SCHEDULE_SEGMENT_RE = re.compile(
     r"(?P<day>[A-Za-z]+),\s*(?P<time>\d{1,2}:\d{2}\s*[AP]M\s*-\s*\d{1,2}:\d{2}\s*[AP]M)"
 )
+TIME_RANGE_RE = re.compile(r"\d{1,2}:\d{2}\s*[AP]M\s*-\s*\d{1,2}:\d{2}\s*[AP]M")
 END_TIME_RE = re.compile(r"-\s*(\d{1,2}:\d{2}\s*[AP]M)\s*$")
 
 
@@ -116,12 +117,15 @@ def split_name(full_name: str) -> tuple[str, str]:
 
 
 def split_schedule(raw: str) -> list[tuple[str, str]]:
-    """Return a list of (day, time) tuples. Empty tuple pair for TBD/unparsed."""
+    """Return a list of (day, time) tuples. Day may be empty if only a time was given; both empty for TBD/unparsed."""
     if not isinstance(raw, str) or not raw.strip():
         return [("", "")]
     matches = SCHEDULE_SEGMENT_RE.findall(raw)
     if not matches:
-        return [("", "")]
+        # Some rows give a time but no day (e.g. "6:00 PM - 9:00 PM") — keep the
+        # time rather than discarding it as TBD.
+        time_only = TIME_RANGE_RE.search(raw)
+        return [("", re.sub(r"\s+", " ", time_only.group(0)).strip())] if time_only else [("", "")]
     return [(day, re.sub(r"\s+", " ", time).strip()) for day, time in matches]
 
 

@@ -7,13 +7,23 @@ Usage:
 
 Each run's converted records are merged into data/master_classes.json — the
 accumulated set of every class ever exported, across terms — rather than
-replacing it. A record's (course, quarter, day, time, professorFirstName,
-professorLastName) identifies a specific offering: re-running convert.py
-with a fresher export of a term already in the master list updates those
-records in place (e.g. room changes); offerings from terms not
-present in the new export are left untouched. frontend/public/data/classes.json
-is then (re)written from the full merged master list. Pass --no-merge to
-skip this and treat --input as the complete dataset instead.
+replacing it. The unit of merging is the section, (quarter, course) e.g.
+("Winter 2027", "31408-01"), because instructor and day/time are exactly what
+change between exports:
+
+- A section in the new export REPLACES everything on file for that section, so
+  a Staff -> named-professor swap or a reschedule updates it instead of leaving
+  the old version beside the new one.
+- For a quarter the new export covers, sections it no longer lists are treated
+  as cancelled and dropped (use --keep-missing to opt out; a new export that
+  covers under half of a quarter's existing sections is assumed partial and
+  nothing is dropped, with a warning).
+- Quarters absent from the new export (e.g. past terms) are left untouched.
+- A summary of sections added / updated / removed is printed each run.
+
+frontend/public/data/classes.json is then (re)written from the full merged
+master list. Pass --no-merge to skip all this and treat --input as the complete
+dataset instead.
 
 The raw export has one row per course section, with columns:
 Quarter, Title, Course, Program, Faculty, Schedule, Capacity, Building, Location, Units
@@ -252,15 +262,91 @@ def load_master(path: Path) -> list[dict]:
     return json.loads(path.read_text())
 
 
-def merge_records(master_records: list[dict], new_records: list[dict]) -> list[dict]:
-    """New records overwrite any existing record with the same key (e.g. a
-    re-exported term whose room changed); everything else in the
-    master list is left untouched, and unmatched new records are appended.
+def section_key(record: dict) -> tuple:
+    """A section is one (quarter, course-with-section-number), regardless of who
+    teaches it or when — those are exactly the fields that change between
+    exports (Staff -> a named professor, a rescheduled day/time)."""
+    return (record["quarter"], record["course"])
+
+
+# If a new export holds fewer than this fraction of a quarter's sections already
+# on file, assume it's a partial export and don't treat the gap as cancellations.
+MIN_QUARTER_COVERAGE = 0.5
+
+
+def merge_records(master_records: list[dict], new_records: list[dict], drop_missing: bool = True):
+    """Merge a new export into the master list, section by section.
+
+    - Every section in the new export REPLACES all master records for that
+      (quarter, course) — so a professor swap or reschedule updates the section
+      instead of leaving the old version behind next to the new one.
+    - For a quarter the new export covers, sections it no longer lists are
+      treated as cancelled and dropped (unless drop_missing is False, or the
+      export looks partial — see MIN_QUARTER_COVERAGE).
+    - Quarters absent from the new export are left untouched.
+
+    Returns (merged_records, report) where report summarizes what changed.
     """
-    merged = {record_key(r): r for r in master_records}
-    for record in new_records:
-        merged[record_key(record)] = record
-    return sorted(merged.values(), key=lambda r: (r["quarter"], r["courseNumber"], r["course"], r["day"], r["time"]))
+    new_sections: dict[tuple, list[dict]] = {}
+    for r in new_records:
+        new_sections.setdefault(section_key(r), {})[record_key(r)] = r
+    new_sections = {k: list(v.values()) for k, v in new_sections.items()}
+
+    master_sections: dict[tuple, list[dict]] = {}
+    for r in master_records:
+        master_sections.setdefault(section_key(r), []).append(r)
+
+    new_quarters = {q for q, _ in new_sections}
+    report = {"added": [], "updated": [], "unchanged": 0, "removed": [], "skipped_quarters": []}
+
+    merged: dict[tuple, list[dict]] = {}
+    for key, recs in master_sections.items():
+        if key[0] in new_quarters:
+            continue  # decided below, per quarter
+        merged[key] = recs  # quarter not in new export: untouched
+
+    for quarter in sorted(new_quarters):
+        old_keys = {k for k in master_sections if k[0] == quarter}
+        new_keys = {k for k in new_sections if k[0] == quarter}
+        coverage = len(new_keys & old_keys) / len(old_keys) if old_keys else 1.0
+        can_drop = drop_missing and coverage >= MIN_QUARTER_COVERAGE
+        if old_keys and not can_drop and drop_missing:
+            report["skipped_quarters"].append((quarter, len(new_keys & old_keys), len(old_keys)))
+
+        for key in new_keys:
+            old = master_sections.get(key)
+            merged[key] = new_sections[key]
+            if old is None:
+                report["added"].append(key)
+            elif sorted(map(record_key, old)) == sorted(map(record_key, new_sections[key])) and \
+                    all(o == n for o, n in zip(sorted(old, key=record_key), sorted(new_sections[key], key=record_key))):
+                report["unchanged"] += 1
+            else:
+                report["updated"].append(key)
+        for key in old_keys - new_keys:
+            if can_drop:
+                report["removed"].append(key)
+            else:
+                merged[key] = master_sections[key]  # keep
+
+    out = [r for recs in merged.values() for r in recs]
+    out.sort(key=lambda r: (r["quarter"], r["courseNumber"], r["course"], r["day"], r["time"]))
+    return out, report
+
+
+def print_merge_report(report: dict) -> None:
+    print(
+        f"Merge: {len(report['added'])} sections added, {len(report['updated'])} updated, "
+        f"{report['unchanged']} unchanged, {len(report['removed'])} removed (cancelled)"
+    )
+    for label in ("added", "removed"):
+        for quarter, course in report[label][:50]:
+            print(f"  {label}: {course} ({quarter})")
+    for quarter, have, total in report["skipped_quarters"]:
+        print(
+            f"  WARNING: new export covers only {have}/{total} of {quarter}'s existing sections — "
+            "looks partial, so missing sections were kept (not treated as cancelled)."
+        )
 
 
 def convert(input_path: Path, concentration_mapping_path: Path | None, requirement_mapping_path: Path | None) -> list[dict]:
@@ -345,6 +431,11 @@ def main():
         help="Path to the accumulated master class list",
     )
     parser.add_argument(
+        "--keep-missing",
+        action="store_true",
+        help="Don't drop sections that vanished from a quarter the new export covers (default: treat them as cancelled)",
+    )
+    parser.add_argument(
         "--no-merge",
         action="store_true",
         help="Treat --input as the complete dataset instead of merging into --master",
@@ -363,9 +454,10 @@ def main():
         merged_records = sorted(new_records, key=lambda r: (r["quarter"], r["courseNumber"], r["course"], r["day"], r["time"]))
     else:
         master_records = load_master(args.master)
-        merged_records = merge_records(master_records, new_records)
+        merged_records, merge_report = merge_records(master_records, new_records, drop_missing=not args.keep_missing)
         args.master.parent.mkdir(parents=True, exist_ok=True)
         args.master.write_text(json.dumps(merged_records, indent=2))
+        print_merge_report(merge_report)
         print(f"Merged {len(new_records)} records from {args.input.name} into master ({len(merged_records)} total) -> {args.master}")
 
     evaluations = load_evaluations(args.evaluations)

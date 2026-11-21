@@ -24,17 +24,22 @@ Writes `frontend/public/data/classes.json` by default. Override with `--output`.
 ## Master list (accumulates across terms)
 
 Each run merges its converted records into `data/master_classes.json` rather than
-replacing it — `classes.json` always reflects the full accumulated history. A record's
-`(course, quarter, day, time, professorFirstName, professorLastName)` identifies a
-specific offering:
+replacing it — `classes.json` always reflects the full accumulated history. The unit
+of merging is the **section**, `(quarter, course)` e.g. `("Winter 2027", "31408-01")`,
+because instructor and day/time are exactly what change between exports:
 
-- If the new export contains an offering already in the master list (e.g. you
-  re-exported the same term because the room changed), the master record is
-  **updated in place** — no duplicate.
-- Overlap *within* a single new export is deduped the same way — only the last row for
-  a given key survives.
-- Offerings from terms not present in the new export are **left untouched**.
-- Anything genuinely new is appended.
+- A section in the new export **replaces** everything on file for that section — so a
+  "Staff" → named-professor swap or a reschedule updates the section rather than
+  leaving the old version next to the new one.
+- For a quarter the new export covers, sections it **no longer lists are treated as
+  cancelled and dropped**. Use `--keep-missing` to opt out. If a new export covers
+  under half of a quarter's existing sections it's assumed to be partial, nothing is
+  dropped, and a warning is printed.
+- Quarters **absent** from the new export (e.g. past terms) are left untouched.
+- Anything genuinely new (e.g. a newly published quarter) is added.
+- Each run prints a summary (sections added / updated / unchanged / removed) — skim
+  the "removed" list before committing; it's your check that nothing was dropped by
+  mistake.
 
 So uploading next term's export just adds to what's already known — it never wipes out
 past terms. Pass `--no-merge` to instead treat `--input` as the complete dataset
